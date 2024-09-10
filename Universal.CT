@@ -178,8 +178,8 @@ db 8B 46 24 40 89 46 24
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>11</ID>
-                      <Description>"伪无需冷却"</Description>
+                      <ID>31</ID>
+                      <Description>"无需冷却"</Description>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
 //code from here to '[DISABLE]' will be used to enable the cheat
@@ -192,14 +192,15 @@ newmem: //this is allocated memory, you have read,write,execute access
 //place your code here
 
 originalcode:
-mov [eax+24],00002000
+nop
+cmp edx,[ecx+28]
 
 exit:
 jmp returnhere
 
-"PlantsVsZombies.exe"+1EB656:
+"PlantsVsZombies.exe"+1F00FA:
 jmp newmem
-nop 2
+nop
 returnhere:
 
 
@@ -208,47 +209,10 @@ returnhere:
 [DISABLE]
 //code from here till the end of the code will be used to disable the cheat
 dealloc(newmem)
-"PlantsVsZombies.exe"+1EB656:
-db C7 40 24 00 00 00 00
-//mov [eax+24],00000000
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>19</ID>
-                      <Description>"伪无需冷却2"</Description>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-//code from here to '[DISABLE]' will be used to enable the cheat
-alloc(newmem,2048)
-label(returnhere)
-label(originalcode)
-label(exit)
-
-newmem: //this is allocated memory, you have read,write,execute access
-//place your code here
-
-originalcode:
-mov byte ptr [eax+48],01
-mov eax,[ebp-04]
-
-exit:
-jmp returnhere
-
-"PlantsVsZombies.exe"+1EB64F:
-jmp newmem
-nop 2
-returnhere:
-
-
- 
- 
-[DISABLE]
-//code from here till the end of the code will be used to disable the cheat
-dealloc(newmem)
-"PlantsVsZombies.exe"+1EB64F:
-db C6 40 48 00 8B 45 FC
-//mov byte ptr [eax+48],00
-//mov eax,[ebp-04]
+"PlantsVsZombies.exe"+1F00FA:
+db 8B 50 24 3B 51 28
+//mov edx,[eax+24]
+//cmp edx,[ecx+28]
 </AssemblerScript>
                     </CheatEntry>
                   </CheatEntries>
@@ -415,6 +379,29 @@ db C6 40 48 00 8B 45 FC
         <Byte>46</Byte>
         <Byte>24</Byte>
         <Byte>3B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>替换了 mov edx,[eax+24]</Description>
+      <AddressString>PlantsVsZombies.exe+1F00FA</AddressString>
+      <Before>
+        <Byte>45</Byte>
+        <Byte>FC</Byte>
+        <Byte>8B</Byte>
+        <Byte>4D</Byte>
+        <Byte>FC</Byte>
+      </Before>
+      <Actual>
+        <Byte>8B</Byte>
+        <Byte>50</Byte>
+        <Byte>24</Byte>
+      </Actual>
+      <After>
+        <Byte>3B</Byte>
+        <Byte>51</Byte>
+        <Byte>28</Byte>
+        <Byte>7E</Byte>
+        <Byte>21</Byte>
       </After>
     </CodeEntry>
   </CheatCodes>
