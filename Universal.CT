@@ -11,7 +11,7 @@
       <CheatEntries>
         <CheatEntry>
           <ID>20</ID>
-          <Description>"PFB Alpha v2.6.1"</Description>
+          <Description>"东方版PFB Alpha v2.6.1"</Description>
           <Options moHideChildren="1"/>
           <GroupHeader>1</GroupHeader>
           <Address/>
@@ -91,6 +91,70 @@ db 8B 46 24 40 89 46 24
 //inc eax
 //mov [esi+24],eax
 </AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>33</ID>
+              <Description>"禅境花园"</Description>
+              <Options moHideChildren="1"/>
+              <GroupHeader>1</GroupHeader>
+              <Address/>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>32</ID>
+                  <Description>"肥料"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>LawnProject.exe+442F48</Address>
+                  <Offsets>
+                    <Offset>1F4</Offset>
+                    <Offset>7A4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>34</ID>
+                  <Description>"杀虫剂"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>LawnProject.exe+442F48</Address>
+                  <Offsets>
+                    <Offset>1F8</Offset>
+                    <Offset>7A4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>35</ID>
+                  <Description>"巧克力"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>LawnProject.exe+442F48</Address>
+                  <Offsets>
+                    <Offset>224</Offset>
+                    <Offset>7A4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>37</ID>
+                  <Description>"智慧树肥料"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>LawnProject.exe+442F48</Address>
+                  <Offsets>
+                    <Offset>22C</Offset>
+                    <Offset>7A4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>38</ID>
+                  <Description>"智慧树高度"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>LawnProject.exe+442F48</Address>
+                  <Offsets>
+                    <Offset>118</Offset>
+                    <Offset>7A4</Offset>
+                  </Offsets>
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
