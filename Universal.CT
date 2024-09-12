@@ -10,53 +10,60 @@
       <Address/>
       <CheatEntries>
         <CheatEntry>
-          <ID>20</ID>
-          <Description>"东方版PFB Alpha v2.6.1"</Description>
+          <ID>99</ID>
+          <Description>"东方版(Perfect Floral Blessing)"</Description>
           <Options moHideChildren="1"/>
           <GroupHeader>1</GroupHeader>
           <Address/>
           <CheatEntries>
             <CheatEntry>
-              <ID>23</ID>
-              <Description>"基址"</Description>
-              <ShowAsHex>1</ShowAsHex>
-              <VariableType>4 Bytes</VariableType>
-              <Address>LawnProject.exe+442F48</Address>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>21</ID>
-              <Description>"常用功能"</Description>
+              <ID>20</ID>
+              <Description>"Alpha v2.6.1"</Description>
               <Options moHideChildren="1"/>
               <GroupHeader>1</GroupHeader>
               <Address/>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>24</ID>
-                  <Description>"阳光"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
+                  <ID>23</ID>
+                  <Description>"基址"</Description>
+                  <ShowAsHex>1</ShowAsHex>
                   <VariableType>4 Bytes</VariableType>
                   <Address>LawnProject.exe+442F48</Address>
-                  <Offsets>
-                    <Offset>5558</Offset>
-                    <Offset>6E8</Offset>
-                  </Offsets>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>22</ID>
-                  <Description>"金币"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>LawnProject.exe+442F48</Address>
-                  <Offsets>
-                    <Offset>24</Offset>
-                    <Offset>7A4</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>26</ID>
-                  <Description>"无需冷却"</Description>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[ENABLE]
+                  <ID>21</ID>
+                  <Description>"常用功能"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>24</ID>
+                      <Description>"阳光"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>5558</Offset>
+                        <Offset>6E8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>22</ID>
+                      <Description>"金币"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>24</Offset>
+                        <Offset>7A4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>26</ID>
+                      <Description>"无需冷却"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
 //code from here to '[DISABLE]' will be used to enable the cheat
 alloc(newmem,2048)
 label(returnhere)
@@ -91,12 +98,12 @@ db 8B 46 24 40 89 46 24
 //inc eax
 //mov [esi+24],eax
 </AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>59</ID>
-                  <Description>"后台运行"</Description>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[ENABLE]
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>59</ID>
+                      <Description>"后台运行"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
 //code from here to '[DISABLE]' will be used to enable the cheat
 alloc(newmem,2048)
 label(returnhere)
@@ -127,12 +134,12 @@ dealloc(newmem)
 db 8B 81 10 03 00 00
 //mov eax,[ecx+00000310]
 </AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>58</ID>
-                  <Description>"重叠种植"</Description>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[ENABLE]
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>58</ID>
+                      <Description>"重叠种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
 //code from here to '[DISABLE]' will be used to enable the cheat
 alloc(newmem,2048)
 label(returnhere)
@@ -163,12 +170,12 @@ dealloc(newmem)
 db 0F 84 F2 0C 00 00
 //je LawnProject.exe+1CF8C
 </AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>62</ID>
-                  <Description>"花瓶透视"</Description>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[ENABLE]
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>62</ID>
+                      <Description>"花瓶透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
 //code from here to '[DISABLE]' will be used to enable the cheat
 alloc(newmem,2048)
 label(returnhere)
@@ -201,12 +208,12 @@ db 83 7F 4C 00 0F 8E 7B 03 00 00
 //cmp dword ptr [edi+4C],00
 //jng LawnProject.exe+CA30E
 </AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>65</ID>
-                  <Description>"浓雾透视"</Description>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[ENABLE]
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>65</ID>
+                      <Description>"浓雾透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
 //code from here to '[DISABLE]' will be used to enable the cheat
 alloc(newmem,2048)
 label(returnhere)
@@ -239,15 +246,15 @@ db 8B 00 89 44 24 34
 //mov eax,[eax]
 //mov [esp+34],eax
 </AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
                 </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>48</ID>
-              <Description>"卡槽修改"</Description>
-              <Options moHideChildren="1"/>
-              <VariableType>Auto Assembler Script</VariableType>
-              <AssemblerScript>[ENABLE]
+                <CheatEntry>
+                  <ID>48</ID>
+                  <Description>"卡槽修改"</Description>
+                  <Options moHideChildren="1"/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
 
 aobscanmodule(PFBslot,LawnProject.exe,C7 41 5C FF FF FF FF) // should be unique
 alloc(newmem,$1000)
@@ -280,11 +287,11 @@ dealloc(slot)
 unregistersymbol(slot)
 
 </AssemblerScript>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>47</ID>
-                  <Description>"卡槽1"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>47</ID>
+                      <Description>"卡槽1"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
 0:豌豆射手
 1:向日葵
 2:樱桃炸弹
@@ -374,17 +381,17 @@ OC:——其它——
 70:购买奖杯
 86:空白(会崩溃)
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>slot</Address>
-                  <Offsets>
-                    <Offset>5C</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>49</ID>
-                  <Description>"卡槽2"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>5C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>49</ID>
+                      <Description>"卡槽2"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
 0:豌豆射手
 1:向日葵
 2:樱桃炸弹
@@ -474,17 +481,17 @@ OC:——其它——
 70:购买奖杯
 86:空白(会崩溃)
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>slot</Address>
-                  <Offsets>
-                    <Offset>AC</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>50</ID>
-                  <Description>"卡槽3"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>AC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>50</ID>
+                      <Description>"卡槽3"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
 0:豌豆射手
 1:向日葵
 2:樱桃炸弹
@@ -574,17 +581,17 @@ OC:——其它——
 70:购买奖杯
 86:空白(会崩溃)
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>slot</Address>
-                  <Offsets>
-                    <Offset>FC</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>51</ID>
-                  <Description>"卡槽4"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>FC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>51</ID>
+                      <Description>"卡槽4"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
 0:豌豆射手
 1:向日葵
 2:樱桃炸弹
@@ -674,17 +681,17 @@ OC:——其它——
 70:购买奖杯
 86:空白(会崩溃)
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>slot</Address>
-                  <Offsets>
-                    <Offset>14C</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>52</ID>
-                  <Description>"卡槽5"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>14C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>52</ID>
+                      <Description>"卡槽5"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
 0:豌豆射手
 1:向日葵
 2:樱桃炸弹
@@ -774,17 +781,17 @@ OC:——其它——
 70:购买奖杯
 86:空白(会崩溃)
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>slot</Address>
-                  <Offsets>
-                    <Offset>19C</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>53</ID>
-                  <Description>"卡槽6"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>19C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>53</ID>
+                      <Description>"卡槽6"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
 0:豌豆射手
 1:向日葵
 2:樱桃炸弹
@@ -874,17 +881,17 @@ OC:——其它——
 70:购买奖杯
 86:空白(会崩溃)
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>slot</Address>
-                  <Offsets>
-                    <Offset>1EC</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>54</ID>
-                  <Description>"卡槽7"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>1EC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>54</ID>
+                      <Description>"卡槽7"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
 0:豌豆射手
 1:向日葵
 2:樱桃炸弹
@@ -974,17 +981,17 @@ OC:——其它——
 70:购买奖杯
 86:空白(会崩溃)
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>slot</Address>
-                  <Offsets>
-                    <Offset>23C</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>55</ID>
-                  <Description>"卡槽8"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>23C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>55</ID>
+                      <Description>"卡槽8"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
 0:豌豆射手
 1:向日葵
 2:樱桃炸弹
@@ -1074,17 +1081,17 @@ OC:——其它——
 70:购买奖杯
 86:空白(会崩溃)
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>slot</Address>
-                  <Offsets>
-                    <Offset>28C</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>56</ID>
-                  <Description>"卡槽9"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>28C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>56</ID>
+                      <Description>"卡槽9"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
 0:豌豆射手
 1:向日葵
 2:樱桃炸弹
@@ -1174,17 +1181,17 @@ OC:——其它——
 70:购买奖杯
 86:空白(会崩溃)
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>slot</Address>
-                  <Offsets>
-                    <Offset>2DC</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>57</ID>
-                  <Description>"卡槽10"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>2DC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>57</ID>
+                      <Description>"卡槽10"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
 0:豌豆射手
 1:向日葵
 2:樱桃炸弹
@@ -1274,101 +1281,101 @@ OC:——其它——
 70:购买奖杯
 86:空白(会崩溃)
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>slot</Address>
-                  <Offsets>
-                    <Offset>32C</Offset>
-                  </Offsets>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>33</ID>
-              <Description>"禅境花园"</Description>
-              <Options moHideChildren="1"/>
-              <GroupHeader>1</GroupHeader>
-              <Address/>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>32</ID>
-                  <Description>"肥料"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>LawnProject.exe+442F48</Address>
-                  <Offsets>
-                    <Offset>1F4</Offset>
-                    <Offset>7A4</Offset>
-                  </Offsets>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>32C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>34</ID>
-                  <Description>"杀虫剂"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>LawnProject.exe+442F48</Address>
-                  <Offsets>
-                    <Offset>1F8</Offset>
-                    <Offset>7A4</Offset>
-                  </Offsets>
+                  <ID>33</ID>
+                  <Description>"禅境花园"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>32</ID>
+                      <Description>"肥料"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>1F4</Offset>
+                        <Offset>7A4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>34</ID>
+                      <Description>"杀虫剂"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>1F8</Offset>
+                        <Offset>7A4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>35</ID>
+                      <Description>"巧克力"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>224</Offset>
+                        <Offset>7A4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>37</ID>
+                      <Description>"智慧树肥料"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>22C</Offset>
+                        <Offset>7A4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>38</ID>
+                      <Description>"智慧树高度"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>118</Offset>
+                        <Offset>7A4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>35</ID>
-                  <Description>"巧克力"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>LawnProject.exe+442F48</Address>
-                  <Offsets>
-                    <Offset>224</Offset>
-                    <Offset>7A4</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>37</ID>
-                  <Description>"智慧树肥料"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>LawnProject.exe+442F48</Address>
-                  <Offsets>
-                    <Offset>22C</Offset>
-                    <Offset>7A4</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>38</ID>
-                  <Description>"智慧树高度"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>LawnProject.exe+442F48</Address>
-                  <Offsets>
-                    <Offset>118</Offset>
-                    <Offset>7A4</Offset>
-                  </Offsets>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>28</ID>
-              <Description>"跳关与混乱"</Description>
-              <Options moHideChildren="1"/>
-              <GroupHeader>1</GroupHeader>
-              <Address/>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>29</ID>
-                  <Description>"冒险模式"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>LawnProject.exe+442F48</Address>
-                  <Offsets>
-                    <Offset>20</Offset>
-                    <Offset>7A4</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>27</ID>
-                  <Description>"模式混乱(易崩溃)"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:冒险模式
+                  <ID>28</ID>
+                  <Description>"跳关与混乱"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>29</ID>
+                      <Description>"冒险模式"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>20</Offset>
+                        <Offset>7A4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>27</ID>
+                      <Description>"模式混乱(易崩溃)"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:冒险模式
 OA:——迷你游戏——
 25:植物僵尸
 26:坚果保龄球模式
@@ -1477,26 +1484,26 @@ OE:——其它——
 101:追加销售
 102:介绍
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>LawnProject.exe+442F48</Address>
-                  <Offsets>
-                    <Offset>770</Offset>
-                  </Offsets>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>770</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
                 </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>41</ID>
-              <Description>"杂项修改"</Description>
-              <Options moHideChildren="1"/>
-              <GroupHeader>1</GroupHeader>
-              <Address/>
-              <CheatEntries>
                 <CheatEntry>
-                  <ID>39</ID>
-                  <Description>"选取的植物"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">NA:——植物——
+                  <ID>41</ID>
+                  <Description>"杂项修改"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>39</ID>
+                      <Description>"选取的植物"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">NA:——植物——
 0:豌豆射手
 1:向日葵
 2:樱桃炸弹
@@ -1582,20 +1589,20 @@ NU:——其它——
 68:漂浮着的花芽
 86:“最后一波”字幕
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>LawnProject.exe+442F48</Address>
-                  <Offsets>
-                    <Offset>28</Offset>
-                    <Offset>12C</Offset>
-                    <Offset>6E8</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>60</ID>
-                  <Description>"竖排种植"</Description>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[ENABLE]
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>28</Offset>
+                        <Offset>12C</Offset>
+                        <Offset>6E8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>60</ID>
+                      <Description>"竖排种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
 //code from here to '[DISABLE]' will be used to enable the cheat
 alloc(newmem,2048)
 label(returnhere)
@@ -1626,11 +1633,11 @@ dealloc(newmem)
 db 0F 85 84 01 00 00
 //jne LawnProject.exe+1D474
 </AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>40</ID>
-                  <Description>"植物图鉴"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:豌豆射手
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>40</ID>
+                      <Description>"植物图鉴"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:豌豆射手
 1:向日葵
 2:樱桃炸弹
 3:坚果墙
@@ -1695,19 +1702,19 @@ db 0F 85 84 01 00 00
 62:石榴炸弹(种子)
 63:玉米加农炮
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>LawnProject.exe+442F48</Address>
-                  <Offsets>
-                    <Offset>188</Offset>
-                    <Offset>7C</Offset>
-                    <Offset>308</Offset>
-                  </Offsets>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>43</ID>
-                  <Description>"僵尸图鉴"</Description>
-                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:普通僵尸
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>188</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>308</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>43</ID>
+                      <Description>"僵尸图鉴"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:普通僵尸
 1:摇旗僵尸
 2:路障僵尸
 3:撑杆跳僵尸
@@ -1742,14 +1749,154 @@ db 0F 85 84 01 00 00
 32:高坚果僵尸
 33:漂浮着的花芽
 </DropDownList>
-                  <ShowAsSigned>0</ShowAsSigned>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>18C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>308</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>100</ID>
+          <Description>"扩展版(Expansion)"</Description>
+          <Options moHideChildren="1"/>
+          <GroupHeader>1</GroupHeader>
+          <Address/>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>101</ID>
+              <Description>"1.0.11"</Description>
+              <GroupHeader>1</GroupHeader>
+              <Address/>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>103</ID>
+                  <Description>"基址"</Description>
+                  <ShowAsHex>1</ShowAsHex>
                   <VariableType>4 Bytes</VariableType>
-                  <Address>LawnProject.exe+442F48</Address>
-                  <Offsets>
-                    <Offset>18C</Offset>
-                    <Offset>7C</Offset>
-                    <Offset>308</Offset>
-                  </Offsets>
+                  <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>104</ID>
+                  <Description>"常用功能"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>102</ID>
+                      <Description>"阳光"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                      <Offsets>
+                        <Offset>5560</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>106</ID>
+                      <Description>"无需冷却"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+cmp eax,[edi+28]
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+87290:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PlantsVsZombies.exe"+87290:
+db 8B 47 24 3B 47 28
+//mov eax,[edi+24]
+//cmp eax,[edi+28]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>107</ID>
+                      <Description>"重叠种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+jmp PlantsVsZombies.exe+10754
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+FE2F:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PlantsVsZombies.exe"+FE2F:
+db 0F 84 1F 09 00 00
+//je PlantsVsZombies.exe+10754
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>109</ID>
+                  <Description>"跳关与混乱"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>108</ID>
+                      <Description>"冒险模式"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                      <Offsets>
+                        <Offset>24</Offset>
+                        <Offset>82C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
@@ -1757,14 +1904,14 @@ db 0F 85 84 01 00 00
         </CheatEntry>
         <CheatEntry>
           <ID>5</ID>
-          <Description>"UWE尝鲜版"</Description>
+          <Description>"超宽扩展版(Ultra Wide Expansion)"</Description>
           <Options moHideChildren="1"/>
           <GroupHeader>1</GroupHeader>
           <Address/>
           <CheatEntries>
             <CheatEntry>
               <ID>6</ID>
-              <Description>"20240806(单人)"</Description>
+              <Description>"20240806尝鲜版(单人)"</Description>
               <Options moHideChildren="1"/>
               <GroupHeader>1</GroupHeader>
               <Address/>
@@ -2046,6 +2193,102 @@ unregistersymbol(slot)
                       <Address>slot</Address>
                       <Offsets>
                         <Offset>34</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>97</ID>
+                  <Description>"禅境花园"</Description>
+                  <Options moHideChildren="1"/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(UWETree,PlantsVsZombies.exe,89 10 8B 4D EC) // should be unique
+alloc(newmem,$1000)
+alloc(smarttree,24)
+registersymbol(smarttree)
+label(code)
+label(return)
+
+newmem:
+  mov [eax],edx
+  mov [smarttree],eax
+  mov ecx,[ebp-14]
+  jmp return
+code:
+  mov [eax],edx
+  mov ecx,[ebp-14]
+  jmp return
+
+UWETree:
+  jmp newmem
+return:
+registersymbol(UWETree)
+
+[DISABLE]
+
+UWETree:
+  db 89 10 8B 4D EC
+
+unregistersymbol(UWETree)
+dealloc(newmem)
+dealloc(smarttree)
+unregistersymbol(smarttree)
+</AssemblerScript>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>91</ID>
+                      <Description>"肥料"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+7B1DF4</Address>
+                      <Offsets>
+                        <Offset>3C+284</Offset>
+                        <Offset>824</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>92</ID>
+                      <Description>"杀虫剂"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+7B1DF4</Address>
+                      <Offsets>
+                        <Offset>40+284</Offset>
+                        <Offset>824</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>93</ID>
+                      <Description>"巧克力"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+7B1DF4</Address>
+                      <Offsets>
+                        <Offset>6C+284</Offset>
+                        <Offset>824</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>95</ID>
+                      <Description>"智慧树肥料"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+7B1DF4</Address>
+                      <Offsets>
+                        <Offset>74+284</Offset>
+                        <Offset>824</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>98</ID>
+                      <Description>"智慧树高度"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>smarttree</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
                       </Offsets>
                     </CheatEntry>
                   </CheatEntries>
