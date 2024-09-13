@@ -4600,6 +4600,279 @@ db 0F 84 1F 09 00 00
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
+        <CheatEntry>
+          <ID>154</ID>
+          <Description>"R版"</Description>
+          <Options moHideChildren="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>155</ID>
+              <Description>"1.4.6"</Description>
+              <Options moHideChildren="1"/>
+              <GroupHeader>1</GroupHeader>
+              <Address/>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>157</ID>
+                  <Description>"基址"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>158</ID>
+                  <Description>"常用功能"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>156</ID>
+                      <Description>"阳光"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                      <Offsets>
+                        <Offset>5560</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>162</ID>
+                      <Description>"金币"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                      <Offsets>
+                        <Offset>28</Offset>
+                        <Offset>82C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>159</ID>
+                      <Description>"无需冷却"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+cmp eax,[edi+28]
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+87290:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PlantsVsZombies.exe"+87290:
+db 8B 47 24 3B 47 28
+//mov eax,[edi+24]
+//cmp eax,[edi+28]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>160</ID>
+                      <Description>"重叠种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+jmp PlantsVsZombies.exe+10754
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+FE2F:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PlantsVsZombies.exe"+FE2F:
+db 0F 84 1F 09 00 00
+//je PlantsVsZombies.exe+10754
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>163</ID>
+                      <Description>"浓雾透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov eax,#0//[edx]
+test eax,eax
+mov [esp+3C],eax
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+1A78F:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PlantsVsZombies.exe"+1A78F:
+db 8B 02 85 C0 89 44 24 3C
+//mov eax,[edx]
+//test eax,eax
+//mov [esp+3C],eax
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>168</ID>
+                  <Description>"卡槽修改"</Description>
+                  <Options moHideChildren="1"/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(RSlot,PlantsVsZombies.exe,89 81 AC 00 00 00) // should be unique
+alloc(newmem,$1000)
+alloc(slot,24)
+registersymbol(slot)
+label(code)
+label(return)
+
+newmem:
+  mov [ecx+000000AC],eax
+  mov [slot],ecx
+  jmp return
+code:
+  mov [ecx+000000AC],eax
+  jmp return
+
+RSlot:
+  jmp newmem
+  nop
+return:
+registersymbol(RSlot)
+
+[DISABLE]
+
+RSlot:
+  db 89 81 AC 00 00 00
+
+unregistersymbol(RSlot)
+dealloc(newmem)
+dealloc(slot)
+unregistersymbol(slot)
+</AssemblerScript>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>167</ID>
+                      <Description>"卡槽2"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>AC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>166</ID>
+                  <Description>"杂项修改"</Description>
+                  <Options moHideChildren="1"/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(Rcurselect,PlantsVsZombies.exe,34 89 51 28 8B 45 04) // should be unique
+alloc(newmem,$1000)
+alloc(curselect,24)
+registersymbol(curselect)
+label(code)
+label(return)
+
+newmem:
+  mov [ecx+28],edx
+  mov [curselect],ecx
+  mov eax,[ebp+04]
+  jmp return
+code:
+  mov [ecx+28],edx
+  mov eax,[ebp+04]
+  jmp return
+
+Rcurselect+01:
+  jmp newmem
+  nop
+return:
+registersymbol(Rcurselect)
+
+[DISABLE]
+
+Rcurselect+01:
+  db 89 51 28 8B 45 04
+
+unregistersymbol(Rcurselect)
+dealloc(newmem)
+dealloc(curselect)
+unregistersymbol(curselect)
+</AssemblerScript>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>165</ID>
+                      <Description>"光标选定的种子包"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>curselect</Address>
+                      <Offsets>
+                        <Offset>28</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
