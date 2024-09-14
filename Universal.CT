@@ -1125,6 +1125,81 @@ db 74 45 FF 75 C8
 //push [ebp-38]
 </AssemblerScript>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>222</ID>
+                      <Description>"花瓶透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+mov [esi+4C],32
+originalcode:
+cmp dword ptr [esi+4C],00
+jng PlantsVsZombies.exe+E6178
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+E5E59:
+jmp newmem
+nop 5
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PlantsVsZombies.exe"+E5E59:
+db 83 7E 4C 00 0F 8E 15 03 00 00
+//cmp dword ptr [esi+4C],00
+//jng PlantsVsZombies.exe+E6178
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>223</ID>
+                      <Description>"浓雾透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov eax,#0//[ebx]
+mov [ebp-2C],eax
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+2D8A0:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PlantsVsZombies.exe"+2D8A0:
+db 8B 03 89 45 D4
+//mov eax,[ebx]
+//mov [ebp-2C],eax
+</AssemblerScript>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
@@ -2399,6 +2474,170 @@ OC:——其它——
                     <CheatEntry>
                       <ID>221</ID>
                       <Description>"模式混乱(易崩溃)"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:冒险模式
+OA:——迷你游戏——
+19:植物僵尸
+20:坚果保龄球
+21:老虎机
+22:雨中种植物
+23:宝石迷阵
+24:隐形食脑者
+25:看星星
+26:僵尸水族馆
+27:宝石迷阵转转看
+28:小僵尸大麻烦
+29:保护传送门
+30:你看 它们像柱子一样
+31:雪橇区
+32:僵尸快跑
+33:锤僵尸
+34:谁笑到最后
+35:植物僵尸2
+36:坚果保龄球2
+37:跳跳舞会
+38:僵王博士的复仇
+39:坚果保龄球 艺术锦标赛
+40:晴天
+41:无草皮之地
+42:重要时间
+43:挑战 种太阳花的艺术
+44:空袭
+45:冰冻关卡
+46:超乎寻常的压力
+47:坟墓模式
+48:你能把它挖出来吗？
+49:黑暗的暴风雨夜
+50:蹦极闪电战
+51:松鼠
+52:血月降临
+53:双重麻烦
+54:殖民意识
+55:塔防
+56:通货膨胀
+57:黄油爆米花
+58:僵王博士的复仇2
+59:乱入打击
+60:全靠自己
+61:按键绑定
+62:旷日持久的战争
+63:太阳花的指令
+64:镜像
+65:魔法种植
+66:边界条约
+67:力拔山河
+68:七宗罪
+69:薛定谔的僵尸
+70:海森堡的僵尸
+71:狂欢庭院
+72:2048
+73:爆破小队
+74:植物僵尸3
+75:泳池派对
+76:盲打
+77:星期三
+78:僵王博士的复仇3
+123:热浪
+124:大僵尸大麻烦
+125:纸虫
+126:禁止通行
+127:隐形守护者
+128:坚果保龄球3
+129:阳光炸弹
+130:贪吃蛇
+131:我们之中
+132:黑暗的暴风雨夜2
+133:重型武器
+134:夜间诅咒
+135:气候
+136:末日星河
+137:时间攻击
+OB:——解谜模式(砸花瓶)——
+79:破罐者
+80:全部留下
+81:第3个罐子
+82:连锁反应
+83:M的意思是金属
+84:胆怯的制陶工
+85:变戏法
+86:另一个连锁反应
+87:罐子王牌
+88:最终连锁反应
+89:摇滚派对
+90:纵火狂
+91:空降
+92:嚼嚼嚼
+93:流行
+98:无尽的试炼
+94:TBD砸花瓶(5F)
+95:TBD砸花瓶(60)
+96:TBD砸花瓶(61)
+97:TBD砸花瓶(62)
+OC:——解谜模式(我是僵尸)——
+99:我是僵尸
+100:我也是僵尸
+101:你能铲了它吗？
+102:完全傻了
+103:死亡飞艇
+104:我烂了！
+105:僵尸摇摆
+106:三连击
+107:你所有大脑都是我的
+108:代号：绿
+118:我是僵尸无尽版
+109:TBD我是僵尸(6D)
+110:TBD我是僵尸(6E)
+111:TBD我是僵尸(6F)
+112:TBD我是僵尸(70)
+113:TBD我是僵尸(71)
+114:TBD我是僵尸(72)
+115:TBD我是僵尸(73)
+116:TBD我是僵尸(74)
+117:TBD我是僵尸(75)
+OD:——生存模式——
+1:生存模式：白天
+2:生存模式：夜晚
+3:生存模式：泳池
+4:生存模式：浓雾
+5:生存模式：屋顶
+6:生存模式：月夜
+7:生存模式：白天(困难)
+8:生存模式：夜晚(困难)
+9:生存模式：泳池(困难)
+10:生存模式：浓雾(困难)
+11:生存模式：屋顶(困难)
+12:生存模式：月夜(困难)
+13:生存模式：白天(无尽)
+14:生存模式：夜晚(无尽)
+15:生存模式：泳池(无尽)
+16:生存模式：浓雾(无尽)
+17:生存模式：屋顶(无尽)
+18:生存模式：月夜(无尽)
+OE:——双人模式——
+139:双人合作：白天
+140:双人合作：夜晚
+141:双人合作：泳池
+142:双人合作：浓雾
+143:双人合作：屋顶
+144:双人合作：月夜
+145:双人合作：白天(生存)
+146:双人合作：夜晚(生存)
+147:双人合作：泳池(生存)
+148:双人合作：浓雾(生存)
+149:双人合作：屋顶(生存)
+150:双人合作：月夜(生存)
+151:双人对战：白天
+153:双人对战：夜晚
+155:双人对战：泳池
+157:双人对战：浓雾
+159:双人对战：屋顶
+161:双人对战：月夜
+OF:——其它——
+119:禅境花园
+120:智慧树
+121:追加销售
+122:介绍
+138:烂苹果
+</DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
                       <Address>PlantsVsZombies.exe+464B18</Address>
@@ -2415,6 +2654,104 @@ OC:——其它——
                   <GroupHeader>1</GroupHeader>
                   <Address/>
                   <CheatEntries>
+                    <CheatEntry>
+                      <ID>224</ID>
+                      <Description>"竖排种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+1DE62:
+jmp newmem
+nop 2
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PlantsVsZombies.exe"+1DE62:
+db 83 B8 64 07 00 00 1E
+//cmp dword ptr [eax+00000764],1E
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>214</ID>
+                      <Description>"僵尸图鉴"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:普通僵尸
+1:旗帜僵尸
+2:摇旗僵尸
+3:撑杆僵尸
+4:铁桶僵尸
+5:读报僵尸
+6:铁栅门僵尸
+7:橄榄球僵尸
+8:舞王僵尸
+9:伴舞僵尸
+10:鸭子救生圈僵尸
+11:潜水僵尸
+12:雪橇车僵尸
+13:雪橇僵尸小队
+14:海豚骑士僵尸
+15:玩偶匣僵尸
+16:气球僵尸
+17:矿工僵尸
+18:跳跳僵尸
+19:雪人僵尸
+20:蹦极僵尸
+21:扶梯僵尸
+22:篮球僵尸
+23:巨人僵尸
+24:小鬼僵尸
+25:砖块僵尸
+26:全明星僵尸
+27:杂志僵尸
+28:暴走巨人僵尸
+29:僵王博士
+30:垃圾桶僵尸
+31:火把僵尸
+32:太阳能车僵尸
+33:流浪汉僵尸
+34:武警僵尸
+35:橄榄球巨人僵尸
+36:豌豆射手僵尸
+37:坚果墙僵尸
+38:火爆辣椒僵尸
+39:机枪射手僵尸
+40:窝瓜僵尸
+41:高坚果僵尸
+42:寒冰射手僵尸
+43:爆炸坚果僵尸
+44:向日葵僵尸
+45:僵尸墓碑
+46:标靶僵尸
+47:漂浮着的花芽
+48:不停冒出的僵尸头
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+464B18</Address>
+                      <Offsets>
+                        <Offset>188</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>318</Offset>
+                      </Offsets>
+                    </CheatEntry>
                     <CheatEntry>
                       <ID>199</ID>
                       <Description>"光标选取的种子包"</Description>
@@ -2618,18 +2955,6 @@ OC:——其它——
                       <Offsets>
                         <Offset>184</Offset>
                         <Offset>88</Offset>
-                        <Offset>318</Offset>
-                      </Offsets>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>214</ID>
-                      <Description>"僵尸图鉴"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>PlantsVsZombies.exe+464B18</Address>
-                      <Offsets>
-                        <Offset>188</Offset>
-                        <Offset>7C</Offset>
                         <Offset>318</Offset>
                       </Offsets>
                     </CheatEntry>
