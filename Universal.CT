@@ -939,14 +939,6 @@ db 0F 85 F4 00 00 00
               <Address/>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>190</ID>
-                  <Description>"基址"</Description>
-                  <ShowAsHex>1</ShowAsHex>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <VariableType>4 Bytes</VariableType>
-                  <Address>PlantsVsZombies.exe+464B18</Address>
-                </CheatEntry>
-                <CheatEntry>
                   <ID>220</ID>
                   <Description>"反作弊关闭(建议开启)"</Description>
                   <VariableType>Auto Assembler Script</VariableType>
@@ -982,6 +974,14 @@ db 7D 12 83 FF 01
 //jnl PlantsVsZombies.exe+128CF1
 //cmp edi,01
 </AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>190</ID>
+                  <Description>"基址"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>PlantsVsZombies.exe+464B18</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>191</ID>
@@ -2452,6 +2452,70 @@ OC:——其它——
                       </Offsets>
                     </CheatEntry>
                   </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>226</ID>
+                  <Description>"禅境花园"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>227</ID>
+                      <Description>"肥料"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+464B18</Address>
+                      <Offsets>
+                        <Offset>1004</Offset>
+                        <Offset>798</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>228</ID>
+                      <Description>"杀虫剂"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+464B18</Address>
+                      <Offsets>
+                        <Offset>1008</Offset>
+                        <Offset>798</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>225</ID>
+                      <Description>"巧克力"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+464B18</Address>
+                      <Offsets>
+                        <Offset>1034</Offset>
+                        <Offset>798</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>229</ID>
+                      <Description>"智慧树肥料"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+464B18</Address>
+                      <Offsets>
+                        <Offset>103C</Offset>
+                        <Offset>798</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>231</ID>
+                  <Description>"智慧树高度"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>PlantsVsZombies.exe+464B18</Address>
+                  <Offsets>
+                    <Offset>208</Offset>
+                    <Offset>798</Offset>
+                  </Offsets>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>216</ID>
