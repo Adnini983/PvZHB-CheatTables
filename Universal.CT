@@ -2,12 +2,6 @@
 <CheatTable CheatEngineTableVersion="45">
   <CheatEntries>
     <CheatEntry>
-      <ID>14</ID>
-      <Description>"Github：https://github.com/Adnini983/PvZHB-CheatTables/"</Description>
-      <GroupHeader>1</GroupHeader>
-      <Address/>
-    </CheatEntry>
-    <CheatEntry>
       <ID>4</ID>
       <Description>"←点我 Adnini983原创 MIT授权"</Description>
       <Options moHideChildren="1"/>
@@ -8607,6 +8601,12 @@ db 83 BA F8 07 00 00 1B
           </CheatEntries>
         </CheatEntry>
       </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"Github：https://github.com/Adnini983/PvZHB-CheatTables/"</Description>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
     </CheatEntry>
     <CheatEntry>
       <ID>15</ID>
