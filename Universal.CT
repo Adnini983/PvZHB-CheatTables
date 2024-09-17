@@ -5084,6 +5084,40 @@ OE:——其它——
                         <Offset>770</Offset>
                       </Offsets>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>324</ID>
+                      <Description>"无尽轮数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>6C</Offset>
+                        <Offset>158</Offset>
+                        <Offset>6E8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>323</ID>
+                      <Description>"当前关卡到达的波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>5574</Offset>
+                        <Offset>6E8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>322</ID>
+                      <Description>"当前关卡总波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+442F48</Address>
+                      <Offsets>
+                        <Offset>555C</Offset>
+                        <Offset>6E8</Offset>
+                      </Offsets>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
