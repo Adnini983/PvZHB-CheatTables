@@ -8070,6 +8070,40 @@ OD:——其它——
                         <Offset>7F0</Offset>
                       </Offsets>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>350</ID>
+                      <Description>"无尽轮数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+70A29C</Address>
+                      <Offsets>
+                        <Offset>6C</Offset>
+                        <Offset>164</Offset>
+                        <Offset>760</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>349</ID>
+                      <Description>"当前关卡到达的波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+70A29C</Address>
+                      <Offsets>
+                        <Offset>5580</Offset>
+                        <Offset>760</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>348</ID>
+                      <Description>"当前关卡总波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+70A29C</Address>
+                      <Offsets>
+                        <Offset>5568</Offset>
+                        <Offset>760</Offset>
+                      </Offsets>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
@@ -11824,8 +11858,9 @@ OB:——僵尸——
                   <ID>268</ID>
                   <Description>"禅境花园"</Description>
                   <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
                   <GroupHeader>1</GroupHeader>
-                  <Address>0</Address>
+                  <Address/>
                   <CheatEntries>
                     <CheatEntry>
                       <ID>269</ID>
@@ -11846,6 +11881,17 @@ OB:——僵尸——
                       <Address>LawnProject.exe+7B9FCC</Address>
                       <Offsets>
                         <Offset>80+1C0</Offset>
+                        <Offset>850</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>354</ID>
+                      <Description>"巧克力"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+7B9FCC</Address>
+                      <Offsets>
+                        <Offset>AC+1C0</Offset>
                         <Offset>850</Offset>
                       </Offsets>
                     </CheatEntry>
@@ -11998,6 +12044,40 @@ OG:#——此模式不可游玩——#
                       <Address>LawnProject.exe+7B9FCC</Address>
                       <Offsets>
                         <Offset>81C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>353</ID>
+                      <Description>"无尽轮数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+7B9FCC</Address>
+                      <Offsets>
+                        <Offset>6C</Offset>
+                        <Offset>168</Offset>
+                        <Offset>778</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>351</ID>
+                      <Description>"当前关卡到达的波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+7B9FCC</Address>
+                      <Offsets>
+                        <Offset>5584</Offset>
+                        <Offset>778</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>352</ID>
+                      <Description>"当前关卡总波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+7B9FCC</Address>
+                      <Offsets>
+                        <Offset>556C</Offset>
+                        <Offset>778</Offset>
                       </Offsets>
                     </CheatEntry>
                   </CheatEntries>
