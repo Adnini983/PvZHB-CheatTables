@@ -371,9 +371,22 @@ db 8B 02 85 C0 89 44 24 3C
                   <ID>308</ID>
                   <Description>"卡槽修改"</Description>
                   <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
                   <GroupHeader>1</GroupHeader>
-                  <Address>0</Address>
+                  <Address/>
                   <CheatEntries>
+                    <CheatEntry>
+                      <ID>359</ID>
+                      <Description>"卡槽数量"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>24</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
                     <CheatEntry>
                       <ID>307</ID>
                       <Description>"卡槽1"</Description>
@@ -544,6 +557,47 @@ db 8B 02 85 C0 89 44 24 3C
                         <Offset>5564</Offset>
                         <Offset>768</Offset>
                       </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>355</ID>
+                      <Description>"状态页面"</Description>
+                      <Options moHideChildren="1" moRecursiveSetValue="1"/>
+                      <DropDownList DisplayValueAsItem="1">144:开启
+</DropDownList>
+                      <GroupHeader>1</GroupHeader>
+                      <Address/>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>356</ID>
+                          <Description>"开关1"</Description>
+                          <DropDownList DisplayValueAsItem="1">144:开启
+136:关闭
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>Byte</VariableType>
+                          <Address>42DF5D</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>357</ID>
+                          <Description>"开关2"</Description>
+                          <DropDownList DisplayValueAsItem="1">144:开启
+89:关闭
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>Byte</VariableType>
+                          <Address>42DF5E</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>358</ID>
+                          <Description>"开关3"</Description>
+                          <DropDownList DisplayValueAsItem="1">144:开启
+84:关闭
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>Byte</VariableType>
+                          <Address>42DF5F</Address>
+                        </CheatEntry>
+                      </CheatEntries>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
