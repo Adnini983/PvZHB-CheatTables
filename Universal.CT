@@ -10102,7 +10102,7 @@ db 83 B9 1C 08 00 00 1B
                     <CheatEntry>
                       <ID>281</ID>
                       <Description>"冷却时间"</Description>
-                      <Options moHideChildren="1" moRecursiveSetValue="1"/>
+                      <Options moHideChildren="1" moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
                       <DropDownList DisplayValueAsItem="1">0:锁定即无冷却
 </DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
@@ -10249,17 +10249,6 @@ db 83 B9 1C 08 00 00 1B
                             <Offset>768</Offset>
                           </Offsets>
                         </CheatEntry>
-                        <CheatEntry>
-                          <ID>293</ID>
-                          <Description>"关卡总波数"</Description>
-                          <ShowAsSigned>0</ShowAsSigned>
-                          <VariableType>4 Bytes</VariableType>
-                          <Address>006A9EC0</Address>
-                          <Offsets>
-                            <Offset>5564</Offset>
-                            <Offset>768</Offset>
-                          </Offsets>
-                        </CheatEntry>
                       </CheatEntries>
                     </CheatEntry>
                     <CheatEntry>
@@ -10388,6 +10377,52 @@ db 8B 02 85 C0 89 44 24 3C
 //mov eax,[edx]
 //test eax,eax
 //mov [esp+3C],eax
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>400</ID>
+                  <Description>"植物调教"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>399</ID>
+                      <Description>"子弹叠加(易崩溃)"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [edi+00000090],#1//eax
+
+exit:
+jmp returnhere
+
+0046488F:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0046488F:
+db 89 87 90 00 00 00
+//mov [edi+00000090],eax
 </AssemblerScript>
                     </CheatEntry>
                   </CheatEntries>
@@ -10547,7 +10582,7 @@ db 8B 02 85 C0 89 44 24 3C
                       <Description>"冒险模式"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
-                      <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                      <Address>006A9EC0</Address>
                       <Offsets>
                         <Offset>24</Offset>
                         <Offset>82C</Offset>
@@ -10558,7 +10593,7 @@ db 8B 02 85 C0 89 44 24 3C
                       <Description>"模式混乱(易崩溃)"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
-                      <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                      <Address>006A9EC0</Address>
                       <Offsets>
                         <Offset>7F8</Offset>
                       </Offsets>
