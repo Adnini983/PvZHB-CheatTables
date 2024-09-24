@@ -4783,6 +4783,42 @@ db 89 87 90 00 00 00
 //mov [edi+00000090],eax
 </AssemblerScript>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>60</ID>
+                      <Description>"竖排种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+1D2EA:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"LawnProject.exe"+1D2EA:
+db 0F 85 84 01 00 00
+//jne LawnProject.exe+1D474
+</AssemblerScript>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
@@ -6169,42 +6205,6 @@ NU:——其它——
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>60</ID>
-                      <Description>"竖排种植"</Description>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-//code from here to '[DISABLE]' will be used to enable the cheat
-alloc(newmem,2048)
-label(returnhere)
-label(originalcode)
-label(exit)
-
-newmem: //this is allocated memory, you have read,write,execute access
-//place your code here
-
-originalcode:
-nop
-
-exit:
-jmp returnhere
-
-"LawnProject.exe"+1D2EA:
-jmp newmem
-nop
-returnhere:
-
-
- 
- 
-[DISABLE]
-//code from here till the end of the code will be used to disable the cheat
-dealloc(newmem)
-"LawnProject.exe"+1D2EA:
-db 0F 85 84 01 00 00
-//jne LawnProject.exe+1D474
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
                       <ID>40</ID>
                       <Description>"植物图鉴"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:豌豆射手
@@ -6617,6 +6617,80 @@ dealloc(newmem)
 "LawnProject.exe"+19749E:
 db 89 8A 90 00 00 00
 //mov [edx+00000090],ecx
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>409</ID>
+                      <Description>"子弹变玉米炮"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [eax+5C],0B //这里输入子弹编号(十六进制)
+cvtsi2ss xmm0,[ebp+08] //子弹编号参见"[hack]Upgraliam Mod.xlsx"
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+831D8:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"LawnProject.exe"+831D8:
+db 89 48 5C F3 0F 2A 45 08
+//mov [eax+5C],ecx
+//cvtsi2ss xmm0,[ebp+08]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>139</ID>
+                      <Description>"竖排种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+482D3:
+jmp newmem
+nop 2
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"LawnProject.exe"+482D3:
+db 83 B9 F0 07 00 00 24
+//cmp dword ptr [ecx+000007F0],24
 </AssemblerScript>
                     </CheatEntry>
                   </CheatEntries>
@@ -7997,42 +8071,6 @@ OC:——其它——
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>139</ID>
-                      <Description>"竖排种植"</Description>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-//code from here to '[DISABLE]' will be used to enable the cheat
-alloc(newmem,2048)
-label(returnhere)
-label(originalcode)
-label(exit)
-
-newmem: //this is allocated memory, you have read,write,execute access
-//place your code here
-
-originalcode:
-nop
-
-exit:
-jmp returnhere
-
-"LawnProject.exe"+482D3:
-jmp newmem
-nop 2
-returnhere:
-
-
- 
- 
-[DISABLE]
-//code from here till the end of the code will be used to disable the cheat
-dealloc(newmem)
-"LawnProject.exe"+482D3:
-db 83 B9 F0 07 00 00 24
-//cmp dword ptr [ecx+000007F0],24
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
                       <ID>134</ID>
                       <Description>"植物图鉴"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:豌豆射手
@@ -8456,6 +8494,80 @@ dealloc(newmem)
 "LawnProject.exe"+1DBB28:
 db 89 8A 90 00 00 00
 //mov [edx+00000090],ecx
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>411</ID>
+                      <Description>"子弹变玉米炮"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [eax+5C],0B //这里输入子弹编号(十六进制)
+cvtsi2ss xmm0,[ebp+08] //子弹编号参见"[hack]Upgraliam Mod.xlsx"
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+A0A18:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"LawnProject.exe"+A0A18:
+db 89 48 5C F3 0F 2A 45 08
+//mov [eax+5C],ecx
+//cvtsi2ss xmm0,[ebp+08]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>266</ID>
+                      <Description>"竖排种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+6830A:
+jmp newmem
+nop 2
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"LawnProject.exe"+6830A:
+db 83 B9 1C 08 00 00 1B
+//cmp dword ptr [ecx+0000081C],1B
 </AssemblerScript>
                     </CheatEntry>
                   </CheatEntries>
@@ -9962,42 +10074,6 @@ OB:——僵尸——
                         <Offset>13C</Offset>
                         <Offset>778</Offset>
                       </Offsets>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>266</ID>
-                      <Description>"竖排种植"</Description>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-//code from here to '[DISABLE]' will be used to enable the cheat
-alloc(newmem,2048)
-label(returnhere)
-label(originalcode)
-label(exit)
-
-newmem: //this is allocated memory, you have read,write,execute access
-//place your code here
-
-originalcode:
-nop
-
-exit:
-jmp returnhere
-
-"LawnProject.exe"+6830A:
-jmp newmem
-nop 2
-returnhere:
-
-
- 
- 
-[DISABLE]
-//code from here till the end of the code will be used to disable the cheat
-dealloc(newmem)
-"LawnProject.exe"+6830A:
-db 83 B9 1C 08 00 00 1B
-//cmp dword ptr [ecx+0000081C],1B
-</AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>272</ID>
