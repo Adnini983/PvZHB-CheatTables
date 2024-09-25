@@ -2546,7 +2546,7 @@ db 89 50 5C C7 40 38 00 00 00 00
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>224</ID>
+                      <ID>422</ID>
                       <Description>"竖排种植"</Description>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -2565,7 +2565,44 @@ nop
 exit:
 jmp returnhere
 
-"PlantsVsZombies.exe"+1DE62:
+"PlantsVsZombies.exe"+1DE69:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PlantsVsZombies.exe"+1DE69:
+db 0F 85 F6 00 00 00
+//jne 00CEDF65
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>425</ID>
+                      <Description>"镜像种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+mov eax,00000008
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+1DD9F:
 jmp newmem
 nop 2
 returnhere:
@@ -2576,9 +2613,10 @@ returnhere:
 [DISABLE]
 //code from here till the end of the code will be used to disable the cheat
 dealloc(newmem)
-"PlantsVsZombies.exe"+1DE62:
-db 83 B8 64 07 00 00 1E
-//cmp dword ptr [eax+00000764],1E
+"PlantsVsZombies.exe"+1DD9F:
+db 75 28 B8 08 00 00 00
+//jne 00CEDDC9
+//mov eax,00000008
 </AssemblerScript>
                     </CheatEntry>
                   </CheatEntries>
@@ -3919,7 +3957,7 @@ OC:——其它——
                     <CheatEntry>
                       <ID>221</ID>
                       <Description>"模式混乱(易崩溃)"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:冒险模式
+                      <DropDownList DisplayValueAsItem="1">0:冒险模式
 OA:——迷你游戏——
 19:植物僵尸
 20:坚果保龄球
@@ -6658,7 +6696,7 @@ db 89 48 5C F3 0F 2A 45 08
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>139</ID>
+                      <ID>423</ID>
                       <Description>"竖排种植"</Description>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -6677,9 +6715,9 @@ nop
 exit:
 jmp returnhere
 
-"LawnProject.exe"+482D3:
+"LawnProject.exe"+482DA:
 jmp newmem
-nop 2
+nop
 returnhere:
 
 
@@ -6688,9 +6726,9 @@ returnhere:
 [DISABLE]
 //code from here till the end of the code will be used to disable the cheat
 dealloc(newmem)
-"LawnProject.exe"+482D3:
-db 83 B9 F0 07 00 00 24
-//cmp dword ptr [ecx+000007F0],24
+"LawnProject.exe"+482DA:
+db 0F 85 09 01 00 00
+//jne LawnProject.Board::MouseDownWithPlant+E49
 </AssemblerScript>
                     </CheatEntry>
                   </CheatEntries>
@@ -8535,8 +8573,8 @@ db 89 48 5C F3 0F 2A 45 08
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>266</ID>
-                      <Description>"竖排种植"</Description>
+                      <ID>424</ID>
+                      <Description>"自动汇编脚本"</Description>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
 //code from here to '[DISABLE]' will be used to enable the cheat
@@ -8554,9 +8592,9 @@ nop
 exit:
 jmp returnhere
 
-"LawnProject.exe"+6830A:
+"LawnProject.exe"+68311:
 jmp newmem
-nop 2
+nop
 returnhere:
 
 
@@ -8565,9 +8603,9 @@ returnhere:
 [DISABLE]
 //code from here till the end of the code will be used to disable the cheat
 dealloc(newmem)
-"LawnProject.exe"+6830A:
-db 83 B9 1C 08 00 00 1B
-//cmp dword ptr [ecx+0000081C],1B
+"LawnProject.exe"+68311:
+db 0F 85 F4 00 00 00
+//jne LawnProject.Board::MouseDownWithPlant+E3B
 </AssemblerScript>
                     </CheatEntry>
                   </CheatEntries>
@@ -10629,6 +10667,79 @@ db 89 87 90 00 00 00
 //mov [edi+00000090],eax
 </AssemblerScript>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>420</ID>
+                      <Description>"竖排种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+00410AE6:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+00410AE6:
+db 0F 85 E5 00 00 00
+//jne 00410BD1
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>417</ID>
+                      <Description>"子弹变玉米棒"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [ebp+5C],0B//eax
+mov eax,esi
+
+exit:
+jmp returnhere
+
+0046C769:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0046C769:
+db 89 45 5C 8B C6
+//mov [ebp+5C],eax
+//mov eax,esi
+</AssemblerScript>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
@@ -10803,13 +10914,36 @@ db 89 87 90 00 00 00
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
+                      <ID>413</ID>
+                      <Description>"无尽轮数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>6C</Offset>
+                        <Offset>160</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
                       <ID>294</ID>
-                      <Description>"关卡总波数"</Description>
+                      <Description>"当前关卡总波数"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
                       <Address>006A9EC0</Address>
                       <Offsets>
                         <Offset>5564</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>412</ID>
+                      <Description>"当前关卡到达的波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>557C</Offset>
                         <Offset>768</Offset>
                       </Offsets>
                     </CheatEntry>
@@ -13723,7 +13857,7 @@ unregistersymbol(curselect)
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>182</ID>
+                      <ID>421</ID>
                       <Description>"竖排种植"</Description>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13742,9 +13876,9 @@ nop
 exit:
 jmp returnhere
 
-"PlantsVsZombies.exe"+10ADF:
+00410AE6:
 jmp newmem
-nop 2
+nop
 returnhere:
 
 
@@ -13753,9 +13887,9 @@ returnhere:
 [DISABLE]
 //code from here till the end of the code will be used to disable the cheat
 dealloc(newmem)
-"PlantsVsZombies.exe"+10ADF:
-db 83 BA F8 07 00 00 1B
-//cmp dword ptr [edx+000007F8],1B
+00410AE6:
+db 0F 85 E5 00 00 00
+//jne 00410BD1
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
