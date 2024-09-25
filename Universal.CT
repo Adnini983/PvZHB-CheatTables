@@ -8574,7 +8574,7 @@ db 89 48 5C F3 0F 2A 45 08
                     </CheatEntry>
                     <CheatEntry>
                       <ID>424</ID>
-                      <Description>"自动汇编脚本"</Description>
+                      <Description>"竖排种植"</Description>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
 //code from here to '[DISABLE]' will be used to enable the cheat
@@ -10624,125 +10624,6 @@ db 8B 02 85 C0 89 44 24 3C
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>400</ID>
-                  <Description>"植物调教"</Description>
-                  <Options moHideChildren="1"/>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <GroupHeader>1</GroupHeader>
-                  <Address/>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>399</ID>
-                      <Description>"子弹叠加(易崩溃)"</Description>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-//code from here to '[DISABLE]' will be used to enable the cheat
-alloc(newmem,2048)
-label(returnhere)
-label(originalcode)
-label(exit)
-
-newmem: //this is allocated memory, you have read,write,execute access
-//place your code here
-
-originalcode:
-mov [edi+00000090],#1//eax
-
-exit:
-jmp returnhere
-
-0046488F:
-jmp newmem
-nop
-returnhere:
-
-
- 
- 
-[DISABLE]
-//code from here till the end of the code will be used to disable the cheat
-dealloc(newmem)
-0046488F:
-db 89 87 90 00 00 00
-//mov [edi+00000090],eax
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>420</ID>
-                      <Description>"竖排种植"</Description>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-//code from here to '[DISABLE]' will be used to enable the cheat
-alloc(newmem,2048)
-label(returnhere)
-label(originalcode)
-label(exit)
-
-newmem: //this is allocated memory, you have read,write,execute access
-//place your code here
-
-originalcode:
-nop
-
-exit:
-jmp returnhere
-
-00410AE6:
-jmp newmem
-nop
-returnhere:
-
-
- 
- 
-[DISABLE]
-//code from here till the end of the code will be used to disable the cheat
-dealloc(newmem)
-00410AE6:
-db 0F 85 E5 00 00 00
-//jne 00410BD1
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>417</ID>
-                      <Description>"子弹变玉米棒"</Description>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-//code from here to '[DISABLE]' will be used to enable the cheat
-alloc(newmem,2048)
-label(returnhere)
-label(originalcode)
-label(exit)
-
-newmem: //this is allocated memory, you have read,write,execute access
-//place your code here
-
-originalcode:
-mov [ebp+5C],0B//eax
-mov eax,esi
-
-exit:
-jmp returnhere
-
-0046C769:
-jmp newmem
-returnhere:
-
-
- 
- 
-[DISABLE]
-//code from here till the end of the code will be used to disable the cheat
-dealloc(newmem)
-0046C769:
-db 89 45 5C 8B C6
-//mov [ebp+5C],eax
-//mov eax,esi
-</AssemblerScript>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
                   <ID>308</ID>
                   <Description>"卡槽修改"</Description>
                   <Options moHideChildren="1"/>
@@ -10881,6 +10762,125 @@ db 89 45 5C 8B C6
                         <Offset>144</Offset>
                         <Offset>768</Offset>
                       </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>400</ID>
+                  <Description>"植物调教"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>399</ID>
+                      <Description>"子弹叠加(易崩溃)"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [edi+00000090],#1//eax
+
+exit:
+jmp returnhere
+
+0046488F:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0046488F:
+db 89 87 90 00 00 00
+//mov [edi+00000090],eax
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>417</ID>
+                      <Description>"子弹变玉米棒"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [ebp+5C],0B//eax
+mov eax,esi
+
+exit:
+jmp returnhere
+
+0046C769:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0046C769:
+db 89 45 5C 8B C6
+//mov [ebp+5C],eax
+//mov eax,esi
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>420</ID>
+                      <Description>"竖排种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+00410AE6:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+00410AE6:
+db 0F 85 E5 00 00 00
+//jne 00410BD1
+</AssemblerScript>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
@@ -11126,6 +11126,84 @@ dealloc(newmem)
 "PlantsVsZombies.exe"+FE2F:
 db 0F 84 1F 09 00 00
 //je PlantsVsZombies.exe+10754
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>430</ID>
+                      <Description>"花瓶透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+mov [ebp+4C],32
+originalcode:
+cmp dword ptr [ebp+4C],00
+jng 0044DF16
+
+exit:
+jmp returnhere
+
+0044DBF4:
+jmp newmem
+nop 5
+returnhere:
+
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0044DBF4:
+db 83 7D 4C 00 0F 8E 18 03 00 00
+//cmp dword ptr [ebp+4C],00
+//jng 0044DF16
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>431</ID>
+                      <Description>"浓雾透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov eax,#0//[edx]
+test eax,eax
+mov [esp+3C],eax
+
+exit:
+jmp returnhere
+
+0041A78F:
+jmp newmem
+nop 3
+returnhere:
+
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0041A78F:
+db 8B 02 85 C0 89 44 24 3C
+//mov eax,[edx]
+//test eax,eax
+//mov [esp+3C],eax
 </AssemblerScript>
                     </CheatEntry>
                   </CheatEntries>
@@ -12063,6 +12141,125 @@ OC:——其它——
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
+                  <ID>426</ID>
+                  <Description>"植物调教"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>427</ID>
+                      <Description>"子弹叠加(易崩溃)"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [edi+00000090],#1//eax
+
+exit:
+jmp returnhere
+
+0046488F:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0046488F:
+db 89 87 90 00 00 00
+//mov [edi+00000090],eax
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>429</ID>
+                      <Description>"子弹变玉米棒"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [ebp+5C],0B //这里输入子弹编号(十六进制)
+mov eax,esi //子弹编号参见"[hack]二战版.xlsx"
+
+exit:
+jmp returnhere
+
+0046C769:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0046C769:
+db 89 45 5C 8B C6
+//mov [ebp+5C],eax
+//mov eax,esi
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>428</ID>
+                      <Description>"竖排种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+00410AE6:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+00410AE6:
+db 0F 85 E5 00 00 00
+//jne 00410BD1
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
                   <ID>149</ID>
                   <Description>"跳关与混乱"</Description>
                   <Options moHideChildren="1"/>
@@ -12090,6 +12287,40 @@ OC:——其它——
                         <Offset>7F8</Offset>
                       </Offsets>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>432</ID>
+                      <Description>"无尽轮数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>6C</Offset>
+                        <Offset>160</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>433</ID>
+                      <Description>"当前关卡总波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>5564</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>434</ID>
+                      <Description>"当前关卡到达的波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>557C</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
@@ -12099,6 +12330,18 @@ OC:——其它——
                   <GroupHeader>1</GroupHeader>
                   <Address/>
                   <CheatEntries>
+                    <CheatEntry>
+                      <ID>436</ID>
+                      <Description>"植物图鉴"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                      <Offsets>
+                        <Offset>194</Offset>
+                        <Offset>88</Offset>
+                        <Offset>320</Offset>
+                      </Offsets>
+                    </CheatEntry>
                     <CheatEntry>
                       <ID>151</ID>
                       <Description>"光标选择的种子包"</Description>
@@ -13693,6 +13936,125 @@ OC:——其它——
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
+                  <ID>437</ID>
+                  <Description>"植物调教"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>438</ID>
+                      <Description>"子弹叠加(易崩溃)"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [edi+00000090],#1//eax
+
+exit:
+jmp returnhere
+
+0046488F:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0046488F:
+db 89 87 90 00 00 00
+//mov [edi+00000090],eax
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>439</ID>
+                      <Description>"子弹变玉米棒"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [ebp+5C],0B //这里输入子弹编号(十六进制)
+mov eax,esi //子弹编号参见"[hack]R版.xlsx"
+
+exit:
+jmp returnhere
+
+0046C769:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0046C769:
+db 89 45 5C 8B C6
+//mov [ebp+5C],eax
+//mov eax,esi
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>440</ID>
+                      <Description>"竖排种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+00410AE6:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+00410AE6:
+db 0F 85 E5 00 00 00
+//jne 00410BD1
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
                   <ID>179</ID>
                   <Description>"跳关与混乱"</Description>
                   <Options moHideChildren="1"/>
@@ -13855,42 +14217,6 @@ unregistersymbol(curselect)
                       <Offsets>
                         <Offset>28</Offset>
                       </Offsets>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>421</ID>
-                      <Description>"竖排种植"</Description>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-//code from here to '[DISABLE]' will be used to enable the cheat
-alloc(newmem,2048)
-label(returnhere)
-label(originalcode)
-label(exit)
-
-newmem: //this is allocated memory, you have read,write,execute access
-//place your code here
-
-originalcode:
-nop
-
-exit:
-jmp returnhere
-
-00410AE6:
-jmp newmem
-nop
-returnhere:
-
-
- 
- 
-[DISABLE]
-//code from here till the end of the code will be used to disable the cheat
-dealloc(newmem)
-00410AE6:
-db 0F 85 E5 00 00 00
-//jne 00410BD1
-</AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>183</ID>
