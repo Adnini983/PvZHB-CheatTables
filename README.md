@@ -20,3 +20,28 @@ CT表的内容透明化 任何人都可查看 相比于传统的EXE格式的修�
 ### 我可以使用此项目并应用于我的修改器吗？ ###
 
 可以的 你只需要遵循MIT开源协议的规范即可
+
+### 已支持的改版版本： ###
+|类型|名称|版本号|
+|---|---|---|
+|Decomp|超宽扩展(Ultra Wide Expansion)|20240806尝鲜版|
+|Decomp|额外版(Extra BETA)|BETA 0.3.1|
+|Decomp|东方版(Perfect Floral Blessing)|Alpha v2.8.1|
+|Decomp|东方版(Perfect Floral Blessing)|Alpha v2.6.1-2.7.0|
+|Decomp|大雨成灾+(Hard Rain+)|0.64 Debug|
+|Decomp|乌格拉利亚(Upgraliam)|ALPHA 1.0.2 playtest 5|
+|ASM|ASM系列改版通用|1.0.0.1051|
+|ASM|二战版|公测I版V0.1|
+|ASM|R版|1.4.6|
+
+### 即将支持的改版版本： ###
+|类型|名称|版本号|
+|---|---|---|
+|Decomp|DLC模组(DLC MOD)|2.0|
+|ASM|威化版|0.2.0|
+|ASM|Mixed版|未定|
+
+### 不会考虑支持的版本 ###
+1 数值/机制变化不大 且主程序未大改的ASM系列改版
+2 BUG一堆 无法正常且稳定运行的Decomp改版
+3 潜艇伟伟迷制作的系列改版
