@@ -416,11 +416,11 @@ unregistersymbol(slot)
                       <ID>327</ID>
                       <Description>"Slot 1"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -532,11 +532,11 @@ OC:——其它——
                       <ID>328</ID>
                       <Description>"Slot 2"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -648,11 +648,11 @@ OC:——其它——
                       <ID>330</ID>
                       <Description>"Slot 3"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -764,11 +764,11 @@ OC:——其它——
                       <ID>331</ID>
                       <Description>"Slot 4"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -880,11 +880,11 @@ OC:——其它——
                       <ID>332</ID>
                       <Description>"Slot 5"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -996,11 +996,11 @@ OC:——其它——
                       <ID>333</ID>
                       <Description>"Slot 6"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -1112,11 +1112,11 @@ OC:——其它——
                       <ID>334</ID>
                       <Description>"Slot 7"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -1228,11 +1228,11 @@ OC:——其它——
                       <ID>335</ID>
                       <Description>"Slot 8"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -1344,11 +1344,11 @@ OC:——其它——
                       <ID>336</ID>
                       <Description>"Slot 9"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -1460,11 +1460,11 @@ OC:——其它——
                       <ID>337</ID>
                       <Description>"Slot 10"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -1902,11 +1902,11 @@ OG:——其它——
                       <ID>71</ID>
                       <Description>"Card selected by cursor"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -2031,11 +2031,11 @@ OC:——其它——
                     <CheatEntry>
                       <ID>74</ID>
                       <Description>"Suburban Almanac - Plants"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -2153,7 +2153,7 @@ OC:——其它——
 25:女鬼僵尸
 26:忍者小鬼僵尸
 27:僵王博士
-28:豌豆射手僵尸
+28:Peashooter僵尸
 29:坚果墙僵尸
 30:火爆辣椒僵尸
 31:机枪射手僵尸
@@ -2664,11 +2664,11 @@ unregistersymbol(slot)
                       <ID>201</ID>
                       <Description>"Slot 1"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -2714,7 +2714,7 @@ unregistersymbol(slot)
 47:孢子抛射手
 48:回旋花
 49:弹簧豆
-50:粘液豌豆射手
+50:粘液Peashooter
 51:寒冰坚果
 52:月光花
 53:冰山莴苣
@@ -2785,11 +2785,11 @@ OC:——其它——
                       <ID>204</ID>
                       <Description>"Slot 2"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -2835,7 +2835,7 @@ OC:——其它——
 47:孢子抛射手
 48:回旋花
 49:弹簧豆
-50:粘液豌豆射手
+50:粘液Peashooter
 51:寒冰坚果
 52:月光花
 53:冰山莴苣
@@ -2906,11 +2906,11 @@ OC:——其它——
                       <ID>205</ID>
                       <Description>"Slot 3"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -2956,7 +2956,7 @@ OC:——其它——
 47:孢子抛射手
 48:回旋花
 49:弹簧豆
-50:粘液豌豆射手
+50:粘液Peashooter
 51:寒冰坚果
 52:月光花
 53:冰山莴苣
@@ -3027,11 +3027,11 @@ OC:——其它——
                       <ID>206</ID>
                       <Description>"Slot 4"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -3077,7 +3077,7 @@ OC:——其它——
 47:孢子抛射手
 48:回旋花
 49:弹簧豆
-50:粘液豌豆射手
+50:粘液Peashooter
 51:寒冰坚果
 52:月光花
 53:冰山莴苣
@@ -3148,11 +3148,11 @@ OC:——其它——
                       <ID>207</ID>
                       <Description>"Slot 5"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -3198,7 +3198,7 @@ OC:——其它——
 47:孢子抛射手
 48:回旋花
 49:弹簧豆
-50:粘液豌豆射手
+50:粘液Peashooter
 51:寒冰坚果
 52:月光花
 53:冰山莴苣
@@ -3269,11 +3269,11 @@ OC:——其它——
                       <ID>208</ID>
                       <Description>"Slot 6"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -3319,7 +3319,7 @@ OC:——其它——
 47:孢子抛射手
 48:回旋花
 49:弹簧豆
-50:粘液豌豆射手
+50:粘液Peashooter
 51:寒冰坚果
 52:月光花
 53:冰山莴苣
@@ -3390,11 +3390,11 @@ OC:——其它——
                       <ID>209</ID>
                       <Description>"Slot 7"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -3440,7 +3440,7 @@ OC:——其它——
 47:孢子抛射手
 48:回旋花
 49:弹簧豆
-50:粘液豌豆射手
+50:粘液Peashooter
 51:寒冰坚果
 52:月光花
 53:冰山莴苣
@@ -3511,11 +3511,11 @@ OC:——其它——
                       <ID>210</ID>
                       <Description>"Slot 8"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -3561,7 +3561,7 @@ OC:——其它——
 47:孢子抛射手
 48:回旋花
 49:弹簧豆
-50:粘液豌豆射手
+50:粘液Peashooter
 51:寒冰坚果
 52:月光花
 53:冰山莴苣
@@ -3632,11 +3632,11 @@ OC:——其它——
                       <ID>211</ID>
                       <Description>"Slot 9"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -3682,7 +3682,7 @@ OC:——其它——
 47:孢子抛射手
 48:回旋花
 49:弹簧豆
-50:粘液豌豆射手
+50:粘液Peashooter
 51:寒冰坚果
 52:月光花
 53:冰山莴苣
@@ -3753,11 +3753,11 @@ OC:——其它——
                       <ID>212</ID>
                       <Description>"Slot 10"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -3803,7 +3803,7 @@ OC:——其它——
 47:孢子抛射手
 48:回旋花
 49:弹簧豆
-50:粘液豌豆射手
+50:粘液Peashooter
 51:寒冰坚果
 52:月光花
 53:冰山莴苣
@@ -4214,7 +4214,7 @@ OF:——其它——
 33:流浪汉僵尸
 34:武警僵尸
 35:橄榄球巨人僵尸
-36:豌豆射手僵尸
+36:Peashooter僵尸
 37:坚果墙僵尸
 38:火爆辣椒僵尸
 39:机枪射手僵尸
@@ -4241,11 +4241,11 @@ OF:——其它——
                       <ID>199</ID>
                       <Description>"Card selected by cursor"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -4291,7 +4291,7 @@ OF:——其它——
 47:孢子抛射手
 48:回旋花
 49:弹簧豆
-50:粘液豌豆射手
+50:粘液Peashooter
 51:寒冰坚果
 52:月光花
 53:冰山莴苣
@@ -4363,11 +4363,11 @@ OC:——其它——
                     <CheatEntry>
                       <ID>203</ID>
                       <Description>"Suburban Almanac - Plants"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -4413,7 +4413,7 @@ OC:——其它——
 47:孢子抛射手
 48:回旋花
 49:弹簧豆
-50:粘液豌豆射手
+50:粘液Peashooter
 51:寒冰坚果
 52:月光花
 53:冰山莴苣
@@ -4848,10 +4848,10 @@ unregistersymbol(slot)
                       <ID>462</ID>
                       <Description>"Slot 1"</Description>
                       <DropDownList DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -4891,7 +4891,7 @@ unregistersymbol(slot)
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -4948,10 +4948,10 @@ OC:——其它——
                       <ID>468</ID>
                       <Description>"Slot 2"</Description>
                       <DropDownList DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -4991,7 +4991,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -5048,10 +5048,10 @@ OC:——其它——
                       <ID>469</ID>
                       <Description>"Slot 3"</Description>
                       <DropDownList DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -5091,7 +5091,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -5148,10 +5148,10 @@ OC:——其它——
                       <ID>470</ID>
                       <Description>"Slot 4"</Description>
                       <DropDownList DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -5191,7 +5191,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -5248,10 +5248,10 @@ OC:——其它——
                       <ID>471</ID>
                       <Description>"Slot 5"</Description>
                       <DropDownList DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -5291,7 +5291,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -5348,10 +5348,10 @@ OC:——其它——
                       <ID>472</ID>
                       <Description>"Slot 6"</Description>
                       <DropDownList DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -5391,7 +5391,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -5448,10 +5448,10 @@ OC:——其它——
                       <ID>465</ID>
                       <Description>"Slot 7"</Description>
                       <DropDownList DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -5491,7 +5491,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -5548,10 +5548,10 @@ OC:——其它——
                       <ID>466</ID>
                       <Description>"Slot 8"</Description>
                       <DropDownList DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -5591,7 +5591,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -5648,10 +5648,10 @@ OC:——其它——
                       <ID>464</ID>
                       <Description>"Slot 9"</Description>
                       <DropDownList DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -5691,7 +5691,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -5748,10 +5748,10 @@ OC:——其它——
                       <ID>467</ID>
                       <Description>"Slot 10"</Description>
                       <DropDownList DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -5791,7 +5791,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -6113,10 +6113,10 @@ OD:——其它——
                     <CheatEntry>
                       <ID>480</ID>
                       <Description>"Suburban Almanac - Plants"</Description>
-                      <DropDownList DisplayValueAsItem="1">0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+                      <DropDownList DisplayValueAsItem="1">0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -6156,7 +6156,7 @@ OD:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -6217,7 +6217,7 @@ OD:——其它——
 24:小鬼僵尸
 25:僵王博士
 26:暴走巨人僵尸
-27:豌豆射手僵尸
+27:Peashooter僵尸
 28:坚果墙僵尸
 29:火爆辣椒僵尸
 30:机枪射手僵尸
@@ -6633,10 +6633,10 @@ unregistersymbol(slot)
                       <ID>47</ID>
                       <Description>"Slot 1"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -6676,7 +6676,7 @@ unregistersymbol(slot)
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -6733,10 +6733,10 @@ OC:——其它——
                       <ID>49</ID>
                       <Description>"Slot 2"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -6776,7 +6776,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -6833,10 +6833,10 @@ OC:——其它——
                       <ID>50</ID>
                       <Description>"Slot 3"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -6876,7 +6876,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -6933,10 +6933,10 @@ OC:——其它——
                       <ID>51</ID>
                       <Description>"Slot 4"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -6976,7 +6976,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -7033,10 +7033,10 @@ OC:——其它——
                       <ID>52</ID>
                       <Description>"Slot 5"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -7076,7 +7076,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -7133,10 +7133,10 @@ OC:——其它——
                       <ID>53</ID>
                       <Description>"Slot 6"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -7176,7 +7176,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -7233,10 +7233,10 @@ OC:——其它——
                       <ID>54</ID>
                       <Description>"Slot 7"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -7276,7 +7276,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -7333,10 +7333,10 @@ OC:——其它——
                       <ID>55</ID>
                       <Description>"Slot 8"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -7376,7 +7376,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -7433,10 +7433,10 @@ OC:——其它——
                       <ID>56</ID>
                       <Description>"Slot 9"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -7476,7 +7476,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -7533,10 +7533,10 @@ OC:——其它——
                       <ID>57</ID>
                       <Description>"Slot 10"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -7576,7 +7576,7 @@ OC:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -7879,10 +7879,10 @@ OE:——其它——
                       <ID>39</ID>
                       <Description>"选取的植物"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">NA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -7922,7 +7922,7 @@ OE:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -7960,7 +7960,7 @@ NO:——僵尸——
 84:巨人僵尸
 85:小鬼僵尸
 NU:——其它——
-67:豌豆射手的根茎
+67:Peashooter的根茎
 68:漂浮着的花芽
 86:“最后一波”字幕
 </DropDownList>
@@ -8001,10 +8001,10 @@ NU:——其它——
                     <CheatEntry>
                       <ID>40</ID>
                       <Description>"Suburban Almanac - Plants"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
 4:爆炸坚果
 5:竹子
 6:大嘴花
@@ -8044,7 +8044,7 @@ NU:——其它——
 40:寒冰射手
 41:火爆辣椒
 42:咖啡豆
-43:土豆雷
+43:Potato Mine
 44:神圣南瓜头
 45:机枪射手
 46:辣椒投手
@@ -8105,7 +8105,7 @@ NU:——其它——
 24:小鬼僵尸
 25:僵王博士
 26:暴走巨人僵尸
-27:豌豆射手僵尸
+27:Peashooter僵尸
 28:坚果墙僵尸
 29:火爆辣椒僵尸
 30:机枪射手僵尸
@@ -8532,11 +8532,11 @@ unregistersymbol(slot)
                       <ID>116</ID>
                       <Description>"Slot 1"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -8574,7 +8574,7 @@ unregistersymbol(slot)
 39:西瓜投手
 40:金盏花
 41:半边莲投手
-42:毒豌豆射手
+42:毒Peashooter
 43:爆炸藤曼
 44:飓风甘蓝
 45:风铃草
@@ -8634,11 +8634,11 @@ OC:——其它——
                       <ID>118</ID>
                       <Description>"Slot 2"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -8676,7 +8676,7 @@ OC:——其它——
 39:西瓜投手
 40:金盏花
 41:半边莲投手
-42:毒豌豆射手
+42:毒Peashooter
 43:爆炸藤曼
 44:飓风甘蓝
 45:风铃草
@@ -8736,11 +8736,11 @@ OC:——其它——
                       <ID>119</ID>
                       <Description>"Slot 3"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -8778,7 +8778,7 @@ OC:——其它——
 39:西瓜投手
 40:金盏花
 41:半边莲投手
-42:毒豌豆射手
+42:毒Peashooter
 43:爆炸藤曼
 44:飓风甘蓝
 45:风铃草
@@ -8838,11 +8838,11 @@ OC:——其它——
                       <ID>120</ID>
                       <Description>"Slot 4"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -8880,7 +8880,7 @@ OC:——其它——
 39:西瓜投手
 40:金盏花
 41:半边莲投手
-42:毒豌豆射手
+42:毒Peashooter
 43:爆炸藤曼
 44:飓风甘蓝
 45:风铃草
@@ -8940,11 +8940,11 @@ OC:——其它——
                       <ID>121</ID>
                       <Description>"Slot 5"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -8982,7 +8982,7 @@ OC:——其它——
 39:西瓜投手
 40:金盏花
 41:半边莲投手
-42:毒豌豆射手
+42:毒Peashooter
 43:爆炸藤曼
 44:飓风甘蓝
 45:风铃草
@@ -9042,11 +9042,11 @@ OC:——其它——
                       <ID>122</ID>
                       <Description>"Slot 6"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -9084,7 +9084,7 @@ OC:——其它——
 39:西瓜投手
 40:金盏花
 41:半边莲投手
-42:毒豌豆射手
+42:毒Peashooter
 43:爆炸藤曼
 44:飓风甘蓝
 45:风铃草
@@ -9144,11 +9144,11 @@ OC:——其它——
                       <ID>123</ID>
                       <Description>"Slot 7"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -9186,7 +9186,7 @@ OC:——其它——
 39:西瓜投手
 40:金盏花
 41:半边莲投手
-42:毒豌豆射手
+42:毒Peashooter
 43:爆炸藤曼
 44:飓风甘蓝
 45:风铃草
@@ -9246,11 +9246,11 @@ OC:——其它——
                       <ID>124</ID>
                       <Description>"Slot 8"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -9288,7 +9288,7 @@ OC:——其它——
 39:西瓜投手
 40:金盏花
 41:半边莲投手
-42:毒豌豆射手
+42:毒Peashooter
 43:爆炸藤曼
 44:飓风甘蓝
 45:风铃草
@@ -9348,11 +9348,11 @@ OC:——其它——
                       <ID>125</ID>
                       <Description>"Slot 9"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -9390,7 +9390,7 @@ OC:——其它——
 39:西瓜投手
 40:金盏花
 41:半边莲投手
-42:毒豌豆射手
+42:毒Peashooter
 43:爆炸藤曼
 44:飓风甘蓝
 45:风铃草
@@ -9450,11 +9450,11 @@ OC:——其它——
                       <ID>126</ID>
                       <Description>"Slot 10"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -9492,7 +9492,7 @@ OC:——其它——
 39:西瓜投手
 40:金盏花
 41:半边莲投手
-42:毒豌豆射手
+42:毒Peashooter
 43:爆炸藤曼
 44:飓风甘蓝
 45:风铃草
@@ -9764,11 +9764,11 @@ OD:——其它——
                       <ID>114</ID>
                       <Description>"Card selected by cursor"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -9806,7 +9806,7 @@ OD:——其它——
 39:西瓜投手
 40:金盏花
 41:半边莲投手
-42:毒豌豆射手
+42:毒Peashooter
 43:爆炸藤曼
 44:飓风甘蓝
 45:风铃草
@@ -9867,11 +9867,11 @@ OC:——其它——
                     <CheatEntry>
                       <ID>134</ID>
                       <Description>"Suburban Almanac - Plants"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -9909,7 +9909,7 @@ OC:——其它——
 39:西瓜投手
 40:金盏花
 41:半边莲投手
-42:毒豌豆射手
+42:毒Peashooter
 43:爆炸藤曼
 44:飓风甘蓝
 45:风铃草
@@ -9972,7 +9972,7 @@ OC:——其它——
 23:巨人僵尸
 24:小鬼僵尸
 25:僵王博士
-26:豌豆射手僵尸
+26:Peashooter僵尸
 27:坚果墙僵尸
 28:火爆辣椒僵尸
 29:机枪射手僵尸
@@ -10412,11 +10412,11 @@ unregistersymbol(slot)
                       <ID>244</ID>
                       <Description>"Slot 1"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -10460,7 +10460,7 @@ unregistersymbol(slot)
 45:火焰射手
 46:辣椒投手
 47:豌豆迫击炮
-48:强化豌豆射手
+48:强化Peashooter
 49:双子向日葵
 50:爆炸坚果
 51:强化土豆雷
@@ -10523,11 +10523,11 @@ OB:——僵尸——
                       <ID>246</ID>
                       <Description>"Slot 2"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -10571,7 +10571,7 @@ OB:——僵尸——
 45:火焰射手
 46:辣椒投手
 47:豌豆迫击炮
-48:强化豌豆射手
+48:强化Peashooter
 49:双子向日葵
 50:爆炸坚果
 51:强化土豆雷
@@ -10634,11 +10634,11 @@ OB:——僵尸——
                       <ID>247</ID>
                       <Description>"Slot 3"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -10682,7 +10682,7 @@ OB:——僵尸——
 45:火焰射手
 46:辣椒投手
 47:豌豆迫击炮
-48:强化豌豆射手
+48:强化Peashooter
 49:双子向日葵
 50:爆炸坚果
 51:强化土豆雷
@@ -10745,11 +10745,11 @@ OB:——僵尸——
                       <ID>248</ID>
                       <Description>"Slot 4"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -10793,7 +10793,7 @@ OB:——僵尸——
 45:火焰射手
 46:辣椒投手
 47:豌豆迫击炮
-48:强化豌豆射手
+48:强化Peashooter
 49:双子向日葵
 50:爆炸坚果
 51:强化土豆雷
@@ -10856,11 +10856,11 @@ OB:——僵尸——
                       <ID>249</ID>
                       <Description>"Slot 5"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -10904,7 +10904,7 @@ OB:——僵尸——
 45:火焰射手
 46:辣椒投手
 47:豌豆迫击炮
-48:强化豌豆射手
+48:强化Peashooter
 49:双子向日葵
 50:爆炸坚果
 51:强化土豆雷
@@ -10967,11 +10967,11 @@ OB:——僵尸——
                       <ID>250</ID>
                       <Description>"Slot 6"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -11015,7 +11015,7 @@ OB:——僵尸——
 45:火焰射手
 46:辣椒投手
 47:豌豆迫击炮
-48:强化豌豆射手
+48:强化Peashooter
 49:双子向日葵
 50:爆炸坚果
 51:强化土豆雷
@@ -11078,11 +11078,11 @@ OB:——僵尸——
                       <ID>251</ID>
                       <Description>"Slot 7"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -11126,7 +11126,7 @@ OB:——僵尸——
 45:火焰射手
 46:辣椒投手
 47:豌豆迫击炮
-48:强化豌豆射手
+48:强化Peashooter
 49:双子向日葵
 50:爆炸坚果
 51:强化土豆雷
@@ -11189,11 +11189,11 @@ OB:——僵尸——
                       <ID>252</ID>
                       <Description>"Slot 8"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -11237,7 +11237,7 @@ OB:——僵尸——
 45:火焰射手
 46:辣椒投手
 47:豌豆迫击炮
-48:强化豌豆射手
+48:强化Peashooter
 49:双子向日葵
 50:爆炸坚果
 51:强化土豆雷
@@ -11300,11 +11300,11 @@ OB:——僵尸——
                       <ID>253</ID>
                       <Description>"Slot 9"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -11348,7 +11348,7 @@ OB:——僵尸——
 45:火焰射手
 46:辣椒投手
 47:豌豆迫击炮
-48:强化豌豆射手
+48:强化Peashooter
 49:双子向日葵
 50:爆炸坚果
 51:强化土豆雷
@@ -11411,11 +11411,11 @@ OB:——僵尸——
                       <ID>254</ID>
                       <Description>"Slot 10"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -11459,7 +11459,7 @@ OB:——僵尸——
 45:火焰射手
 46:辣椒投手
 47:豌豆迫击炮
-48:强化豌豆射手
+48:强化Peashooter
 49:双子向日葵
 50:爆炸坚果
 51:强化土豆雷
@@ -11760,11 +11760,11 @@ OG:#——此模式不可游玩——#
                       <ID>242</ID>
                       <Description>"Card selected by cursor"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -11808,7 +11808,7 @@ OG:#——此模式不可游玩——#
 45:火焰射手
 46:辣椒投手
 47:豌豆迫击炮
-48:强化豌豆射手
+48:强化Peashooter
 49:双子向日葵
 50:爆炸坚果
 51:强化土豆雷
@@ -11872,11 +11872,11 @@ OB:——僵尸——
                     <CheatEntry>
                       <ID>272</ID>
                       <Description>"Suburban Almanac - Plants"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -11920,7 +11920,7 @@ OB:——僵尸——
 45:火焰射手
 46:辣椒投手
 47:豌豆迫击炮
-48:强化豌豆射手
+48:强化Peashooter
 49:双子向日葵
 50:爆炸坚果
 51:强化土豆雷
@@ -11994,7 +11994,7 @@ OB:——僵尸——
 31:水手巨人僵尸
 32:破布小鬼僵尸
 33:带帽小鬼僵尸
-34:豌豆射手僵尸
+34:Peashooter僵尸
 35:坚果墙僵尸
 36:火爆辣椒僵尸
 37:机枪射手僵尸
@@ -13051,7 +13051,7 @@ OB:——僵尸——
 66:炸弹
 67:装甲步兵
 68:飞机(气球僵尸)
-69:步兵(豌豆射手僵尸)
+69:步兵(Peashooter僵尸)
 70:坦克
 71:跳跳僵尸
 72:冲击者
@@ -13142,7 +13142,7 @@ OB:——僵尸——
 66:炸弹
 67:装甲步兵
 68:飞机(气球僵尸)
-69:步兵(豌豆射手僵尸)
+69:步兵(Peashooter僵尸)
 70:坦克
 71:跳跳僵尸
 72:冲击者
@@ -13233,7 +13233,7 @@ OB:——僵尸——
 66:炸弹
 67:装甲步兵
 68:飞机(气球僵尸)
-69:步兵(豌豆射手僵尸)
+69:步兵(Peashooter僵尸)
 70:坦克
 71:跳跳僵尸
 72:冲击者
@@ -13324,7 +13324,7 @@ OB:——僵尸——
 66:炸弹
 67:装甲步兵
 68:飞机(气球僵尸)
-69:步兵(豌豆射手僵尸)
+69:步兵(Peashooter僵尸)
 70:坦克
 71:跳跳僵尸
 72:冲击者
@@ -13415,7 +13415,7 @@ OB:——僵尸——
 66:炸弹
 67:装甲步兵
 68:飞机(气球僵尸)
-69:步兵(豌豆射手僵尸)
+69:步兵(Peashooter僵尸)
 70:坦克
 71:跳跳僵尸
 72:冲击者
@@ -13506,7 +13506,7 @@ OB:——僵尸——
 66:炸弹
 67:装甲步兵
 68:飞机(气球僵尸)
-69:步兵(豌豆射手僵尸)
+69:步兵(Peashooter僵尸)
 70:坦克
 71:跳跳僵尸
 72:冲击者
@@ -13597,7 +13597,7 @@ OB:——僵尸——
 66:炸弹
 67:装甲步兵
 68:飞机(气球僵尸)
-69:步兵(豌豆射手僵尸)
+69:步兵(Peashooter僵尸)
 70:坦克
 71:跳跳僵尸
 72:冲击者
@@ -13688,7 +13688,7 @@ OB:——僵尸——
 66:炸弹
 67:装甲步兵
 68:飞机(气球僵尸)
-69:步兵(豌豆射手僵尸)
+69:步兵(Peashooter僵尸)
 70:坦克
 71:跳跳僵尸
 72:冲击者
@@ -13779,7 +13779,7 @@ OB:——僵尸——
 66:炸弹
 67:装甲步兵
 68:飞机(气球僵尸)
-69:步兵(豌豆射手僵尸)
+69:步兵(Peashooter僵尸)
 70:坦克
 71:跳跳僵尸
 72:冲击者
@@ -13870,7 +13870,7 @@ OB:——僵尸——
 66:炸弹
 67:装甲步兵
 68:飞机(气球僵尸)
-69:步兵(豌豆射手僵尸)
+69:步兵(Peashooter僵尸)
 70:坦克
 71:跳跳僵尸
 72:冲击者
@@ -14403,11 +14403,11 @@ unregistersymbol(slot)
                       <ID>169</ID>
                       <Description>"Slot 1"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -14487,7 +14487,7 @@ OB:——僵尸——
 151:巨人僵尸
 152:小鬼僵尸
 153:僵王博士
-154:豌豆射手僵尸
+154:Peashooter僵尸
 155:坚果墙僵尸
 156:火爆辣椒僵尸
 157:机枪射手僵尸
@@ -14532,11 +14532,11 @@ OC:——其它——
                       <ID>167</ID>
                       <Description>"Slot 2"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -14616,7 +14616,7 @@ OB:——僵尸——
 151:巨人僵尸
 152:小鬼僵尸
 153:僵王博士
-154:豌豆射手僵尸
+154:Peashooter僵尸
 155:坚果墙僵尸
 156:火爆辣椒僵尸
 157:机枪射手僵尸
@@ -14661,11 +14661,11 @@ OC:——其它——
                       <ID>170</ID>
                       <Description>"Slot 3"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -14745,7 +14745,7 @@ OB:——僵尸——
 151:巨人僵尸
 152:小鬼僵尸
 153:僵王博士
-154:豌豆射手僵尸
+154:Peashooter僵尸
 155:坚果墙僵尸
 156:火爆辣椒僵尸
 157:机枪射手僵尸
@@ -14790,11 +14790,11 @@ OC:——其它——
                       <ID>171</ID>
                       <Description>"Slot 4"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -14874,7 +14874,7 @@ OB:——僵尸——
 151:巨人僵尸
 152:小鬼僵尸
 153:僵王博士
-154:豌豆射手僵尸
+154:Peashooter僵尸
 155:坚果墙僵尸
 156:火爆辣椒僵尸
 157:机枪射手僵尸
@@ -14919,11 +14919,11 @@ OC:——其它——
                       <ID>172</ID>
                       <Description>"Slot 5"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -15003,7 +15003,7 @@ OB:——僵尸——
 151:巨人僵尸
 152:小鬼僵尸
 153:僵王博士
-154:豌豆射手僵尸
+154:Peashooter僵尸
 155:坚果墙僵尸
 156:火爆辣椒僵尸
 157:机枪射手僵尸
@@ -15048,11 +15048,11 @@ OC:——其它——
                       <ID>173</ID>
                       <Description>"Slot 6"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -15132,7 +15132,7 @@ OB:——僵尸——
 151:巨人僵尸
 152:小鬼僵尸
 153:僵王博士
-154:豌豆射手僵尸
+154:Peashooter僵尸
 155:坚果墙僵尸
 156:火爆辣椒僵尸
 157:机枪射手僵尸
@@ -15177,11 +15177,11 @@ OC:——其它——
                       <ID>174</ID>
                       <Description>"Slot 7"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -15261,7 +15261,7 @@ OB:——僵尸——
 151:巨人僵尸
 152:小鬼僵尸
 153:僵王博士
-154:豌豆射手僵尸
+154:Peashooter僵尸
 155:坚果墙僵尸
 156:火爆辣椒僵尸
 157:机枪射手僵尸
@@ -15306,11 +15306,11 @@ OC:——其它——
                       <ID>175</ID>
                       <Description>"Slot 8"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -15390,7 +15390,7 @@ OB:——僵尸——
 151:巨人僵尸
 152:小鬼僵尸
 153:僵王博士
-154:豌豆射手僵尸
+154:Peashooter僵尸
 155:坚果墙僵尸
 156:火爆辣椒僵尸
 157:机枪射手僵尸
@@ -15435,11 +15435,11 @@ OC:——其它——
                       <ID>176</ID>
                       <Description>"Slot 9"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -15519,7 +15519,7 @@ OB:——僵尸——
 151:巨人僵尸
 152:小鬼僵尸
 153:僵王博士
-154:豌豆射手僵尸
+154:Peashooter僵尸
 155:坚果墙僵尸
 156:火爆辣椒僵尸
 157:机枪射手僵尸
@@ -15564,11 +15564,11 @@ OC:——其它——
                       <ID>177</ID>
                       <Description>"Slot 10"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
-0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -15648,7 +15648,7 @@ OB:——僵尸——
 151:巨人僵尸
 152:小鬼僵尸
 153:僵王博士
-154:豌豆射手僵尸
+154:Peashooter僵尸
 155:坚果墙僵尸
 156:火爆辣椒僵尸
 157:机枪射手僵尸
@@ -15999,11 +15999,11 @@ unregistersymbol(curselect)
                     <CheatEntry>
                       <ID>185</ID>
                       <Description>"Suburban Almanac - Plants"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:豌豆射手
-1:向日葵
-2:樱桃炸弹
-3:坚果墙
-4:土豆雷
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Peashooter
+1:Sunflower
+2:Cherry Bomb
+3:Wall-nut
+4:Potato Mine
 5:寒冰射手
 6:大嘴花
 7:双发射手
@@ -16096,7 +16096,7 @@ unregistersymbol(curselect)
 23:巨人僵尸
 24:小鬼僵尸
 25:僵王博士
-26:豌豆射手僵尸
+26:Peashooter僵尸
 27:坚果墙僵尸
 28:火爆辣椒僵尸
 29:机枪射手僵尸
