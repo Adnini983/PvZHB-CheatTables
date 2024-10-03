@@ -4129,6 +4129,59 @@ OF:——其它——
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
+                      <ID>498</ID>
+                      <Description>"Level Objectives"</Description>
+                      <Options moHideChildren="1"/>
+                      <GroupHeader>1</GroupHeader>
+                      <Address/>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>495</ID>
+                          <Description>"Produce at Least * Sun"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>PlantsVsZombies.exe+464B18</Address>
+                          <Offsets>
+                            <Offset>33D40</Offset>
+                            <Offset>6E0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>497</ID>
+                          <Description>"Do not Spend More Than * Sun"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>PlantsVsZombies.exe+464B18</Address>
+                          <Offsets>
+                            <Offset>33D3C</Offset>
+                            <Offset>6E0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>496</ID>
+                          <Description>"Never Lost More Than * Plants"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>PlantsVsZombies.exe+464B18</Address>
+                          <Offsets>
+                            <Offset>33D3C</Offset>
+                            <Offset>6E0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>499</ID>
+                          <Description>"Never Have More Than * Plants"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>PlantsVsZombies.exe+464B18</Address>
+                          <Offsets>
+                            <Offset>33D38</Offset>
+                            <Offset>6E0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
                       <ID>361</ID>
                       <Description>"Survival Mode Level"</Description>
                       <ShowAsSigned>0</ShowAsSigned>

@@ -4129,6 +4129,59 @@ OF:——其它——
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
+                      <ID>500</ID>
+                      <Description>"附加规则"</Description>
+                      <Options moHideChildren="1"/>
+                      <GroupHeader>1</GroupHeader>
+                      <Address/>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>495</ID>
+                          <Description>"需要生产的阳光数量"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>PlantsVsZombies.exe+464B18</Address>
+                          <Offsets>
+                            <Offset>33D40</Offset>
+                            <Offset>6E0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>496</ID>
+                          <Description>"可使用的阳光上限"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>PlantsVsZombies.exe+464B18</Address>
+                          <Offsets>
+                            <Offset>33D48</Offset>
+                            <Offset>6E0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>499</ID>
+                          <Description>"可拥有的植物数量"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>PlantsVsZombies.exe+464B18</Address>
+                          <Offsets>
+                            <Offset>33D38</Offset>
+                            <Offset>6E0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>497</ID>
+                          <Description>"可失去的植物数量"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>PlantsVsZombies.exe+464B18</Address>
+                          <Offsets>
+                            <Offset>33D3C</Offset>
+                            <Offset>6E0</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
                       <ID>361</ID>
                       <Description>"无尽轮数"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
@@ -4163,50 +4216,6 @@ OF:——其它——
                         <Offset>31634</Offset>
                         <Offset>04</Offset>
                         <Offset>190</Offset>
-                        <Offset>6E0</Offset>
-                      </Offsets>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>495</ID>
-                      <Description>"需要生产的阳光数量"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>PlantsVsZombies.exe+464B18</Address>
-                      <Offsets>
-                        <Offset>33D40</Offset>
-                        <Offset>6E0</Offset>
-                      </Offsets>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>496</ID>
-                      <Description>"可使用的阳光上限"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>PlantsVsZombies.exe+464B18</Address>
-                      <Offsets>
-                        <Offset>33D48</Offset>
-                        <Offset>6E0</Offset>
-                      </Offsets>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>499</ID>
-                      <Description>"可拥有的植物数量"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>PlantsVsZombies.exe+464B18</Address>
-                      <Offsets>
-                        <Offset>33D38</Offset>
-                        <Offset>6E0</Offset>
-                      </Offsets>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>497</ID>
-                      <Description>"可失去的植物数量"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>PlantsVsZombies.exe+464B18</Address>
-                      <Offsets>
-                        <Offset>33D3C</Offset>
                         <Offset>6E0</Offset>
                       </Offsets>
                     </CheatEntry>
@@ -16192,12 +16201,6 @@ unregistersymbol(curselect)
       <ShowAsSigned>0</ShowAsSigned>
       <GroupHeader>1</GroupHeader>
       <Address/>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>498</ID>
-      <Description>"无描述"</Description>
-      <VariableType>Float</VariableType>
-      <Address>237E8E44</Address>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
