@@ -4166,6 +4166,50 @@ OF:——其它——
                         <Offset>6E0</Offset>
                       </Offsets>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>495</ID>
+                      <Description>"需要生产的阳光数量"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+464B18</Address>
+                      <Offsets>
+                        <Offset>33D40</Offset>
+                        <Offset>6E0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>496</ID>
+                      <Description>"可使用的阳光上限"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+464B18</Address>
+                      <Offsets>
+                        <Offset>33D48</Offset>
+                        <Offset>6E0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>499</ID>
+                      <Description>"可拥有的植物数量"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+464B18</Address>
+                      <Offsets>
+                        <Offset>33D38</Offset>
+                        <Offset>6E0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>497</ID>
+                      <Description>"可失去的植物数量"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+464B18</Address>
+                      <Offsets>
+                        <Offset>33D3C</Offset>
+                        <Offset>6E0</Offset>
+                      </Offsets>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
@@ -16148,6 +16192,12 @@ unregistersymbol(curselect)
       <ShowAsSigned>0</ShowAsSigned>
       <GroupHeader>1</GroupHeader>
       <Address/>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>498</ID>
+      <Description>"无描述"</Description>
+      <VariableType>Float</VariableType>
+      <Address>237E8E44</Address>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
