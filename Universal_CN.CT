@@ -12821,7 +12821,7 @@ db 0F 85 E5 00 00 00
           <CheatEntries>
             <CheatEntry>
               <ID>141</ID>
-              <Description>"公测I版V0.1"</Description>
+              <Description>"公测2版"</Description>
               <Options moHideChildren="1"/>
               <GroupHeader>1</GroupHeader>
               <Address/>
@@ -13040,7 +13040,7 @@ db 8B 02 85 C0 89 44 24 3C
                     <CheatEntry>
                       <ID>364</ID>
                       <Description>"卡槽1"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
 0:豌豆下士
 1:向日葵后勤
 2:分裂樱桃炸弹
@@ -13050,7 +13050,7 @@ db 8B 02 85 C0 89 44 24 3C
 6:极寒冰蒺藜
 7:橙子
 8:近距离射手
-9:月光蘑菇
+9:月亮豆
 10:火焰菇
 11:苔藓
 12:策反菇
@@ -13058,7 +13058,7 @@ db 8B 02 85 C0 89 44 24 3C
 14:霜雪冰菇
 15:大型炸药
 16:荷叶
-17:倭瓜
+17:召唤P-2轰炸机
 18:豌豆突击队
 19:水雷
 20:辣椒
@@ -13069,18 +13069,18 @@ db 8B 02 85 C0 89 44 24 3C
 25:苹果
 26:寒冰防空炮
 27:三叶草
-28:装甲豌豆
-29:星尘
+28:T-34坦克
+29:豌豆星
 30:碉堡
 31:坦克
 32:菠萝迫击炮
 33:飞机
 34:玉米炮手
 35:生长素
-36:甩葱miku
+36:毁灭菇集群
 37:保护伞
-38:金盏花
-39:火炮
+38:向日葵指挥官
+39:反坦克炮
 40:超级机枪
 41:九头向日葵
 42:忧郁蘑菇
@@ -13094,6 +13094,7 @@ db 8B 02 85 C0 89 44 24 3C
 50:坦克坚果
 51:幼苗
 52:橙子(反向)
+80:随机的惊喜
 OB:——僵尸——
 60:步兵
 61:步兵(路障僵尸)
@@ -13118,6 +13119,7 @@ OC:——其它——
 58:购买潜水僵尸
 59:购买奖杯
 75:Null
+79:Null
 </DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -13131,7 +13133,7 @@ OC:——其它——
                     <CheatEntry>
                       <ID>365</ID>
                       <Description>"卡槽2"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
 0:豌豆下士
 1:向日葵后勤
 2:分裂樱桃炸弹
@@ -13141,7 +13143,7 @@ OC:——其它——
 6:极寒冰蒺藜
 7:橙子
 8:近距离射手
-9:月光蘑菇
+9:月亮豆
 10:火焰菇
 11:苔藓
 12:策反菇
@@ -13149,7 +13151,7 @@ OC:——其它——
 14:霜雪冰菇
 15:大型炸药
 16:荷叶
-17:倭瓜
+17:召唤P-2轰炸机
 18:豌豆突击队
 19:水雷
 20:辣椒
@@ -13160,18 +13162,18 @@ OC:——其它——
 25:苹果
 26:寒冰防空炮
 27:三叶草
-28:装甲豌豆
-29:星尘
+28:T-34坦克
+29:豌豆星
 30:碉堡
 31:坦克
 32:菠萝迫击炮
 33:飞机
 34:玉米炮手
 35:生长素
-36:甩葱miku
+36:毁灭菇集群
 37:保护伞
-38:金盏花
-39:火炮
+38:向日葵指挥官
+39:反坦克炮
 40:超级机枪
 41:九头向日葵
 42:忧郁蘑菇
@@ -13185,6 +13187,7 @@ OC:——其它——
 50:坦克坚果
 51:幼苗
 52:橙子(反向)
+80:随机的惊喜
 OB:——僵尸——
 60:步兵
 61:步兵(路障僵尸)
@@ -13209,6 +13212,7 @@ OC:——其它——
 58:购买潜水僵尸
 59:购买奖杯
 75:Null
+79:Null
 </DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -13222,7 +13226,7 @@ OC:——其它——
                     <CheatEntry>
                       <ID>366</ID>
                       <Description>"卡槽3"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
 0:豌豆下士
 1:向日葵后勤
 2:分裂樱桃炸弹
@@ -13232,7 +13236,7 @@ OC:——其它——
 6:极寒冰蒺藜
 7:橙子
 8:近距离射手
-9:月光蘑菇
+9:月亮豆
 10:火焰菇
 11:苔藓
 12:策反菇
@@ -13240,7 +13244,7 @@ OC:——其它——
 14:霜雪冰菇
 15:大型炸药
 16:荷叶
-17:倭瓜
+17:召唤P-2轰炸机
 18:豌豆突击队
 19:水雷
 20:辣椒
@@ -13251,18 +13255,18 @@ OC:——其它——
 25:苹果
 26:寒冰防空炮
 27:三叶草
-28:装甲豌豆
-29:星尘
+28:T-34坦克
+29:豌豆星
 30:碉堡
 31:坦克
 32:菠萝迫击炮
 33:飞机
 34:玉米炮手
 35:生长素
-36:甩葱miku
+36:毁灭菇集群
 37:保护伞
-38:金盏花
-39:火炮
+38:向日葵指挥官
+39:反坦克炮
 40:超级机枪
 41:九头向日葵
 42:忧郁蘑菇
@@ -13276,6 +13280,7 @@ OC:——其它——
 50:坦克坚果
 51:幼苗
 52:橙子(反向)
+80:随机的惊喜
 OB:——僵尸——
 60:步兵
 61:步兵(路障僵尸)
@@ -13300,6 +13305,7 @@ OC:——其它——
 58:购买潜水僵尸
 59:购买奖杯
 75:Null
+79:Null
 </DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -13313,7 +13319,7 @@ OC:——其它——
                     <CheatEntry>
                       <ID>367</ID>
                       <Description>"卡槽4"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
 0:豌豆下士
 1:向日葵后勤
 2:分裂樱桃炸弹
@@ -13323,7 +13329,7 @@ OC:——其它——
 6:极寒冰蒺藜
 7:橙子
 8:近距离射手
-9:月光蘑菇
+9:月亮豆
 10:火焰菇
 11:苔藓
 12:策反菇
@@ -13331,7 +13337,7 @@ OC:——其它——
 14:霜雪冰菇
 15:大型炸药
 16:荷叶
-17:倭瓜
+17:召唤P-2轰炸机
 18:豌豆突击队
 19:水雷
 20:辣椒
@@ -13342,18 +13348,18 @@ OC:——其它——
 25:苹果
 26:寒冰防空炮
 27:三叶草
-28:装甲豌豆
-29:星尘
+28:T-34坦克
+29:豌豆星
 30:碉堡
 31:坦克
 32:菠萝迫击炮
 33:飞机
 34:玉米炮手
 35:生长素
-36:甩葱miku
+36:毁灭菇集群
 37:保护伞
-38:金盏花
-39:火炮
+38:向日葵指挥官
+39:反坦克炮
 40:超级机枪
 41:九头向日葵
 42:忧郁蘑菇
@@ -13367,6 +13373,7 @@ OC:——其它——
 50:坦克坚果
 51:幼苗
 52:橙子(反向)
+80:随机的惊喜
 OB:——僵尸——
 60:步兵
 61:步兵(路障僵尸)
@@ -13391,6 +13398,7 @@ OC:——其它——
 58:购买潜水僵尸
 59:购买奖杯
 75:Null
+79:Null
 </DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -13404,7 +13412,7 @@ OC:——其它——
                     <CheatEntry>
                       <ID>368</ID>
                       <Description>"卡槽5"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
 0:豌豆下士
 1:向日葵后勤
 2:分裂樱桃炸弹
@@ -13414,7 +13422,7 @@ OC:——其它——
 6:极寒冰蒺藜
 7:橙子
 8:近距离射手
-9:月光蘑菇
+9:月亮豆
 10:火焰菇
 11:苔藓
 12:策反菇
@@ -13422,7 +13430,7 @@ OC:——其它——
 14:霜雪冰菇
 15:大型炸药
 16:荷叶
-17:倭瓜
+17:召唤P-2轰炸机
 18:豌豆突击队
 19:水雷
 20:辣椒
@@ -13433,18 +13441,18 @@ OC:——其它——
 25:苹果
 26:寒冰防空炮
 27:三叶草
-28:装甲豌豆
-29:星尘
+28:T-34坦克
+29:豌豆星
 30:碉堡
 31:坦克
 32:菠萝迫击炮
 33:飞机
 34:玉米炮手
 35:生长素
-36:甩葱miku
+36:毁灭菇集群
 37:保护伞
-38:金盏花
-39:火炮
+38:向日葵指挥官
+39:反坦克炮
 40:超级机枪
 41:九头向日葵
 42:忧郁蘑菇
@@ -13458,6 +13466,7 @@ OC:——其它——
 50:坦克坚果
 51:幼苗
 52:橙子(反向)
+80:随机的惊喜
 OB:——僵尸——
 60:步兵
 61:步兵(路障僵尸)
@@ -13482,6 +13491,7 @@ OC:——其它——
 58:购买潜水僵尸
 59:购买奖杯
 75:Null
+79:Null
 </DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -13495,7 +13505,7 @@ OC:——其它——
                     <CheatEntry>
                       <ID>369</ID>
                       <Description>"卡槽6"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
 0:豌豆下士
 1:向日葵后勤
 2:分裂樱桃炸弹
@@ -13505,7 +13515,7 @@ OC:——其它——
 6:极寒冰蒺藜
 7:橙子
 8:近距离射手
-9:月光蘑菇
+9:月亮豆
 10:火焰菇
 11:苔藓
 12:策反菇
@@ -13513,7 +13523,7 @@ OC:——其它——
 14:霜雪冰菇
 15:大型炸药
 16:荷叶
-17:倭瓜
+17:召唤P-2轰炸机
 18:豌豆突击队
 19:水雷
 20:辣椒
@@ -13524,18 +13534,18 @@ OC:——其它——
 25:苹果
 26:寒冰防空炮
 27:三叶草
-28:装甲豌豆
-29:星尘
+28:T-34坦克
+29:豌豆星
 30:碉堡
 31:坦克
 32:菠萝迫击炮
 33:飞机
 34:玉米炮手
 35:生长素
-36:甩葱miku
+36:毁灭菇集群
 37:保护伞
-38:金盏花
-39:火炮
+38:向日葵指挥官
+39:反坦克炮
 40:超级机枪
 41:九头向日葵
 42:忧郁蘑菇
@@ -13549,6 +13559,7 @@ OC:——其它——
 50:坦克坚果
 51:幼苗
 52:橙子(反向)
+80:随机的惊喜
 OB:——僵尸——
 60:步兵
 61:步兵(路障僵尸)
@@ -13573,6 +13584,7 @@ OC:——其它——
 58:购买潜水僵尸
 59:购买奖杯
 75:Null
+79:Null
 </DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -13586,7 +13598,7 @@ OC:——其它——
                     <CheatEntry>
                       <ID>370</ID>
                       <Description>"卡槽7"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
 0:豌豆下士
 1:向日葵后勤
 2:分裂樱桃炸弹
@@ -13596,7 +13608,7 @@ OC:——其它——
 6:极寒冰蒺藜
 7:橙子
 8:近距离射手
-9:月光蘑菇
+9:月亮豆
 10:火焰菇
 11:苔藓
 12:策反菇
@@ -13604,7 +13616,7 @@ OC:——其它——
 14:霜雪冰菇
 15:大型炸药
 16:荷叶
-17:倭瓜
+17:召唤P-2轰炸机
 18:豌豆突击队
 19:水雷
 20:辣椒
@@ -13615,18 +13627,18 @@ OC:——其它——
 25:苹果
 26:寒冰防空炮
 27:三叶草
-28:装甲豌豆
-29:星尘
+28:T-34坦克
+29:豌豆星
 30:碉堡
 31:坦克
 32:菠萝迫击炮
 33:飞机
 34:玉米炮手
 35:生长素
-36:甩葱miku
+36:毁灭菇集群
 37:保护伞
-38:金盏花
-39:火炮
+38:向日葵指挥官
+39:反坦克炮
 40:超级机枪
 41:九头向日葵
 42:忧郁蘑菇
@@ -13640,6 +13652,7 @@ OC:——其它——
 50:坦克坚果
 51:幼苗
 52:橙子(反向)
+80:随机的惊喜
 OB:——僵尸——
 60:步兵
 61:步兵(路障僵尸)
@@ -13664,6 +13677,7 @@ OC:——其它——
 58:购买潜水僵尸
 59:购买奖杯
 75:Null
+79:Null
 </DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -13677,7 +13691,7 @@ OC:——其它——
                     <CheatEntry>
                       <ID>371</ID>
                       <Description>"卡槽8"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
 0:豌豆下士
 1:向日葵后勤
 2:分裂樱桃炸弹
@@ -13687,7 +13701,7 @@ OC:——其它——
 6:极寒冰蒺藜
 7:橙子
 8:近距离射手
-9:月光蘑菇
+9:月亮豆
 10:火焰菇
 11:苔藓
 12:策反菇
@@ -13695,7 +13709,7 @@ OC:——其它——
 14:霜雪冰菇
 15:大型炸药
 16:荷叶
-17:倭瓜
+17:召唤P-2轰炸机
 18:豌豆突击队
 19:水雷
 20:辣椒
@@ -13706,18 +13720,18 @@ OC:——其它——
 25:苹果
 26:寒冰防空炮
 27:三叶草
-28:装甲豌豆
-29:星尘
+28:T-34坦克
+29:豌豆星
 30:碉堡
 31:坦克
 32:菠萝迫击炮
 33:飞机
 34:玉米炮手
 35:生长素
-36:甩葱miku
+36:毁灭菇集群
 37:保护伞
-38:金盏花
-39:火炮
+38:向日葵指挥官
+39:反坦克炮
 40:超级机枪
 41:九头向日葵
 42:忧郁蘑菇
@@ -13731,6 +13745,7 @@ OC:——其它——
 50:坦克坚果
 51:幼苗
 52:橙子(反向)
+80:随机的惊喜
 OB:——僵尸——
 60:步兵
 61:步兵(路障僵尸)
@@ -13755,6 +13770,7 @@ OC:——其它——
 58:购买潜水僵尸
 59:购买奖杯
 75:Null
+79:Null
 </DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -13768,7 +13784,7 @@ OC:——其它——
                     <CheatEntry>
                       <ID>372</ID>
                       <Description>"卡槽9"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
 0:豌豆下士
 1:向日葵后勤
 2:分裂樱桃炸弹
@@ -13778,7 +13794,7 @@ OC:——其它——
 6:极寒冰蒺藜
 7:橙子
 8:近距离射手
-9:月光蘑菇
+9:月亮豆
 10:火焰菇
 11:苔藓
 12:策反菇
@@ -13786,7 +13802,7 @@ OC:——其它——
 14:霜雪冰菇
 15:大型炸药
 16:荷叶
-17:倭瓜
+17:召唤P-2轰炸机
 18:豌豆突击队
 19:水雷
 20:辣椒
@@ -13797,18 +13813,18 @@ OC:——其它——
 25:苹果
 26:寒冰防空炮
 27:三叶草
-28:装甲豌豆
-29:星尘
+28:T-34坦克
+29:豌豆星
 30:碉堡
 31:坦克
 32:菠萝迫击炮
 33:飞机
 34:玉米炮手
 35:生长素
-36:甩葱miku
+36:毁灭菇集群
 37:保护伞
-38:金盏花
-39:火炮
+38:向日葵指挥官
+39:反坦克炮
 40:超级机枪
 41:九头向日葵
 42:忧郁蘑菇
@@ -13822,6 +13838,7 @@ OC:——其它——
 50:坦克坚果
 51:幼苗
 52:橙子(反向)
+80:随机的惊喜
 OB:——僵尸——
 60:步兵
 61:步兵(路障僵尸)
@@ -13846,6 +13863,7 @@ OC:——其它——
 58:购买潜水僵尸
 59:购买奖杯
 75:Null
+79:Null
 </DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -13859,7 +13877,7 @@ OC:——其它——
                     <CheatEntry>
                       <ID>373</ID>
                       <Description>"卡槽10"</Description>
-                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
 0:豌豆下士
 1:向日葵后勤
 2:分裂樱桃炸弹
@@ -13869,7 +13887,7 @@ OC:——其它——
 6:极寒冰蒺藜
 7:橙子
 8:近距离射手
-9:月光蘑菇
+9:月亮豆
 10:火焰菇
 11:苔藓
 12:策反菇
@@ -13877,7 +13895,7 @@ OC:——其它——
 14:霜雪冰菇
 15:大型炸药
 16:荷叶
-17:倭瓜
+17:召唤P-2轰炸机
 18:豌豆突击队
 19:水雷
 20:辣椒
@@ -13888,18 +13906,18 @@ OC:——其它——
 25:苹果
 26:寒冰防空炮
 27:三叶草
-28:装甲豌豆
-29:星尘
+28:T-34坦克
+29:豌豆星
 30:碉堡
 31:坦克
 32:菠萝迫击炮
 33:飞机
 34:玉米炮手
 35:生长素
-36:甩葱miku
+36:毁灭菇集群
 37:保护伞
-38:金盏花
-39:火炮
+38:向日葵指挥官
+39:反坦克炮
 40:超级机枪
 41:九头向日葵
 42:忧郁蘑菇
@@ -13913,6 +13931,7 @@ OC:——其它——
 50:坦克坚果
 51:幼苗
 52:橙子(反向)
+80:随机的惊喜
 OB:——僵尸——
 60:步兵
 61:步兵(路障僵尸)
@@ -13937,6 +13956,7 @@ OC:——其它——
 58:购买潜水僵尸
 59:购买奖杯
 75:Null
+79:Null
 </DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -14140,6 +14160,12 @@ db 0F 85 E5 00 00 00
                   <Address/>
                   <CheatEntries>
                     <CheatEntry>
+                      <ID>539</ID>
+                      <Description>"游戏页面滚动"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+3DFF08</Address>
+                    </CheatEntry>
+                    <CheatEntry>
                       <ID>436</ID>
                       <Description>"植物图鉴"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
@@ -14154,6 +14180,1435 @@ db 0F 85 E5 00 00 00
                     <CheatEntry>
                       <ID>151</ID>
                       <Description>"光标选择的种子包"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆下士
+1:向日葵后勤
+2:分裂樱桃炸弹
+3:坚果防卫墙
+4:土豆地雷
+5:胡萝卜火箭炮
+6:极寒冰蒺藜
+7:橙子
+8:近距离射手
+9:月亮豆
+10:火焰菇
+11:苔藓
+12:策反菇
+13:油桃爆破手
+14:霜雪冰菇
+15:大型炸药
+16:荷叶
+17:召唤P-2轰炸机
+18:豌豆突击队
+19:水雷
+20:辣椒
+21:反坦克地雷
+22:丙丁离火甲乙木
+23:混凝土坚果
+24:海军蘑菇
+25:苹果
+26:寒冰防空炮
+27:三叶草
+28:T-34坦克
+29:豌豆星
+30:碉堡
+31:坦克
+32:菠萝迫击炮
+33:飞机
+34:玉米炮手
+35:生长素
+36:毁灭菇集群
+37:保护伞
+38:向日葵指挥官
+39:反坦克炮
+40:超级机枪
+41:九头向日葵
+42:忧郁蘑菇
+43:驱逐猫尾舰
+44:喀秋莎火箭炮
+45:电磁脉冲菇
+46:反坦克地雷(地刺王)
+47:重型榴弹炮
+48:模仿者
+49:鱼雷坚果
+50:坦克坚果
+51:幼苗
+52:橙子(反向)
+80:随机的惊喜
+OB:——僵尸——
+60:步兵
+61:步兵(路障僵尸)
+62:摩托化步兵
+63:步兵(铁桶僵尸)
+64:工兵
+65:导弹
+66:炸弹
+67:装甲步兵
+68:飞机(气球僵尸)
+69:步兵(豌豆射手僵尸)
+70:坦克
+71:跳跳僵尸
+72:冲击者
+73:搬运兵
+74:军官
+OC:——其它——
+54:拖拽植物
+55:填补土坑
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+75:Null
+79:Null
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                      <Offsets>
+                        <Offset>28</Offset>
+                        <Offset>138</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>501</ID>
+              <Description>"公测I版V0.1"</Description>
+              <Options moHideChildren="1"/>
+              <GroupHeader>1</GroupHeader>
+              <Address/>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>502</ID>
+                  <Description>"基址"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>503</ID>
+                  <Description>"常用功能"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>504</ID>
+                      <Description>"阳光"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                      <Offsets>
+                        <Offset>5560</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>505</ID>
+                      <Description>"金币"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                      <Offsets>
+                        <Offset>28</Offset>
+                        <Offset>82C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>506</ID>
+                      <Description>"无需冷却"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+cmp eax,[edi+28]
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+87290:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PlantsVsZombies.exe"+87290:
+db 8B 47 24 3B 47 28
+//mov eax,[edi+24]
+//cmp eax,[edi+28]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>507</ID>
+                      <Description>"重叠种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+jmp PlantsVsZombies.exe+10754
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+FE2F:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"PlantsVsZombies.exe"+FE2F:
+db 0F 84 1F 09 00 00
+//je PlantsVsZombies.exe+10754
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>508</ID>
+                      <Description>"花瓶透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+mov [ebp+4C],32
+originalcode:
+cmp dword ptr [ebp+4C],00
+jng 0044DF16
+
+exit:
+jmp returnhere
+
+0044DBF4:
+jmp newmem
+nop 5
+returnhere:
+
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0044DBF4:
+db 83 7D 4C 00 0F 8E 18 03 00 00
+//cmp dword ptr [ebp+4C],00
+//jng 0044DF16
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>509</ID>
+                      <Description>"浓雾透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov eax,#0//[edx]
+test eax,eax
+mov [esp+3C],eax
+
+exit:
+jmp returnhere
+
+0041A78F:
+jmp newmem
+nop 3
+returnhere:
+
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0041A78F:
+db 8B 02 85 C0 89 44 24 3C
+//mov eax,[edx]
+//test eax,eax
+//mov [esp+3C],eax
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>510</ID>
+                  <Description>"卡槽修改"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>511</ID>
+                      <Description>"卡槽数量"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>24</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>512</ID>
+                      <Description>"卡槽1"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+0:豌豆下士
+1:向日葵后勤
+2:分裂樱桃炸弹
+3:坚果防卫墙
+4:土豆地雷
+5:胡萝卜火箭炮
+6:极寒冰蒺藜
+7:橙子
+8:近距离射手
+9:月光蘑菇
+10:火焰菇
+11:苔藓
+12:策反菇
+13:油桃爆破手
+14:霜雪冰菇
+15:大型炸药
+16:荷叶
+17:倭瓜
+18:豌豆突击队
+19:水雷
+20:辣椒
+21:反坦克地雷
+22:丙丁离火甲乙木
+23:混凝土坚果
+24:海军蘑菇
+25:苹果
+26:寒冰防空炮
+27:三叶草
+28:装甲豌豆
+29:星尘
+30:碉堡
+31:坦克
+32:菠萝迫击炮
+33:飞机
+34:玉米炮手
+35:生长素
+36:甩葱miku
+37:保护伞
+38:金盏花
+39:火炮
+40:超级机枪
+41:九头向日葵
+42:忧郁蘑菇
+43:驱逐猫尾舰
+44:喀秋莎火箭炮
+45:电磁脉冲菇
+46:反坦克地雷(地刺王)
+47:重型榴弹炮
+48:模仿者
+49:鱼雷坚果
+50:坦克坚果
+51:幼苗
+52:橙子(反向)
+OB:——僵尸——
+60:步兵
+61:步兵(路障僵尸)
+62:摩托化步兵
+63:步兵(铁桶僵尸)
+64:工兵
+65:导弹
+66:炸弹
+67:装甲步兵
+68:飞机(气球僵尸)
+69:步兵(豌豆射手僵尸)
+70:坦克
+71:跳跳僵尸
+72:冲击者
+73:搬运兵
+74:军官
+OC:——其它——
+54:拖拽植物
+55:填补土坑
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+75:Null
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>5C</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>513</ID>
+                      <Description>"卡槽2"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+0:豌豆下士
+1:向日葵后勤
+2:分裂樱桃炸弹
+3:坚果防卫墙
+4:土豆地雷
+5:胡萝卜火箭炮
+6:极寒冰蒺藜
+7:橙子
+8:近距离射手
+9:月光蘑菇
+10:火焰菇
+11:苔藓
+12:策反菇
+13:油桃爆破手
+14:霜雪冰菇
+15:大型炸药
+16:荷叶
+17:倭瓜
+18:豌豆突击队
+19:水雷
+20:辣椒
+21:反坦克地雷
+22:丙丁离火甲乙木
+23:混凝土坚果
+24:海军蘑菇
+25:苹果
+26:寒冰防空炮
+27:三叶草
+28:装甲豌豆
+29:星尘
+30:碉堡
+31:坦克
+32:菠萝迫击炮
+33:飞机
+34:玉米炮手
+35:生长素
+36:甩葱miku
+37:保护伞
+38:金盏花
+39:火炮
+40:超级机枪
+41:九头向日葵
+42:忧郁蘑菇
+43:驱逐猫尾舰
+44:喀秋莎火箭炮
+45:电磁脉冲菇
+46:反坦克地雷(地刺王)
+47:重型榴弹炮
+48:模仿者
+49:鱼雷坚果
+50:坦克坚果
+51:幼苗
+52:橙子(反向)
+OB:——僵尸——
+60:步兵
+61:步兵(路障僵尸)
+62:摩托化步兵
+63:步兵(铁桶僵尸)
+64:工兵
+65:导弹
+66:炸弹
+67:装甲步兵
+68:飞机(气球僵尸)
+69:步兵(豌豆射手僵尸)
+70:坦克
+71:跳跳僵尸
+72:冲击者
+73:搬运兵
+74:军官
+OC:——其它——
+54:拖拽植物
+55:填补土坑
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+75:Null
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>AC</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>514</ID>
+                      <Description>"卡槽3"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+0:豌豆下士
+1:向日葵后勤
+2:分裂樱桃炸弹
+3:坚果防卫墙
+4:土豆地雷
+5:胡萝卜火箭炮
+6:极寒冰蒺藜
+7:橙子
+8:近距离射手
+9:月光蘑菇
+10:火焰菇
+11:苔藓
+12:策反菇
+13:油桃爆破手
+14:霜雪冰菇
+15:大型炸药
+16:荷叶
+17:倭瓜
+18:豌豆突击队
+19:水雷
+20:辣椒
+21:反坦克地雷
+22:丙丁离火甲乙木
+23:混凝土坚果
+24:海军蘑菇
+25:苹果
+26:寒冰防空炮
+27:三叶草
+28:装甲豌豆
+29:星尘
+30:碉堡
+31:坦克
+32:菠萝迫击炮
+33:飞机
+34:玉米炮手
+35:生长素
+36:甩葱miku
+37:保护伞
+38:金盏花
+39:火炮
+40:超级机枪
+41:九头向日葵
+42:忧郁蘑菇
+43:驱逐猫尾舰
+44:喀秋莎火箭炮
+45:电磁脉冲菇
+46:反坦克地雷(地刺王)
+47:重型榴弹炮
+48:模仿者
+49:鱼雷坚果
+50:坦克坚果
+51:幼苗
+52:橙子(反向)
+OB:——僵尸——
+60:步兵
+61:步兵(路障僵尸)
+62:摩托化步兵
+63:步兵(铁桶僵尸)
+64:工兵
+65:导弹
+66:炸弹
+67:装甲步兵
+68:飞机(气球僵尸)
+69:步兵(豌豆射手僵尸)
+70:坦克
+71:跳跳僵尸
+72:冲击者
+73:搬运兵
+74:军官
+OC:——其它——
+54:拖拽植物
+55:填补土坑
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+75:Null
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>FC</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>515</ID>
+                      <Description>"卡槽4"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+0:豌豆下士
+1:向日葵后勤
+2:分裂樱桃炸弹
+3:坚果防卫墙
+4:土豆地雷
+5:胡萝卜火箭炮
+6:极寒冰蒺藜
+7:橙子
+8:近距离射手
+9:月光蘑菇
+10:火焰菇
+11:苔藓
+12:策反菇
+13:油桃爆破手
+14:霜雪冰菇
+15:大型炸药
+16:荷叶
+17:倭瓜
+18:豌豆突击队
+19:水雷
+20:辣椒
+21:反坦克地雷
+22:丙丁离火甲乙木
+23:混凝土坚果
+24:海军蘑菇
+25:苹果
+26:寒冰防空炮
+27:三叶草
+28:装甲豌豆
+29:星尘
+30:碉堡
+31:坦克
+32:菠萝迫击炮
+33:飞机
+34:玉米炮手
+35:生长素
+36:甩葱miku
+37:保护伞
+38:金盏花
+39:火炮
+40:超级机枪
+41:九头向日葵
+42:忧郁蘑菇
+43:驱逐猫尾舰
+44:喀秋莎火箭炮
+45:电磁脉冲菇
+46:反坦克地雷(地刺王)
+47:重型榴弹炮
+48:模仿者
+49:鱼雷坚果
+50:坦克坚果
+51:幼苗
+52:橙子(反向)
+OB:——僵尸——
+60:步兵
+61:步兵(路障僵尸)
+62:摩托化步兵
+63:步兵(铁桶僵尸)
+64:工兵
+65:导弹
+66:炸弹
+67:装甲步兵
+68:飞机(气球僵尸)
+69:步兵(豌豆射手僵尸)
+70:坦克
+71:跳跳僵尸
+72:冲击者
+73:搬运兵
+74:军官
+OC:——其它——
+54:拖拽植物
+55:填补土坑
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+75:Null
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>14C</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>516</ID>
+                      <Description>"卡槽5"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+0:豌豆下士
+1:向日葵后勤
+2:分裂樱桃炸弹
+3:坚果防卫墙
+4:土豆地雷
+5:胡萝卜火箭炮
+6:极寒冰蒺藜
+7:橙子
+8:近距离射手
+9:月光蘑菇
+10:火焰菇
+11:苔藓
+12:策反菇
+13:油桃爆破手
+14:霜雪冰菇
+15:大型炸药
+16:荷叶
+17:倭瓜
+18:豌豆突击队
+19:水雷
+20:辣椒
+21:反坦克地雷
+22:丙丁离火甲乙木
+23:混凝土坚果
+24:海军蘑菇
+25:苹果
+26:寒冰防空炮
+27:三叶草
+28:装甲豌豆
+29:星尘
+30:碉堡
+31:坦克
+32:菠萝迫击炮
+33:飞机
+34:玉米炮手
+35:生长素
+36:甩葱miku
+37:保护伞
+38:金盏花
+39:火炮
+40:超级机枪
+41:九头向日葵
+42:忧郁蘑菇
+43:驱逐猫尾舰
+44:喀秋莎火箭炮
+45:电磁脉冲菇
+46:反坦克地雷(地刺王)
+47:重型榴弹炮
+48:模仿者
+49:鱼雷坚果
+50:坦克坚果
+51:幼苗
+52:橙子(反向)
+OB:——僵尸——
+60:步兵
+61:步兵(路障僵尸)
+62:摩托化步兵
+63:步兵(铁桶僵尸)
+64:工兵
+65:导弹
+66:炸弹
+67:装甲步兵
+68:飞机(气球僵尸)
+69:步兵(豌豆射手僵尸)
+70:坦克
+71:跳跳僵尸
+72:冲击者
+73:搬运兵
+74:军官
+OC:——其它——
+54:拖拽植物
+55:填补土坑
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+75:Null
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>19C</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>517</ID>
+                      <Description>"卡槽6"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+0:豌豆下士
+1:向日葵后勤
+2:分裂樱桃炸弹
+3:坚果防卫墙
+4:土豆地雷
+5:胡萝卜火箭炮
+6:极寒冰蒺藜
+7:橙子
+8:近距离射手
+9:月光蘑菇
+10:火焰菇
+11:苔藓
+12:策反菇
+13:油桃爆破手
+14:霜雪冰菇
+15:大型炸药
+16:荷叶
+17:倭瓜
+18:豌豆突击队
+19:水雷
+20:辣椒
+21:反坦克地雷
+22:丙丁离火甲乙木
+23:混凝土坚果
+24:海军蘑菇
+25:苹果
+26:寒冰防空炮
+27:三叶草
+28:装甲豌豆
+29:星尘
+30:碉堡
+31:坦克
+32:菠萝迫击炮
+33:飞机
+34:玉米炮手
+35:生长素
+36:甩葱miku
+37:保护伞
+38:金盏花
+39:火炮
+40:超级机枪
+41:九头向日葵
+42:忧郁蘑菇
+43:驱逐猫尾舰
+44:喀秋莎火箭炮
+45:电磁脉冲菇
+46:反坦克地雷(地刺王)
+47:重型榴弹炮
+48:模仿者
+49:鱼雷坚果
+50:坦克坚果
+51:幼苗
+52:橙子(反向)
+OB:——僵尸——
+60:步兵
+61:步兵(路障僵尸)
+62:摩托化步兵
+63:步兵(铁桶僵尸)
+64:工兵
+65:导弹
+66:炸弹
+67:装甲步兵
+68:飞机(气球僵尸)
+69:步兵(豌豆射手僵尸)
+70:坦克
+71:跳跳僵尸
+72:冲击者
+73:搬运兵
+74:军官
+OC:——其它——
+54:拖拽植物
+55:填补土坑
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+75:Null
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>1EC</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>518</ID>
+                      <Description>"卡槽7"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+0:豌豆下士
+1:向日葵后勤
+2:分裂樱桃炸弹
+3:坚果防卫墙
+4:土豆地雷
+5:胡萝卜火箭炮
+6:极寒冰蒺藜
+7:橙子
+8:近距离射手
+9:月光蘑菇
+10:火焰菇
+11:苔藓
+12:策反菇
+13:油桃爆破手
+14:霜雪冰菇
+15:大型炸药
+16:荷叶
+17:倭瓜
+18:豌豆突击队
+19:水雷
+20:辣椒
+21:反坦克地雷
+22:丙丁离火甲乙木
+23:混凝土坚果
+24:海军蘑菇
+25:苹果
+26:寒冰防空炮
+27:三叶草
+28:装甲豌豆
+29:星尘
+30:碉堡
+31:坦克
+32:菠萝迫击炮
+33:飞机
+34:玉米炮手
+35:生长素
+36:甩葱miku
+37:保护伞
+38:金盏花
+39:火炮
+40:超级机枪
+41:九头向日葵
+42:忧郁蘑菇
+43:驱逐猫尾舰
+44:喀秋莎火箭炮
+45:电磁脉冲菇
+46:反坦克地雷(地刺王)
+47:重型榴弹炮
+48:模仿者
+49:鱼雷坚果
+50:坦克坚果
+51:幼苗
+52:橙子(反向)
+OB:——僵尸——
+60:步兵
+61:步兵(路障僵尸)
+62:摩托化步兵
+63:步兵(铁桶僵尸)
+64:工兵
+65:导弹
+66:炸弹
+67:装甲步兵
+68:飞机(气球僵尸)
+69:步兵(豌豆射手僵尸)
+70:坦克
+71:跳跳僵尸
+72:冲击者
+73:搬运兵
+74:军官
+OC:——其它——
+54:拖拽植物
+55:填补土坑
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+75:Null
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>23C</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>519</ID>
+                      <Description>"卡槽8"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+0:豌豆下士
+1:向日葵后勤
+2:分裂樱桃炸弹
+3:坚果防卫墙
+4:土豆地雷
+5:胡萝卜火箭炮
+6:极寒冰蒺藜
+7:橙子
+8:近距离射手
+9:月光蘑菇
+10:火焰菇
+11:苔藓
+12:策反菇
+13:油桃爆破手
+14:霜雪冰菇
+15:大型炸药
+16:荷叶
+17:倭瓜
+18:豌豆突击队
+19:水雷
+20:辣椒
+21:反坦克地雷
+22:丙丁离火甲乙木
+23:混凝土坚果
+24:海军蘑菇
+25:苹果
+26:寒冰防空炮
+27:三叶草
+28:装甲豌豆
+29:星尘
+30:碉堡
+31:坦克
+32:菠萝迫击炮
+33:飞机
+34:玉米炮手
+35:生长素
+36:甩葱miku
+37:保护伞
+38:金盏花
+39:火炮
+40:超级机枪
+41:九头向日葵
+42:忧郁蘑菇
+43:驱逐猫尾舰
+44:喀秋莎火箭炮
+45:电磁脉冲菇
+46:反坦克地雷(地刺王)
+47:重型榴弹炮
+48:模仿者
+49:鱼雷坚果
+50:坦克坚果
+51:幼苗
+52:橙子(反向)
+OB:——僵尸——
+60:步兵
+61:步兵(路障僵尸)
+62:摩托化步兵
+63:步兵(铁桶僵尸)
+64:工兵
+65:导弹
+66:炸弹
+67:装甲步兵
+68:飞机(气球僵尸)
+69:步兵(豌豆射手僵尸)
+70:坦克
+71:跳跳僵尸
+72:冲击者
+73:搬运兵
+74:军官
+OC:——其它——
+54:拖拽植物
+55:填补土坑
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+75:Null
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>28C</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>520</ID>
+                      <Description>"卡槽9"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+0:豌豆下士
+1:向日葵后勤
+2:分裂樱桃炸弹
+3:坚果防卫墙
+4:土豆地雷
+5:胡萝卜火箭炮
+6:极寒冰蒺藜
+7:橙子
+8:近距离射手
+9:月光蘑菇
+10:火焰菇
+11:苔藓
+12:策反菇
+13:油桃爆破手
+14:霜雪冰菇
+15:大型炸药
+16:荷叶
+17:倭瓜
+18:豌豆突击队
+19:水雷
+20:辣椒
+21:反坦克地雷
+22:丙丁离火甲乙木
+23:混凝土坚果
+24:海军蘑菇
+25:苹果
+26:寒冰防空炮
+27:三叶草
+28:装甲豌豆
+29:星尘
+30:碉堡
+31:坦克
+32:菠萝迫击炮
+33:飞机
+34:玉米炮手
+35:生长素
+36:甩葱miku
+37:保护伞
+38:金盏花
+39:火炮
+40:超级机枪
+41:九头向日葵
+42:忧郁蘑菇
+43:驱逐猫尾舰
+44:喀秋莎火箭炮
+45:电磁脉冲菇
+46:反坦克地雷(地刺王)
+47:重型榴弹炮
+48:模仿者
+49:鱼雷坚果
+50:坦克坚果
+51:幼苗
+52:橙子(反向)
+OB:——僵尸——
+60:步兵
+61:步兵(路障僵尸)
+62:摩托化步兵
+63:步兵(铁桶僵尸)
+64:工兵
+65:导弹
+66:炸弹
+67:装甲步兵
+68:飞机(气球僵尸)
+69:步兵(豌豆射手僵尸)
+70:坦克
+71:跳跳僵尸
+72:冲击者
+73:搬运兵
+74:军官
+OC:——其它——
+54:拖拽植物
+55:填补土坑
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+75:Null
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>2DC</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>521</ID>
+                      <Description>"卡槽10"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">OA:——植物——
+0:豌豆下士
+1:向日葵后勤
+2:分裂樱桃炸弹
+3:坚果防卫墙
+4:土豆地雷
+5:胡萝卜火箭炮
+6:极寒冰蒺藜
+7:橙子
+8:近距离射手
+9:月光蘑菇
+10:火焰菇
+11:苔藓
+12:策反菇
+13:油桃爆破手
+14:霜雪冰菇
+15:大型炸药
+16:荷叶
+17:倭瓜
+18:豌豆突击队
+19:水雷
+20:辣椒
+21:反坦克地雷
+22:丙丁离火甲乙木
+23:混凝土坚果
+24:海军蘑菇
+25:苹果
+26:寒冰防空炮
+27:三叶草
+28:装甲豌豆
+29:星尘
+30:碉堡
+31:坦克
+32:菠萝迫击炮
+33:飞机
+34:玉米炮手
+35:生长素
+36:甩葱miku
+37:保护伞
+38:金盏花
+39:火炮
+40:超级机枪
+41:九头向日葵
+42:忧郁蘑菇
+43:驱逐猫尾舰
+44:喀秋莎火箭炮
+45:电磁脉冲菇
+46:反坦克地雷(地刺王)
+47:重型榴弹炮
+48:模仿者
+49:鱼雷坚果
+50:坦克坚果
+51:幼苗
+52:橙子(反向)
+OB:——僵尸——
+60:步兵
+61:步兵(路障僵尸)
+62:摩托化步兵
+63:步兵(铁桶僵尸)
+64:工兵
+65:导弹
+66:炸弹
+67:装甲步兵
+68:飞机(气球僵尸)
+69:步兵(豌豆射手僵尸)
+70:坦克
+71:跳跳僵尸
+72:冲击者
+73:搬运兵
+74:军官
+OC:——其它——
+54:拖拽植物
+55:填补土坑
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+75:Null
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>32C</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>522</ID>
+                  <Description>"植物调教"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>523</ID>
+                      <Description>"子弹叠加(易崩溃)"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [edi+00000090],#1//eax
+
+exit:
+jmp returnhere
+
+0046488F:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0046488F:
+db 89 87 90 00 00 00
+//mov [edi+00000090],eax
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>524</ID>
+                      <Description>"子弹变玉米棒"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [ebp+5C],0B //这里输入子弹编号(十六进制)
+mov eax,esi //子弹编号参见"[hack]二战版.xlsx"
+
+exit:
+jmp returnhere
+
+0046C769:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0046C769:
+db 89 45 5C 8B C6
+//mov [ebp+5C],eax
+//mov eax,esi
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>525</ID>
+                      <Description>"竖排种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+00410AE6:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+00410AE6:
+db 0F 85 E5 00 00 00
+//jne 00410BD1
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>526</ID>
+                  <Description>"跳关与混乱"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>527</ID>
+                      <Description>"故事模式"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                      <Offsets>
+                        <Offset>24</Offset>
+                        <Offset>82C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>528</ID>
+                      <Description>"模式混乱(易崩溃)"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                      <Offsets>
+                        <Offset>7F8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>529</ID>
+                      <Description>"无尽轮数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>6C</Offset>
+                        <Offset>160</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>530</ID>
+                      <Description>"当前关卡总波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>5564</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>531</ID>
+                      <Description>"当前关卡到达的波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>557C</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>532</ID>
+                  <Description>"杂项修改"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>533</ID>
+                      <Description>"植物图鉴"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+2A9EC0</Address>
+                      <Offsets>
+                        <Offset>194</Offset>
+                        <Offset>88</Offset>
+                        <Offset>320</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>534</ID>
+                      <Description>"光标选择的种子包"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
                       <Address>PlantsVsZombies.exe+2A9EC0</Address>
@@ -14164,7 +15619,7 @@ db 0F 85 E5 00 00 00
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>374</ID>
+                      <ID>535</ID>
                       <Description>"状态页面"</Description>
                       <Options moHideChildren="1" moRecursiveSetValue="1"/>
                       <DropDownList DisplayValueAsItem="1">144:开启
@@ -14173,7 +15628,7 @@ db 0F 85 E5 00 00 00
                       <Address/>
                       <CheatEntries>
                         <CheatEntry>
-                          <ID>375</ID>
+                          <ID>536</ID>
                           <Description>"开关1"</Description>
                           <DropDownList DisplayValueAsItem="1">144:开启
 136:关闭
@@ -14183,7 +15638,7 @@ db 0F 85 E5 00 00 00
                           <Address>42DF5D</Address>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>376</ID>
+                          <ID>537</ID>
                           <Description>"开关2"</Description>
                           <DropDownList DisplayValueAsItem="1">144:开启
 89:关闭
@@ -14193,7 +15648,7 @@ db 0F 85 E5 00 00 00
                           <Address>42DF5E</Address>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>377</ID>
+                          <ID>538</ID>
                           <Description>"开关3"</Description>
                           <DropDownList DisplayValueAsItem="1">144:开启
 84:关闭
