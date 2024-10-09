@@ -38,6 +38,8 @@ CT表的内容透明化 任何人都可查看 相比于传统的EXE格式的修�
 |类型|名称|版本号|
 |---|---|---|
 |Decomp|DLC模组(DLC MOD)|2.0|
+|Decomp|额外版(Extra BETA)|BETA 0.3.2|
+|ASM|二战版|公测2版|
 |ASM|威化版|0.2.0|
 |ASM|Mixed版|未定|
 
