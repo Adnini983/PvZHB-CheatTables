@@ -25,22 +25,19 @@ CT表的内容透明化 任何人都可查看 相比于传统的EXE格式的修�
 |类型|名称|版本号|
 |---|---|---|
 |Decomp|超宽扩展(Ultra Wide Expansion)|20240806尝鲜版|
-|Decomp|额外版(Extra BETA)|BETA 0.3.1|
-|Decomp|东方版(Perfect Floral Blessing)|Alpha v2.8.1|
-|Decomp|东方版(Perfect Floral Blessing)|Alpha v2.6.1-2.7.0|
+|Decomp|头脑风暴(Brain Damage)|V1.0|
+|Decomp|东方版(Perfect Floral Blessing)|Alpha v2.6.1-v2.8.1|
 |Decomp|大雨成灾+(Hard Rain+)|0.64 Debug|
 |Decomp|乌格拉利亚(Upgraliam)|ALPHA 1.0.2 playtest 5|
 |ASM|ASM系列改版通用|1.0.0.1051|
-|ASM|二战版|公测I版V0.1|
+|ASM|二战版|公测I版V0.1-公测2版|
 |ASM|R版|1.4.6|
 
 ### 即将支持的改版版本： ###
 |类型|名称|版本号|
 |---|---|---|
 |Decomp|DLC模组(DLC MOD)|2.0|
-|Decomp|额外版(Extra BETA)|BETA 0.3.2|
-|ASM|二战版|公测2版|
-|ASM|威化版|0.2.0|
+|ASM|TAT版|未定|
 |ASM|Mixed版|未定|
 
 ### 不会考虑支持的版本 ###
@@ -49,3 +46,5 @@ CT表的内容透明化 任何人都可查看 相比于传统的EXE格式的修�
 2 BUG一堆 无法正常且稳定运行的Decomp改版
 
 3 潜艇伟伟迷制作的系列改版
+
+4 Yukinonon制作的Extra BETA系列改版
