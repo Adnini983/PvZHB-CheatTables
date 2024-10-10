@@ -12221,6 +12221,2149 @@ db 0F 85 E5 00 00 00
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
+          <ID>586</ID>
+          <Description>"Mixed版"</Description>
+          <Options moHideChildren="1"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <GroupHeader>1</GroupHeader>
+          <Address/>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>587</ID>
+              <Description>"2.06 Public Preview"</Description>
+              <Options moHideChildren="1"/>
+              <GroupHeader>1</GroupHeader>
+              <Address/>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>588</ID>
+                  <Description>"基址"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>006A9EC0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>638</ID>
+                  <Description>"基址2"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>0070003C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>589</ID>
+                  <Description>"内置作弊"</Description>
+                  <DropDownList DisplayValueAsItem="1">1:开启
+0:关闭
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>006A9EC0</Address>
+                  <Offsets>
+                    <Offset>814</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>590</ID>
+                  <Description>"常用功能"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>591</ID>
+                      <Description>"阳光"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>5560</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>637</ID>
+                      <Description>"能量豆"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>0070003C</Address>
+                      <Offsets>
+                        <Offset>5A04</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>592</ID>
+                      <Description>"金币"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>28</Offset>
+                        <Offset>82C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>593</ID>
+                      <Description>"冷却时间"</Description>
+                      <Options moHideChildren="1" moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+                      <DropDownList DisplayValueAsItem="1">0:锁定即无冷却
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <GroupHeader>1</GroupHeader>
+                      <Address/>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>594</ID>
+                          <Description>"卡槽1"</Description>
+                          <DropDownList DisplayValueAsItem="1">0:锁定即无冷却
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>006A9EC0</Address>
+                          <Offsets>
+                            <Offset>50</Offset>
+                            <Offset>144</Offset>
+                            <Offset>768</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>595</ID>
+                          <Description>"卡槽2"</Description>
+                          <DropDownList DisplayValueAsItem="1">0:锁定即无冷却
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>006A9EC0</Address>
+                          <Offsets>
+                            <Offset>A0</Offset>
+                            <Offset>144</Offset>
+                            <Offset>768</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>596</ID>
+                          <Description>"卡槽3"</Description>
+                          <DropDownList DisplayValueAsItem="1">0:锁定即无冷却
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>006A9EC0</Address>
+                          <Offsets>
+                            <Offset>F0</Offset>
+                            <Offset>144</Offset>
+                            <Offset>768</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>597</ID>
+                          <Description>"卡槽4"</Description>
+                          <DropDownList DisplayValueAsItem="1">0:锁定即无冷却
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>006A9EC0</Address>
+                          <Offsets>
+                            <Offset>140</Offset>
+                            <Offset>144</Offset>
+                            <Offset>768</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>598</ID>
+                          <Description>"卡槽5"</Description>
+                          <DropDownList DisplayValueAsItem="1">0:锁定即无冷却
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>006A9EC0</Address>
+                          <Offsets>
+                            <Offset>190</Offset>
+                            <Offset>144</Offset>
+                            <Offset>768</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>599</ID>
+                          <Description>"卡槽6"</Description>
+                          <DropDownList DisplayValueAsItem="1">0:锁定即无冷却
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>006A9EC0</Address>
+                          <Offsets>
+                            <Offset>1E0</Offset>
+                            <Offset>144</Offset>
+                            <Offset>768</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>600</ID>
+                          <Description>"卡槽7"</Description>
+                          <DropDownList DisplayValueAsItem="1">0:锁定即无冷却
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>006A9EC0</Address>
+                          <Offsets>
+                            <Offset>230</Offset>
+                            <Offset>144</Offset>
+                            <Offset>768</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>601</ID>
+                          <Description>"卡槽8"</Description>
+                          <DropDownList DisplayValueAsItem="1">0:锁定即无冷却
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>006A9EC0</Address>
+                          <Offsets>
+                            <Offset>280</Offset>
+                            <Offset>144</Offset>
+                            <Offset>768</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>602</ID>
+                          <Description>"卡槽9"</Description>
+                          <DropDownList DisplayValueAsItem="1">0:锁定即无冷却
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>006A9EC0</Address>
+                          <Offsets>
+                            <Offset>2D0</Offset>
+                            <Offset>144</Offset>
+                            <Offset>768</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>603</ID>
+                          <Description>"卡槽10"</Description>
+                          <DropDownList DisplayValueAsItem="1">0:锁定即无冷却
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>006A9EC0</Address>
+                          <Offsets>
+                            <Offset>320</Offset>
+                            <Offset>144</Offset>
+                            <Offset>768</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>636</ID>
+                      <Description>"无需冷却"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+nop
+jmp 00820BBD
+
+exit:
+jmp returnhere
+
+00A62C72:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+00A62C72:
+db 8B 47 24 E9 43 DF DB FF
+//mov eax,[edi+24]
+//jmp 00820BBD
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>604</ID>
+                      <Description>"游戏暂停"</Description>
+                      <DropDownList DisplayValueAsItem="1">1:暂停
+0:不暂停
+2:后台运行
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>32C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>605</ID>
+                      <Description>"重叠种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+jmp 00410754
+
+exit:
+jmp returnhere
+
+0040FE2F:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0040FE2F:
+db 0F 84 1F 09 00 00
+//je 00410754
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>606</ID>
+                      <Description>"花瓶透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+mov [ebp+4C],32
+originalcode:
+cmp dword ptr [ebp+4C],00
+jng 0044DF16
+
+exit:
+jmp returnhere
+
+0044DBF4:
+jmp newmem
+nop 5
+returnhere:
+
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0044DBF4:
+db 83 7D 4C 00 0F 8E 18 03 00 00
+//cmp dword ptr [ebp+4C],00
+//jng 0044DF16
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>607</ID>
+                      <Description>"浓雾透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov eax,#0//[edx]
+test eax,eax
+mov [esp+3C],eax
+
+exit:
+jmp returnhere
+
+0041A78F:
+jmp newmem
+nop 3
+returnhere:
+
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0041A78F:
+db 8B 02 85 C0 89 44 24 3C
+//mov eax,[edx]
+//test eax,eax
+//mov [esp+3C],eax
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>608</ID>
+                  <Description>"卡槽修改"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>609</ID>
+                      <Description>"卡槽数量(最大值16)"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>24</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>610</ID>
+                      <Description>"卡槽1"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:机枪射手
+41:双子向日葵
+42:忧郁蘑菇
+43:香蒲
+44:“冰”瓜
+45:吸金磁
+46:地刺王
+47:玉米加农炮
+48:模仿者
+49:爆炸坚果
+50:巨大坚果
+51:幼苗
+52:双发射手(反向)
+75:飓风甘蓝
+76:磁王草
+112:水盆(无图标)
+113:小喷菇(无图标)
+114:车车(无图标)
+115:能量豆
+119:玉米炮支援
+120:棱镜草
+121:保龄球泡泡
+122:冰冻球
+123:中毒球
+124:暗影保龄球
+125:水陆转换器
+127:转换圈
+130:火蘑菇
+134:散击水柳
+135:喜林冰草
+137:滚木
+138:反转寒冰裂荚射手
+142:冰炬树桩
+143:电灯花
+154:冰冻香蕉
+OB:——僵尸——
+60:普通僵尸
+61:路障僵尸
+62:撑杆僵尸
+63:铁桶僵尸
+64:扶梯僵尸
+65:矿工僵尸
+66:蹦极僵尸
+67:橄榄球僵尸
+68:气球僵尸
+69:铁栅门僵尸
+70:雪橇车僵尸
+71:跳跳僵尸
+72:舞者僵尸
+73:巨人僵尸
+74:小鬼僵尸
+77:摇旗僵尸
+78:读报僵尸
+79:伴舞僵尸
+80:鸭子救生圈僵尸
+81:潜水僵尸
+82:雪橇僵尸小队
+83:海豚骑士僵尸
+84:玩偶匣僵尸
+85:雪人僵尸
+86:投石车僵尸
+87:僵王博士
+88:豌豆射手僵尸
+89:高坚果僵尸
+90:火爆辣椒僵尸
+91:机枪射手僵尸
+92:窝瓜僵尸
+93:高坚果僵尸
+94:暴走巨人僵尸
+95:螺旋桨僵尸
+96:皇天后土
+97:小鬼加农炮
+98:杨桃僵尸
+99:绳索僵尸
+100:海鸥僵尸
+101:船长僵尸
+102:僵尸鹦鹉
+103:滚筒僵尸
+104:甲板漫步者
+105:BOSS(海豚骑士僵尸)
+106:BOSS(矿工僵尸)
+107:BOSS(蹦极僵尸)
+108:BOSS(巨人僵尸)
+109:BOSS(豌豆射手僵尸)
+110:BOSS(机枪射手僵尸)
+111:BOSS(暴走巨人僵尸)
+OC:——其它——
+54:Null(重置植物)
+55:Null(填补土坑)
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+126:用户自制接口
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>5C</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>611</ID>
+                      <Description>"卡槽2"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:机枪射手
+41:双子向日葵
+42:忧郁蘑菇
+43:香蒲
+44:“冰”瓜
+45:吸金磁
+46:地刺王
+47:玉米加农炮
+48:模仿者
+49:爆炸坚果
+50:巨大坚果
+51:幼苗
+52:双发射手(反向)
+75:飓风甘蓝
+76:磁王草
+112:水盆(无图标)
+113:小喷菇(无图标)
+114:车车(无图标)
+115:能量豆
+119:玉米炮支援
+120:棱镜草
+121:保龄球泡泡
+122:冰冻球
+123:中毒球
+124:暗影保龄球
+125:水陆转换器
+127:转换圈
+130:火蘑菇
+134:散击水柳
+135:喜林冰草
+137:滚木
+138:反转寒冰裂荚射手
+142:冰炬树桩
+143:电灯花
+154:冰冻香蕉
+OB:——僵尸——
+60:普通僵尸
+61:路障僵尸
+62:撑杆僵尸
+63:铁桶僵尸
+64:扶梯僵尸
+65:矿工僵尸
+66:蹦极僵尸
+67:橄榄球僵尸
+68:气球僵尸
+69:铁栅门僵尸
+70:雪橇车僵尸
+71:跳跳僵尸
+72:舞者僵尸
+73:巨人僵尸
+74:小鬼僵尸
+77:摇旗僵尸
+78:读报僵尸
+79:伴舞僵尸
+80:鸭子救生圈僵尸
+81:潜水僵尸
+82:雪橇僵尸小队
+83:海豚骑士僵尸
+84:玩偶匣僵尸
+85:雪人僵尸
+86:投石车僵尸
+87:僵王博士
+88:豌豆射手僵尸
+89:高坚果僵尸
+90:火爆辣椒僵尸
+91:机枪射手僵尸
+92:窝瓜僵尸
+93:高坚果僵尸
+94:暴走巨人僵尸
+95:螺旋桨僵尸
+96:皇天后土
+97:小鬼加农炮
+98:杨桃僵尸
+99:绳索僵尸
+100:海鸥僵尸
+101:船长僵尸
+102:僵尸鹦鹉
+103:滚筒僵尸
+104:甲板漫步者
+105:BOSS(海豚骑士僵尸)
+106:BOSS(矿工僵尸)
+107:BOSS(蹦极僵尸)
+108:BOSS(巨人僵尸)
+109:BOSS(豌豆射手僵尸)
+110:BOSS(机枪射手僵尸)
+111:BOSS(暴走巨人僵尸)
+OC:——其它——
+54:Null(重置植物)
+55:Null(填补土坑)
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+126:用户自制接口
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>AC</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>612</ID>
+                      <Description>"卡槽3"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:机枪射手
+41:双子向日葵
+42:忧郁蘑菇
+43:香蒲
+44:“冰”瓜
+45:吸金磁
+46:地刺王
+47:玉米加农炮
+48:模仿者
+49:爆炸坚果
+50:巨大坚果
+51:幼苗
+52:双发射手(反向)
+75:飓风甘蓝
+76:磁王草
+112:水盆(无图标)
+113:小喷菇(无图标)
+114:车车(无图标)
+115:能量豆
+119:玉米炮支援
+120:棱镜草
+121:保龄球泡泡
+122:冰冻球
+123:中毒球
+124:暗影保龄球
+125:水陆转换器
+127:转换圈
+130:火蘑菇
+134:散击水柳
+135:喜林冰草
+137:滚木
+138:反转寒冰裂荚射手
+142:冰炬树桩
+143:电灯花
+154:冰冻香蕉
+OB:——僵尸——
+60:普通僵尸
+61:路障僵尸
+62:撑杆僵尸
+63:铁桶僵尸
+64:扶梯僵尸
+65:矿工僵尸
+66:蹦极僵尸
+67:橄榄球僵尸
+68:气球僵尸
+69:铁栅门僵尸
+70:雪橇车僵尸
+71:跳跳僵尸
+72:舞者僵尸
+73:巨人僵尸
+74:小鬼僵尸
+77:摇旗僵尸
+78:读报僵尸
+79:伴舞僵尸
+80:鸭子救生圈僵尸
+81:潜水僵尸
+82:雪橇僵尸小队
+83:海豚骑士僵尸
+84:玩偶匣僵尸
+85:雪人僵尸
+86:投石车僵尸
+87:僵王博士
+88:豌豆射手僵尸
+89:高坚果僵尸
+90:火爆辣椒僵尸
+91:机枪射手僵尸
+92:窝瓜僵尸
+93:高坚果僵尸
+94:暴走巨人僵尸
+95:螺旋桨僵尸
+96:皇天后土
+97:小鬼加农炮
+98:杨桃僵尸
+99:绳索僵尸
+100:海鸥僵尸
+101:船长僵尸
+102:僵尸鹦鹉
+103:滚筒僵尸
+104:甲板漫步者
+105:BOSS(海豚骑士僵尸)
+106:BOSS(矿工僵尸)
+107:BOSS(蹦极僵尸)
+108:BOSS(巨人僵尸)
+109:BOSS(豌豆射手僵尸)
+110:BOSS(机枪射手僵尸)
+111:BOSS(暴走巨人僵尸)
+OC:——其它——
+54:Null(重置植物)
+55:Null(填补土坑)
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+126:用户自制接口
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>FC</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>613</ID>
+                      <Description>"卡槽4"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:机枪射手
+41:双子向日葵
+42:忧郁蘑菇
+43:香蒲
+44:“冰”瓜
+45:吸金磁
+46:地刺王
+47:玉米加农炮
+48:模仿者
+49:爆炸坚果
+50:巨大坚果
+51:幼苗
+52:双发射手(反向)
+75:飓风甘蓝
+76:磁王草
+112:水盆(无图标)
+113:小喷菇(无图标)
+114:车车(无图标)
+115:能量豆
+119:玉米炮支援
+120:棱镜草
+121:保龄球泡泡
+122:冰冻球
+123:中毒球
+124:暗影保龄球
+125:水陆转换器
+127:转换圈
+130:火蘑菇
+134:散击水柳
+135:喜林冰草
+137:滚木
+138:反转寒冰裂荚射手
+142:冰炬树桩
+143:电灯花
+154:冰冻香蕉
+OB:——僵尸——
+60:普通僵尸
+61:路障僵尸
+62:撑杆僵尸
+63:铁桶僵尸
+64:扶梯僵尸
+65:矿工僵尸
+66:蹦极僵尸
+67:橄榄球僵尸
+68:气球僵尸
+69:铁栅门僵尸
+70:雪橇车僵尸
+71:跳跳僵尸
+72:舞者僵尸
+73:巨人僵尸
+74:小鬼僵尸
+77:摇旗僵尸
+78:读报僵尸
+79:伴舞僵尸
+80:鸭子救生圈僵尸
+81:潜水僵尸
+82:雪橇僵尸小队
+83:海豚骑士僵尸
+84:玩偶匣僵尸
+85:雪人僵尸
+86:投石车僵尸
+87:僵王博士
+88:豌豆射手僵尸
+89:高坚果僵尸
+90:火爆辣椒僵尸
+91:机枪射手僵尸
+92:窝瓜僵尸
+93:高坚果僵尸
+94:暴走巨人僵尸
+95:螺旋桨僵尸
+96:皇天后土
+97:小鬼加农炮
+98:杨桃僵尸
+99:绳索僵尸
+100:海鸥僵尸
+101:船长僵尸
+102:僵尸鹦鹉
+103:滚筒僵尸
+104:甲板漫步者
+105:BOSS(海豚骑士僵尸)
+106:BOSS(矿工僵尸)
+107:BOSS(蹦极僵尸)
+108:BOSS(巨人僵尸)
+109:BOSS(豌豆射手僵尸)
+110:BOSS(机枪射手僵尸)
+111:BOSS(暴走巨人僵尸)
+OC:——其它——
+54:Null(重置植物)
+55:Null(填补土坑)
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+126:用户自制接口
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>14C</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>614</ID>
+                      <Description>"卡槽5"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:机枪射手
+41:双子向日葵
+42:忧郁蘑菇
+43:香蒲
+44:“冰”瓜
+45:吸金磁
+46:地刺王
+47:玉米加农炮
+48:模仿者
+49:爆炸坚果
+50:巨大坚果
+51:幼苗
+52:双发射手(反向)
+75:飓风甘蓝
+76:磁王草
+112:水盆(无图标)
+113:小喷菇(无图标)
+114:车车(无图标)
+115:能量豆
+119:玉米炮支援
+120:棱镜草
+121:保龄球泡泡
+122:冰冻球
+123:中毒球
+124:暗影保龄球
+125:水陆转换器
+127:转换圈
+130:火蘑菇
+134:散击水柳
+135:喜林冰草
+137:滚木
+138:反转寒冰裂荚射手
+142:冰炬树桩
+143:电灯花
+154:冰冻香蕉
+OB:——僵尸——
+60:普通僵尸
+61:路障僵尸
+62:撑杆僵尸
+63:铁桶僵尸
+64:扶梯僵尸
+65:矿工僵尸
+66:蹦极僵尸
+67:橄榄球僵尸
+68:气球僵尸
+69:铁栅门僵尸
+70:雪橇车僵尸
+71:跳跳僵尸
+72:舞者僵尸
+73:巨人僵尸
+74:小鬼僵尸
+77:摇旗僵尸
+78:读报僵尸
+79:伴舞僵尸
+80:鸭子救生圈僵尸
+81:潜水僵尸
+82:雪橇僵尸小队
+83:海豚骑士僵尸
+84:玩偶匣僵尸
+85:雪人僵尸
+86:投石车僵尸
+87:僵王博士
+88:豌豆射手僵尸
+89:高坚果僵尸
+90:火爆辣椒僵尸
+91:机枪射手僵尸
+92:窝瓜僵尸
+93:高坚果僵尸
+94:暴走巨人僵尸
+95:螺旋桨僵尸
+96:皇天后土
+97:小鬼加农炮
+98:杨桃僵尸
+99:绳索僵尸
+100:海鸥僵尸
+101:船长僵尸
+102:僵尸鹦鹉
+103:滚筒僵尸
+104:甲板漫步者
+105:BOSS(海豚骑士僵尸)
+106:BOSS(矿工僵尸)
+107:BOSS(蹦极僵尸)
+108:BOSS(巨人僵尸)
+109:BOSS(豌豆射手僵尸)
+110:BOSS(机枪射手僵尸)
+111:BOSS(暴走巨人僵尸)
+OC:——其它——
+54:Null(重置植物)
+55:Null(填补土坑)
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+126:用户自制接口
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>19C</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>615</ID>
+                      <Description>"卡槽6"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:机枪射手
+41:双子向日葵
+42:忧郁蘑菇
+43:香蒲
+44:“冰”瓜
+45:吸金磁
+46:地刺王
+47:玉米加农炮
+48:模仿者
+49:爆炸坚果
+50:巨大坚果
+51:幼苗
+52:双发射手(反向)
+75:飓风甘蓝
+76:磁王草
+112:水盆(无图标)
+113:小喷菇(无图标)
+114:车车(无图标)
+115:能量豆
+119:玉米炮支援
+120:棱镜草
+121:保龄球泡泡
+122:冰冻球
+123:中毒球
+124:暗影保龄球
+125:水陆转换器
+127:转换圈
+130:火蘑菇
+134:散击水柳
+135:喜林冰草
+137:滚木
+138:反转寒冰裂荚射手
+142:冰炬树桩
+143:电灯花
+154:冰冻香蕉
+OB:——僵尸——
+60:普通僵尸
+61:路障僵尸
+62:撑杆僵尸
+63:铁桶僵尸
+64:扶梯僵尸
+65:矿工僵尸
+66:蹦极僵尸
+67:橄榄球僵尸
+68:气球僵尸
+69:铁栅门僵尸
+70:雪橇车僵尸
+71:跳跳僵尸
+72:舞者僵尸
+73:巨人僵尸
+74:小鬼僵尸
+77:摇旗僵尸
+78:读报僵尸
+79:伴舞僵尸
+80:鸭子救生圈僵尸
+81:潜水僵尸
+82:雪橇僵尸小队
+83:海豚骑士僵尸
+84:玩偶匣僵尸
+85:雪人僵尸
+86:投石车僵尸
+87:僵王博士
+88:豌豆射手僵尸
+89:高坚果僵尸
+90:火爆辣椒僵尸
+91:机枪射手僵尸
+92:窝瓜僵尸
+93:高坚果僵尸
+94:暴走巨人僵尸
+95:螺旋桨僵尸
+96:皇天后土
+97:小鬼加农炮
+98:杨桃僵尸
+99:绳索僵尸
+100:海鸥僵尸
+101:船长僵尸
+102:僵尸鹦鹉
+103:滚筒僵尸
+104:甲板漫步者
+105:BOSS(海豚骑士僵尸)
+106:BOSS(矿工僵尸)
+107:BOSS(蹦极僵尸)
+108:BOSS(巨人僵尸)
+109:BOSS(豌豆射手僵尸)
+110:BOSS(机枪射手僵尸)
+111:BOSS(暴走巨人僵尸)
+OC:——其它——
+54:Null(重置植物)
+55:Null(填补土坑)
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+126:用户自制接口
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>1EC</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>616</ID>
+                      <Description>"卡槽7"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:机枪射手
+41:双子向日葵
+42:忧郁蘑菇
+43:香蒲
+44:“冰”瓜
+45:吸金磁
+46:地刺王
+47:玉米加农炮
+48:模仿者
+49:爆炸坚果
+50:巨大坚果
+51:幼苗
+52:双发射手(反向)
+75:飓风甘蓝
+76:磁王草
+112:水盆(无图标)
+113:小喷菇(无图标)
+114:车车(无图标)
+115:能量豆
+119:玉米炮支援
+120:棱镜草
+121:保龄球泡泡
+122:冰冻球
+123:中毒球
+124:暗影保龄球
+125:水陆转换器
+127:转换圈
+130:火蘑菇
+134:散击水柳
+135:喜林冰草
+137:滚木
+138:反转寒冰裂荚射手
+142:冰炬树桩
+143:电灯花
+154:冰冻香蕉
+OB:——僵尸——
+60:普通僵尸
+61:路障僵尸
+62:撑杆僵尸
+63:铁桶僵尸
+64:扶梯僵尸
+65:矿工僵尸
+66:蹦极僵尸
+67:橄榄球僵尸
+68:气球僵尸
+69:铁栅门僵尸
+70:雪橇车僵尸
+71:跳跳僵尸
+72:舞者僵尸
+73:巨人僵尸
+74:小鬼僵尸
+77:摇旗僵尸
+78:读报僵尸
+79:伴舞僵尸
+80:鸭子救生圈僵尸
+81:潜水僵尸
+82:雪橇僵尸小队
+83:海豚骑士僵尸
+84:玩偶匣僵尸
+85:雪人僵尸
+86:投石车僵尸
+87:僵王博士
+88:豌豆射手僵尸
+89:高坚果僵尸
+90:火爆辣椒僵尸
+91:机枪射手僵尸
+92:窝瓜僵尸
+93:高坚果僵尸
+94:暴走巨人僵尸
+95:螺旋桨僵尸
+96:皇天后土
+97:小鬼加农炮
+98:杨桃僵尸
+99:绳索僵尸
+100:海鸥僵尸
+101:船长僵尸
+102:僵尸鹦鹉
+103:滚筒僵尸
+104:甲板漫步者
+105:BOSS(海豚骑士僵尸)
+106:BOSS(矿工僵尸)
+107:BOSS(蹦极僵尸)
+108:BOSS(巨人僵尸)
+109:BOSS(豌豆射手僵尸)
+110:BOSS(机枪射手僵尸)
+111:BOSS(暴走巨人僵尸)
+OC:——其它——
+54:Null(重置植物)
+55:Null(填补土坑)
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+126:用户自制接口
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>23C</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>617</ID>
+                      <Description>"卡槽8"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:机枪射手
+41:双子向日葵
+42:忧郁蘑菇
+43:香蒲
+44:“冰”瓜
+45:吸金磁
+46:地刺王
+47:玉米加农炮
+48:模仿者
+49:爆炸坚果
+50:巨大坚果
+51:幼苗
+52:双发射手(反向)
+75:飓风甘蓝
+76:磁王草
+112:水盆(无图标)
+113:小喷菇(无图标)
+114:车车(无图标)
+115:能量豆
+119:玉米炮支援
+120:棱镜草
+121:保龄球泡泡
+122:冰冻球
+123:中毒球
+124:暗影保龄球
+125:水陆转换器
+127:转换圈
+130:火蘑菇
+134:散击水柳
+135:喜林冰草
+137:滚木
+138:反转寒冰裂荚射手
+142:冰炬树桩
+143:电灯花
+154:冰冻香蕉
+OB:——僵尸——
+60:普通僵尸
+61:路障僵尸
+62:撑杆僵尸
+63:铁桶僵尸
+64:扶梯僵尸
+65:矿工僵尸
+66:蹦极僵尸
+67:橄榄球僵尸
+68:气球僵尸
+69:铁栅门僵尸
+70:雪橇车僵尸
+71:跳跳僵尸
+72:舞者僵尸
+73:巨人僵尸
+74:小鬼僵尸
+77:摇旗僵尸
+78:读报僵尸
+79:伴舞僵尸
+80:鸭子救生圈僵尸
+81:潜水僵尸
+82:雪橇僵尸小队
+83:海豚骑士僵尸
+84:玩偶匣僵尸
+85:雪人僵尸
+86:投石车僵尸
+87:僵王博士
+88:豌豆射手僵尸
+89:高坚果僵尸
+90:火爆辣椒僵尸
+91:机枪射手僵尸
+92:窝瓜僵尸
+93:高坚果僵尸
+94:暴走巨人僵尸
+95:螺旋桨僵尸
+96:皇天后土
+97:小鬼加农炮
+98:杨桃僵尸
+99:绳索僵尸
+100:海鸥僵尸
+101:船长僵尸
+102:僵尸鹦鹉
+103:滚筒僵尸
+104:甲板漫步者
+105:BOSS(海豚骑士僵尸)
+106:BOSS(矿工僵尸)
+107:BOSS(蹦极僵尸)
+108:BOSS(巨人僵尸)
+109:BOSS(豌豆射手僵尸)
+110:BOSS(机枪射手僵尸)
+111:BOSS(暴走巨人僵尸)
+OC:——其它——
+54:Null(重置植物)
+55:Null(填补土坑)
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+126:用户自制接口
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>28C</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>618</ID>
+                      <Description>"卡槽9"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:机枪射手
+41:双子向日葵
+42:忧郁蘑菇
+43:香蒲
+44:“冰”瓜
+45:吸金磁
+46:地刺王
+47:玉米加农炮
+48:模仿者
+49:爆炸坚果
+50:巨大坚果
+51:幼苗
+52:双发射手(反向)
+75:飓风甘蓝
+76:磁王草
+112:水盆(无图标)
+113:小喷菇(无图标)
+114:车车(无图标)
+115:能量豆
+119:玉米炮支援
+120:棱镜草
+121:保龄球泡泡
+122:冰冻球
+123:中毒球
+124:暗影保龄球
+125:水陆转换器
+127:转换圈
+130:火蘑菇
+134:散击水柳
+135:喜林冰草
+137:滚木
+138:反转寒冰裂荚射手
+142:冰炬树桩
+143:电灯花
+154:冰冻香蕉
+OB:——僵尸——
+60:普通僵尸
+61:路障僵尸
+62:撑杆僵尸
+63:铁桶僵尸
+64:扶梯僵尸
+65:矿工僵尸
+66:蹦极僵尸
+67:橄榄球僵尸
+68:气球僵尸
+69:铁栅门僵尸
+70:雪橇车僵尸
+71:跳跳僵尸
+72:舞者僵尸
+73:巨人僵尸
+74:小鬼僵尸
+77:摇旗僵尸
+78:读报僵尸
+79:伴舞僵尸
+80:鸭子救生圈僵尸
+81:潜水僵尸
+82:雪橇僵尸小队
+83:海豚骑士僵尸
+84:玩偶匣僵尸
+85:雪人僵尸
+86:投石车僵尸
+87:僵王博士
+88:豌豆射手僵尸
+89:高坚果僵尸
+90:火爆辣椒僵尸
+91:机枪射手僵尸
+92:窝瓜僵尸
+93:高坚果僵尸
+94:暴走巨人僵尸
+95:螺旋桨僵尸
+96:皇天后土
+97:小鬼加农炮
+98:杨桃僵尸
+99:绳索僵尸
+100:海鸥僵尸
+101:船长僵尸
+102:僵尸鹦鹉
+103:滚筒僵尸
+104:甲板漫步者
+105:BOSS(海豚骑士僵尸)
+106:BOSS(矿工僵尸)
+107:BOSS(蹦极僵尸)
+108:BOSS(巨人僵尸)
+109:BOSS(豌豆射手僵尸)
+110:BOSS(机枪射手僵尸)
+111:BOSS(暴走巨人僵尸)
+OC:——其它——
+54:Null(重置植物)
+55:Null(填补土坑)
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+126:用户自制接口
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>2DC</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>619</ID>
+                      <Description>"卡槽10"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:机枪射手
+41:双子向日葵
+42:忧郁蘑菇
+43:香蒲
+44:“冰”瓜
+45:吸金磁
+46:地刺王
+47:玉米加农炮
+48:模仿者
+49:爆炸坚果
+50:巨大坚果
+51:幼苗
+52:双发射手(反向)
+75:飓风甘蓝
+76:磁王草
+112:水盆(无图标)
+113:小喷菇(无图标)
+114:车车(无图标)
+115:能量豆
+119:玉米炮支援
+120:棱镜草
+121:保龄球泡泡
+122:冰冻球
+123:中毒球
+124:暗影保龄球
+125:水陆转换器
+127:转换圈
+130:火蘑菇
+134:散击水柳
+135:喜林冰草
+137:滚木
+138:反转寒冰裂荚射手
+142:冰炬树桩
+143:电灯花
+154:冰冻香蕉
+OB:——僵尸——
+60:普通僵尸
+61:路障僵尸
+62:撑杆僵尸
+63:铁桶僵尸
+64:扶梯僵尸
+65:矿工僵尸
+66:蹦极僵尸
+67:橄榄球僵尸
+68:气球僵尸
+69:铁栅门僵尸
+70:雪橇车僵尸
+71:跳跳僵尸
+72:舞者僵尸
+73:巨人僵尸
+74:小鬼僵尸
+77:摇旗僵尸
+78:读报僵尸
+79:伴舞僵尸
+80:鸭子救生圈僵尸
+81:潜水僵尸
+82:雪橇僵尸小队
+83:海豚骑士僵尸
+84:玩偶匣僵尸
+85:雪人僵尸
+86:投石车僵尸
+87:僵王博士
+88:豌豆射手僵尸
+89:高坚果僵尸
+90:火爆辣椒僵尸
+91:机枪射手僵尸
+92:窝瓜僵尸
+93:高坚果僵尸
+94:暴走巨人僵尸
+95:螺旋桨僵尸
+96:皇天后土
+97:小鬼加农炮
+98:杨桃僵尸
+99:绳索僵尸
+100:海鸥僵尸
+101:船长僵尸
+102:僵尸鹦鹉
+103:滚筒僵尸
+104:甲板漫步者
+105:BOSS(海豚骑士僵尸)
+106:BOSS(矿工僵尸)
+107:BOSS(蹦极僵尸)
+108:BOSS(巨人僵尸)
+109:BOSS(豌豆射手僵尸)
+110:BOSS(机枪射手僵尸)
+111:BOSS(暴走巨人僵尸)
+OC:——其它——
+54:Null(重置植物)
+55:Null(填补土坑)
+56:太阳(老虎机)
+57:钻石(老虎机)
+58:购买潜水僵尸
+59:购买奖杯
+126:用户自制接口
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>32C</Offset>
+                        <Offset>144</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>620</ID>
+                  <Description>"植物调教"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>621</ID>
+                      <Description>"子弹叠加(易崩溃)"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [edi+00000090],#1//eax
+
+exit:
+jmp returnhere
+
+0046488F:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0046488F:
+db 89 87 90 00 00 00
+//mov [edi+00000090],eax
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>622</ID>
+                      <Description>"子弹变玉米棒"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+mov [ebp+5C],0B//eax
+mov eax,esi
+
+exit:
+jmp returnhere
+
+0046C769:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+0046C769:
+db 89 45 5C 8B C6
+//mov [ebp+5C],eax
+//mov eax,esi
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>623</ID>
+                      <Description>"竖排种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+00410AE6:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+00410AE6:
+db 0F 85 E5 00 00 00
+//jne 00410BD1
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>624</ID>
+                  <Description>"跳关与混乱"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>625</ID>
+                      <Description>"冒险模式"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>24</Offset>
+                        <Offset>82C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>626</ID>
+                      <Description>"模式混乱(易崩溃)"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>7F8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>627</ID>
+                      <Description>"无尽轮数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>6C</Offset>
+                        <Offset>160</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>628</ID>
+                      <Description>"当前关卡总波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>5564</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>629</ID>
+                      <Description>"当前关卡到达的波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>006A9EC0</Address>
+                      <Offsets>
+                        <Offset>557C</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>630</ID>
+                  <Description>"杂项修改"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>631</ID>
+                      <Description>"状态页面"</Description>
+                      <Options moHideChildren="1" moRecursiveSetValue="1"/>
+                      <DropDownList DisplayValueAsItem="1">144:开启
+</DropDownList>
+                      <GroupHeader>1</GroupHeader>
+                      <Address/>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>632</ID>
+                          <Description>"开关1"</Description>
+                          <DropDownList DisplayValueAsItem="1">144:开启
+136:关闭
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>Byte</VariableType>
+                          <Address>42DF5D</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>633</ID>
+                          <Description>"开关2"</Description>
+                          <DropDownList DisplayValueAsItem="1">144:开启
+89:关闭
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>Byte</VariableType>
+                          <Address>42DF5E</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>634</ID>
+                          <Description>"开关3"</Description>
+                          <DropDownList DisplayValueAsItem="1">144:开启
+84:关闭
+</DropDownList>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>Byte</VariableType>
+                          <Address>42DF5F</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
           <ID>140</ID>
           <Description>"二战版"</Description>
           <Options moHideChildren="1"/>
