@@ -12230,14 +12230,14 @@ db 0F 85 E5 00 00 00
           <CheatEntries>
             <CheatEntry>
               <ID>587</ID>
-              <Description>"2.06 Public Preview"</Description>
+              <Description>"2.06 PP03-03-014"</Description>
               <Options moHideChildren="1"/>
               <GroupHeader>1</GroupHeader>
               <Address/>
               <CheatEntries>
                 <CheatEntry>
                   <ID>588</ID>
-                  <Description>"基址"</Description>
+                  <Description>"基址1"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>4 Bytes</VariableType>
