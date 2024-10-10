@@ -1,0 +1,12 @@
+1 下载PVZ英文原始版 1.0.0.1051
+
+2 解密英文原始版的EXE文件 解密后的EXE文件的CRC值应为：800C24B6
+2.1 解密教程看这里：https://pvz.tools/download/#%E5%AE%98%E6%96%B9%E5%8E%9F%E5%A7%8B%E5%AE%89%E8%A3%85%E5%8C%85
+
+3 使用DeltaPatcher.exe 加载"英文原始版"的"PlantsVsZombies.exe" 以及将要使用到的"PlantsVsZombies.xdelta"
+
+4 点击"Apply patch" 会生成一个23.8MB的"PlantsVsZombies.exe"文件
+
+5 将上一个步骤的EXE文件复制到二战版公测2版的游戏文件夹里
+
+6 运行"PlantsVsZombies.exe"文件 此时Cheat Engine可以正常附加到游戏中了
