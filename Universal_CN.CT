@@ -2311,6 +2311,1650 @@ db 0F 84 74 0D 00 00
 //je LawnProject.Board::MouseDownWithPlant+EAE
 </AssemblerScript>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>577</ID>
+                      <Description>"花瓶透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+mov [edi+4C],32
+originalcode:
+cmp dword ptr [edi+4C],00
+jng LawnProject.GridItem::DrawScaryPot+44F
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+C8779:
+jmp newmem
+nop 5
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"LawnProject.exe"+C8779:
+db 83 7F 4C 00 0F 8E 8C 03 00 00
+//cmp dword ptr [edi+4C],00
+//jng LawnProject.GridItem::DrawScaryPot+44F
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>578</ID>
+                      <Description>"浓雾透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+mov eax,#0//[eax]
+mov [esp+34],eax
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+28F60:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"LawnProject.exe"+28F60:
+db 8B 00 89 44 24 34
+//mov eax,[eax]
+//mov [esp+34],eax
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>569</ID>
+                  <Description>"植物调教"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>572</ID>
+                      <Description>"子弹叠加(易崩溃)"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+mov [edi+00000090],#1//eax
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+127887:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"LawnProject.exe"+127887:
+db 89 87 90 00 00 00
+//mov [edi+00000090],eax
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>574</ID>
+                      <Description>"子弹变玉米棒"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+mov [eax+5C],0B //这里输入子弹编号(十六进制)
+mov [eax+38],00000000 //子弹编号参见"[decomp]Brain Damage.xlsx"
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+51BE9:
+jmp newmem
+nop 5
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"LawnProject.exe"+51BE9:
+db 89 50 5C C7 40 38 00 00 00 00
+//mov [eax+5C],edx
+//mov [eax+38],00000000
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>568</ID>
+                      <Description>"竖排种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+1C314:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"LawnProject.exe"+1C314:
+db 0F 85 E7 00 00 00
+//jne LawnProject.Board::MouseDownWithPlant+1291
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>554</ID>
+                  <Description>"卡槽修改"</Description>
+                  <Options moHideChildren="1"/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(BDslot2,LawnProject.exe,C7 41 5C FF FF FF FF) // should be unique
+alloc(newmem,$1000)
+alloc(slot2,24)
+registersymbol(slot2)
+label(code)
+label(return)
+
+newmem:
+  mov [ecx+5C],FFFFFFFF
+  mov [slot2],ecx
+  jmp return
+code:
+  mov [ecx+5C],FFFFFFFF
+  jmp return
+
+BDslot2:
+  jmp newmem
+  nop 2
+return:
+registersymbol(BDslot2)
+
+[DISABLE]
+
+BDslot2:
+  db C7 41 5C FF FF FF FF
+
+unregistersymbol(BDslot2)
+dealloc(newmem)
+dealloc(slot2)
+unregistersymbol(slot2)
+
+</AssemblerScript>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>555</ID>
+                      <Description>"卡槽1"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:麦穗投手
+41:寒冰坚果
+42:毒菌蟾蜍
+43:金缕梅
+44:辣椒投手
+45:哈密瓜投手
+46:电离子射手
+47:爆炸坚果
+48:火焰射手
+49:机枪射手
+50:双子向日葵
+51:忧郁蘑菇
+52:香蒲
+53:“冰”瓜
+54:吸金磁
+55:地刺王
+56:玉米加农炮
+57:寒冰女皇射手
+58:模仿者
+59:爆炸坚果(保龄球)
+60:巨大坚果(保龄球)
+61:幼苗
+62:双发射手(左向)
+OB:——僵尸——
+70:普通僵尸
+71:路障僵尸
+72:撑杆僵尸
+73:铁桶僵尸
+74:扶梯僵尸
+75:矿工僵尸
+76:蹦极僵尸
+77:橄榄球僵尸
+78:气球僵尸
+79:铁栅门僵尸
+80:雪橇车僵尸
+81:跳跳僵尸
+82:舞者僵尸
+83:巨人僵尸
+84:小鬼僵尸
+OC:——其它——
+64:重置植物
+65:填补土坑
+66:太阳(老虎机)
+67:钻石(老虎机)
+68:购买潜水僵尸
+69:购买奖杯
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>5C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>559</ID>
+                      <Description>"卡槽2"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:麦穗投手
+41:寒冰坚果
+42:毒菌蟾蜍
+43:金缕梅
+44:辣椒投手
+45:哈密瓜投手
+46:电离子射手
+47:爆炸坚果
+48:火焰射手
+49:机枪射手
+50:双子向日葵
+51:忧郁蘑菇
+52:香蒲
+53:“冰”瓜
+54:吸金磁
+55:地刺王
+56:玉米加农炮
+57:寒冰女皇射手
+58:模仿者
+59:爆炸坚果(保龄球)
+60:巨大坚果(保龄球)
+61:幼苗
+62:双发射手(左向)
+OB:——僵尸——
+70:普通僵尸
+71:路障僵尸
+72:撑杆僵尸
+73:铁桶僵尸
+74:扶梯僵尸
+75:矿工僵尸
+76:蹦极僵尸
+77:橄榄球僵尸
+78:气球僵尸
+79:铁栅门僵尸
+80:雪橇车僵尸
+81:跳跳僵尸
+82:舞者僵尸
+83:巨人僵尸
+84:小鬼僵尸
+OC:——其它——
+64:重置植物
+65:填补土坑
+66:太阳(老虎机)
+67:钻石(老虎机)
+68:购买潜水僵尸
+69:购买奖杯
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>AC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>560</ID>
+                      <Description>"卡槽3"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:麦穗投手
+41:寒冰坚果
+42:毒菌蟾蜍
+43:金缕梅
+44:辣椒投手
+45:哈密瓜投手
+46:电离子射手
+47:爆炸坚果
+48:火焰射手
+49:机枪射手
+50:双子向日葵
+51:忧郁蘑菇
+52:香蒲
+53:“冰”瓜
+54:吸金磁
+55:地刺王
+56:玉米加农炮
+57:寒冰女皇射手
+58:模仿者
+59:爆炸坚果(保龄球)
+60:巨大坚果(保龄球)
+61:幼苗
+62:双发射手(左向)
+OB:——僵尸——
+70:普通僵尸
+71:路障僵尸
+72:撑杆僵尸
+73:铁桶僵尸
+74:扶梯僵尸
+75:矿工僵尸
+76:蹦极僵尸
+77:橄榄球僵尸
+78:气球僵尸
+79:铁栅门僵尸
+80:雪橇车僵尸
+81:跳跳僵尸
+82:舞者僵尸
+83:巨人僵尸
+84:小鬼僵尸
+OC:——其它——
+64:重置植物
+65:填补土坑
+66:太阳(老虎机)
+67:钻石(老虎机)
+68:购买潜水僵尸
+69:购买奖杯
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>FC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>561</ID>
+                      <Description>"卡槽4"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:麦穗投手
+41:寒冰坚果
+42:毒菌蟾蜍
+43:金缕梅
+44:辣椒投手
+45:哈密瓜投手
+46:电离子射手
+47:爆炸坚果
+48:火焰射手
+49:机枪射手
+50:双子向日葵
+51:忧郁蘑菇
+52:香蒲
+53:“冰”瓜
+54:吸金磁
+55:地刺王
+56:玉米加农炮
+57:寒冰女皇射手
+58:模仿者
+59:爆炸坚果(保龄球)
+60:巨大坚果(保龄球)
+61:幼苗
+62:双发射手(左向)
+OB:——僵尸——
+70:普通僵尸
+71:路障僵尸
+72:撑杆僵尸
+73:铁桶僵尸
+74:扶梯僵尸
+75:矿工僵尸
+76:蹦极僵尸
+77:橄榄球僵尸
+78:气球僵尸
+79:铁栅门僵尸
+80:雪橇车僵尸
+81:跳跳僵尸
+82:舞者僵尸
+83:巨人僵尸
+84:小鬼僵尸
+OC:——其它——
+64:重置植物
+65:填补土坑
+66:太阳(老虎机)
+67:钻石(老虎机)
+68:购买潜水僵尸
+69:购买奖杯
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>14C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>562</ID>
+                      <Description>"卡槽5"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:麦穗投手
+41:寒冰坚果
+42:毒菌蟾蜍
+43:金缕梅
+44:辣椒投手
+45:哈密瓜投手
+46:电离子射手
+47:爆炸坚果
+48:火焰射手
+49:机枪射手
+50:双子向日葵
+51:忧郁蘑菇
+52:香蒲
+53:“冰”瓜
+54:吸金磁
+55:地刺王
+56:玉米加农炮
+57:寒冰女皇射手
+58:模仿者
+59:爆炸坚果(保龄球)
+60:巨大坚果(保龄球)
+61:幼苗
+62:双发射手(左向)
+OB:——僵尸——
+70:普通僵尸
+71:路障僵尸
+72:撑杆僵尸
+73:铁桶僵尸
+74:扶梯僵尸
+75:矿工僵尸
+76:蹦极僵尸
+77:橄榄球僵尸
+78:气球僵尸
+79:铁栅门僵尸
+80:雪橇车僵尸
+81:跳跳僵尸
+82:舞者僵尸
+83:巨人僵尸
+84:小鬼僵尸
+OC:——其它——
+64:重置植物
+65:填补土坑
+66:太阳(老虎机)
+67:钻石(老虎机)
+68:购买潜水僵尸
+69:购买奖杯
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>19C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>556</ID>
+                      <Description>"卡槽6"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:麦穗投手
+41:寒冰坚果
+42:毒菌蟾蜍
+43:金缕梅
+44:辣椒投手
+45:哈密瓜投手
+46:电离子射手
+47:爆炸坚果
+48:火焰射手
+49:机枪射手
+50:双子向日葵
+51:忧郁蘑菇
+52:香蒲
+53:“冰”瓜
+54:吸金磁
+55:地刺王
+56:玉米加农炮
+57:寒冰女皇射手
+58:模仿者
+59:爆炸坚果(保龄球)
+60:巨大坚果(保龄球)
+61:幼苗
+62:双发射手(左向)
+OB:——僵尸——
+70:普通僵尸
+71:路障僵尸
+72:撑杆僵尸
+73:铁桶僵尸
+74:扶梯僵尸
+75:矿工僵尸
+76:蹦极僵尸
+77:橄榄球僵尸
+78:气球僵尸
+79:铁栅门僵尸
+80:雪橇车僵尸
+81:跳跳僵尸
+82:舞者僵尸
+83:巨人僵尸
+84:小鬼僵尸
+OC:——其它——
+64:重置植物
+65:填补土坑
+66:太阳(老虎机)
+67:钻石(老虎机)
+68:购买潜水僵尸
+69:购买奖杯
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>1EC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>557</ID>
+                      <Description>"卡槽7"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:麦穗投手
+41:寒冰坚果
+42:毒菌蟾蜍
+43:金缕梅
+44:辣椒投手
+45:哈密瓜投手
+46:电离子射手
+47:爆炸坚果
+48:火焰射手
+49:机枪射手
+50:双子向日葵
+51:忧郁蘑菇
+52:香蒲
+53:“冰”瓜
+54:吸金磁
+55:地刺王
+56:玉米加农炮
+57:寒冰女皇射手
+58:模仿者
+59:爆炸坚果(保龄球)
+60:巨大坚果(保龄球)
+61:幼苗
+62:双发射手(左向)
+OB:——僵尸——
+70:普通僵尸
+71:路障僵尸
+72:撑杆僵尸
+73:铁桶僵尸
+74:扶梯僵尸
+75:矿工僵尸
+76:蹦极僵尸
+77:橄榄球僵尸
+78:气球僵尸
+79:铁栅门僵尸
+80:雪橇车僵尸
+81:跳跳僵尸
+82:舞者僵尸
+83:巨人僵尸
+84:小鬼僵尸
+OC:——其它——
+64:重置植物
+65:填补土坑
+66:太阳(老虎机)
+67:钻石(老虎机)
+68:购买潜水僵尸
+69:购买奖杯
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>23C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>563</ID>
+                      <Description>"卡槽8"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:麦穗投手
+41:寒冰坚果
+42:毒菌蟾蜍
+43:金缕梅
+44:辣椒投手
+45:哈密瓜投手
+46:电离子射手
+47:爆炸坚果
+48:火焰射手
+49:机枪射手
+50:双子向日葵
+51:忧郁蘑菇
+52:香蒲
+53:“冰”瓜
+54:吸金磁
+55:地刺王
+56:玉米加农炮
+57:寒冰女皇射手
+58:模仿者
+59:爆炸坚果(保龄球)
+60:巨大坚果(保龄球)
+61:幼苗
+62:双发射手(左向)
+OB:——僵尸——
+70:普通僵尸
+71:路障僵尸
+72:撑杆僵尸
+73:铁桶僵尸
+74:扶梯僵尸
+75:矿工僵尸
+76:蹦极僵尸
+77:橄榄球僵尸
+78:气球僵尸
+79:铁栅门僵尸
+80:雪橇车僵尸
+81:跳跳僵尸
+82:舞者僵尸
+83:巨人僵尸
+84:小鬼僵尸
+OC:——其它——
+64:重置植物
+65:填补土坑
+66:太阳(老虎机)
+67:钻石(老虎机)
+68:购买潜水僵尸
+69:购买奖杯
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>28C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>564</ID>
+                      <Description>"卡槽9"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:麦穗投手
+41:寒冰坚果
+42:毒菌蟾蜍
+43:金缕梅
+44:辣椒投手
+45:哈密瓜投手
+46:电离子射手
+47:爆炸坚果
+48:火焰射手
+49:机枪射手
+50:双子向日葵
+51:忧郁蘑菇
+52:香蒲
+53:“冰”瓜
+54:吸金磁
+55:地刺王
+56:玉米加农炮
+57:寒冰女皇射手
+58:模仿者
+59:爆炸坚果(保龄球)
+60:巨大坚果(保龄球)
+61:幼苗
+62:双发射手(左向)
+OB:——僵尸——
+70:普通僵尸
+71:路障僵尸
+72:撑杆僵尸
+73:铁桶僵尸
+74:扶梯僵尸
+75:矿工僵尸
+76:蹦极僵尸
+77:橄榄球僵尸
+78:气球僵尸
+79:铁栅门僵尸
+80:雪橇车僵尸
+81:跳跳僵尸
+82:舞者僵尸
+83:巨人僵尸
+84:小鬼僵尸
+OC:——其它——
+64:重置植物
+65:填补土坑
+66:太阳(老虎机)
+67:钻石(老虎机)
+68:购买潜水僵尸
+69:购买奖杯
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>2DC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>558</ID>
+                      <Description>"卡槽10"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:麦穗投手
+41:寒冰坚果
+42:毒菌蟾蜍
+43:金缕梅
+44:辣椒投手
+45:哈密瓜投手
+46:电离子射手
+47:爆炸坚果
+48:火焰射手
+49:机枪射手
+50:双子向日葵
+51:忧郁蘑菇
+52:香蒲
+53:“冰”瓜
+54:吸金磁
+55:地刺王
+56:玉米加农炮
+57:寒冰女皇射手
+58:模仿者
+59:爆炸坚果(保龄球)
+60:巨大坚果(保龄球)
+61:幼苗
+62:双发射手(左向)
+OB:——僵尸——
+70:普通僵尸
+71:路障僵尸
+72:撑杆僵尸
+73:铁桶僵尸
+74:扶梯僵尸
+75:矿工僵尸
+76:蹦极僵尸
+77:橄榄球僵尸
+78:气球僵尸
+79:铁栅门僵尸
+80:雪橇车僵尸
+81:跳跳僵尸
+82:舞者僵尸
+83:巨人僵尸
+84:小鬼僵尸
+OC:——其它——
+64:重置植物
+65:填补土坑
+66:太阳(老虎机)
+67:钻石(老虎机)
+68:购买潜水僵尸
+69:购买奖杯
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>32C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>580</ID>
+                  <Description>"禅境花园"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>579</ID>
+                      <Description>"肥料"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+43CD30</Address>
+                      <Offsets>
+                        <Offset>1F8</Offset>
+                        <Offset>7A8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>581</ID>
+                      <Description>"杀虫剂"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+43CD30</Address>
+                      <Offsets>
+                        <Offset>1FC</Offset>
+                        <Offset>7A8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>583</ID>
+                      <Description>"巧克力"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+43CD30</Address>
+                      <Offsets>
+                        <Offset>228</Offset>
+                        <Offset>7A8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>584</ID>
+                      <Description>"智慧树高度"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+43CD30</Address>
+                      <Offsets>
+                        <Offset>FC</Offset>
+                        <Offset>7A8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>585</ID>
+                      <Description>"智慧树肥料"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+43CD30</Address>
+                      <Offsets>
+                        <Offset>230</Offset>
+                        <Offset>7A8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>566</ID>
+                  <Description>"跳关与混乱"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>565</ID>
+                      <Description>"冒险模式"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+43CD30</Address>
+                      <Offsets>
+                        <Offset>20</Offset>
+                        <Offset>7A8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>567</ID>
+                      <Description>"模式混乱(易崩溃)"</Description>
+                      <DropDownList DisplayValueAsItem="1">0:冒险模式
+OA:——迷你游戏——
+16:植物僵尸
+17:坚果保龄球
+18:老虎机
+19:雨中种植物
+20:宝石迷阵
+21:隐形食脑者
+22:看星星
+23:僵尸水族馆
+24:宝石迷阵转转看
+25:小僵尸大麻烦
+26:保护传送门
+27:你看 它们像柱子一样
+28:雪橇区
+29:僵尸快跑
+30:锤僵尸
+31:谁笑到最后
+32:植物僵尸2
+33:坚果保龄球2
+34:跳跳舞会
+35:僵王博士的复仇
+36:坚果保龄球 艺术锦标赛
+37:晴天
+38:无草皮之地
+39:重要时间
+40:挑战 种太阳花的艺术
+41:空袭
+42:不要玩(冰冻关卡)
+44:超乎寻常的压力
+45:坟墓模式
+46:你能把它挖出来吗？
+47:黑暗的暴风雨夜
+48:蹦极闪电战
+49:松鼠
+50:火力不足
+51:电动布加洛
+52:植物僵尸3
+54:植物僵尸4
+55:力拔山河
+56:砖块很硬
+57:屏住呼吸
+58:极寒之塔
+59:坚果保龄球3
+OB:——解谜模式(砸罐子)——
+60:破罐者
+61:一路向左
+62:第三个罐子
+63:连锁反应
+64:M的意思是金属
+65:胆怯的制陶工
+66:变戏法
+67:另一个连锁反应
+68:罐子王牌
+69:无尽的试炼
+OC:——解谜模式(我是僵尸)——
+70:我是僵尸
+71:我也是僵尸
+72:你能铲了它么？
+73:完全傻了
+74:死亡飞艇
+75:我烂了
+76:跳跳舞会
+77:三连击
+78:你所有的大脑都是属于我的
+79:我是僵尸无尽版
+OD:——生存模式——
+1:生存模式：白天
+2:生存模式：夜晚
+3:生存模式：泳池
+4:生存模式：浓雾
+5:生存模式：屋顶
+6:生存模式：白天(困难)
+7:生存模式：夜晚(困难)
+8:生存模式：泳池(困难)
+9:生存模式：浓雾(困难)
+10:生存模式：屋顶(困难)
+11:生存模式：白天(无尽)
+12:生存模式：夜晚(无尽)
+13:生存模式：泳池(无尽)
+14:生存模式：浓雾(无尽)
+15:生存模式：屋顶(无尽)
+OE:——其它——
+43:禅境花园
+53:智慧树
+80:追加销售
+81:介绍
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+43CD30</Address>
+                      <Offsets>
+                        <Offset>770</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>551</ID>
+                  <Description>"杂项修改"</Description>
+                  <Options moHideChildren="1"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <GroupHeader>1</GroupHeader>
+                  <Address/>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>550</ID>
+                      <Description>"光标选择的种子包"</Description>
+                      <DropDownList DisplayValueAsItem="1">OA:——植物——
+0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:麦穗投手
+41:寒冰坚果
+42:毒菌蟾蜍
+43:金缕梅
+44:辣椒投手
+45:哈密瓜投手
+46:电离子射手
+47:爆炸坚果
+48:火焰射手
+49:机枪射手
+50:双子向日葵
+51:忧郁蘑菇
+52:香蒲
+53:“冰”瓜
+54:吸金磁
+55:地刺王
+56:玉米加农炮
+57:寒冰女皇射手
+58:模仿者
+59:爆炸坚果(保龄球)
+60:巨大坚果(保龄球)
+61:幼苗
+62:双发射手(左向)
+OB:——僵尸——
+70:普通僵尸
+71:路障僵尸
+72:撑杆僵尸
+73:铁桶僵尸
+74:扶梯僵尸
+75:矿工僵尸
+76:蹦极僵尸
+77:橄榄球僵尸
+78:气球僵尸
+79:铁栅门僵尸
+80:雪橇车僵尸
+81:跳跳僵尸
+82:舞者僵尸
+83:巨人僵尸
+84:小鬼僵尸
+OC:——其它——
+64:重置植物
+65:填补土坑
+66:太阳(老虎机)
+67:钻石(老虎机)
+68:购买潜水僵尸
+69:购买奖杯
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+43CD30</Address>
+                      <Offsets>
+                        <Offset>28</Offset>
+                        <Offset>12C</Offset>
+                        <Offset>6E8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>570</ID>
+                      <Description>"植物图鉴"</Description>
+                      <DropDownList DisplayValueAsItem="1">0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:土豆雷
+5:寒冰射手
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:魅惑菇
+13:胆小菇
+14:寒冰菇
+15:毁灭菇
+16:荷叶
+17:窝瓜
+18:三线射手
+19:缠绕水草
+20:火爆辣椒
+21:地刺
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:仙人掌
+27:三叶草
+28:裂夹射手
+29:杨桃
+30:南瓜头
+31:磁力菇
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:咖啡豆
+36:大蒜
+37:叶子保护伞
+38:金盏花
+39:西瓜投手
+40:麦穗投手
+41:寒冰坚果
+42:毒菌蟾蜍
+43:金缕梅
+44:辣椒投手
+45:哈密瓜投手
+46:电离子射手
+47:爆炸坚果
+48:火焰射手
+49:机枪射手
+50:双子向日葵
+51:忧郁蘑菇
+52:香蒲
+53:“冰”瓜
+54:吸金磁
+55:地刺王
+56:玉米加农炮
+57:寒冰女皇射手
+58:模仿者
+59:爆炸坚果(保龄球)
+60:巨大坚果(保龄球)
+61:幼苗
+62:双发射手(左向)
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+43CD30</Address>
+                      <Offsets>
+                        <Offset>188</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>308</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>571</ID>
+                      <Description>"僵尸图鉴"</Description>
+                      <DropDownList DisplayValueAsItem="1">0:普通僵尸
+1:摇旗僵尸
+2:路障僵尸
+3:撑杆僵尸
+4:铁桶僵尸
+5:读报僵尸
+6:铁栅门僵尸
+7:橄榄球僵尸
+8:舞者僵尸
+9:舞者伴舞僵尸
+10:鸭子救生圈僵尸
+11:潜水僵尸
+12:雪橇车僵尸
+13:雪橇僵尸小队
+14:海豚骑士僵尸
+15:玩偶匣僵尸
+16:气球僵尸
+17:矿工僵尸
+18:跳跳僵尸
+19:雪人僵尸
+20:蹦极僵尸
+21:扶梯僵尸
+22:篮球僵尸
+23:巨人僵尸
+24:小鬼僵尸
+25:砖块僵尸
+26:野蛮僵尸
+27:杂志僵尸
+28:舞王僵尸
+29:舞王伴舞僵尸
+30:僵王博士
+31:暴走巨人僵尸
+32:豌豆射手僵尸
+33:坚果墙僵尸
+34:火爆辣椒僵尸
+35:机枪射手僵尸
+36:窝瓜僵尸
+37:高坚果僵尸
+38:双发射手僵尸
+39:寒冰射手僵尸
+40:向日葵僵尸
+41:卷心菜投手僵尸
+42:西瓜投手僵尸
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+43CD30</Address>
+                      <Offsets>
+                        <Offset>18C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>308</Offset>
+                      </Offsets>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
               </CheatEntries>
