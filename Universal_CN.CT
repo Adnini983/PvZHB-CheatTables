@@ -2,7 +2,7 @@
 <CheatTable CheatEngineTableVersion="45">
   <CheatEntries>
     <CheatEntry>
-      <ID>4</ID>
+      <ID>33</ID>
       <Description>"←Decomp系列改版点我"</Description>
       <Options moHideChildren="1"/>
       <ShowAsSigned>0</ShowAsSigned>
@@ -322,21 +322,21 @@ db 8B 48 24 83 C1 01
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>5</ID>
+          <ID>671</ID>
           <Description>"超宽扩展版(Ultra Wide Expansion)"</Description>
           <Options moHideChildren="1"/>
           <GroupHeader>1</GroupHeader>
           <Address/>
           <CheatEntries>
             <CheatEntry>
-              <ID>6</ID>
+              <ID>672</ID>
               <Description>"20240806尝鲜版"</Description>
               <Options moHideChildren="1"/>
               <GroupHeader>1</GroupHeader>
               <Address/>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>7</ID>
+                  <ID>673</ID>
                   <Description>"基址"</Description>
                   <ShowAsHex>1</ShowAsHex>
                   <ShowAsSigned>0</ShowAsSigned>
@@ -344,14 +344,14 @@ db 8B 48 24 83 C1 01
                   <Address>PlantsVsZombies.exe+7B1DF4</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>8</ID>
+                  <ID>674</ID>
                   <Description>"常用功能"</Description>
                   <Options moHideChildren="1"/>
                   <GroupHeader>1</GroupHeader>
                   <Address/>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>2</ID>
+                      <ID>675</ID>
                       <Description>"阳光"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -362,7 +362,7 @@ db 8B 48 24 83 C1 01
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>3</ID>
+                      <ID>676</ID>
                       <Description>"金币"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -373,7 +373,7 @@ db 8B 48 24 83 C1 01
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>31</ID>
+                      <ID>677</ID>
                       <Description>"无需冷却"</Description>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -1990,7 +1990,7 @@ unregistersymbol(smarttree)
                   <Address/>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>0</ID>
+                      <ID>678</ID>
                       <Description>"冒险模式"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -2001,7 +2001,7 @@ unregistersymbol(smarttree)
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>9</ID>
+                      <ID>679</ID>
                       <Description>"模式混乱(易崩溃)"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:冒险模式
 OA:——迷你游戏——
@@ -4281,6 +4281,488 @@ OC:——其它——
           <Address/>
           <CheatEntries>
             <CheatEntry>
+              <ID>0</ID>
+              <Description>"Beta 1.0.4"</Description>
+              <Options moHideChildren="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2</ID>
+                  <Description>"基址"</Description>
+                  <ShowAsHex>1</ShowAsHex>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>LawnProject.exe+457698</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3</ID>
+                  <Description>"常用功能"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>1</ID>
+                      <Description>"阳光"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+457698</Address>
+                      <Offsets>
+                        <Offset>557C</Offset>
+                        <Offset>6F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>7</ID>
+                      <Description>"金币"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+457698</Address>
+                      <Offsets>
+                        <Offset>24</Offset>
+                        <Offset>7AC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>4</ID>
+                      <Description>"无需冷却"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+nop
+inc eax
+mov [esi+24],eax
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+21061:
+jmp newmem
+nop 2
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"LawnProject.exe"+21061:
+db 8B 46 24 40 89 46 24
+//mov eax,[esi+24]
+//inc eax
+//mov [esi+24],eax
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17</ID>
+                      <Description>"花瓶透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+mov [edi+4C],32
+originalcode:
+cmp dword ptr [edi+4C],00
+jng LawnProject.exe+CED9F
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+CEA19:
+jmp newmem
+nop 5
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"LawnProject.exe"+CEA19:
+db 83 7F 4C 00 0F 8E 7C 03 00 00
+//cmp dword ptr [edi+4C],00
+//jng LawnProject.exe+CED9F
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>6</ID>
+                  <Description>"血量控制"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>5</ID>
+                      <Description>"僵尸本体无敌"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+A9503:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"LawnProject.exe"+A9503:
+db 89 9F C8 00 00 00
+//mov [edi+000000C8],ebx
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>8</ID>
+                      <Description>"僵尸本体脆皮"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+mov [edi+000000C8],00//ebx
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+A9503:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"LawnProject.exe"+A9503:
+db 89 9F C8 00 00 00
+//mov [edi+000000C8],ebx
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>9</ID>
+                      <Description>"僵尸一类饰品无敌"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+A91C3:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"LawnProject.exe"+A91C3:
+db 89 9E D0 00 00 00
+//mov [esi+000000D0],ebx
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>10</ID>
+                      <Description>"僵尸一类饰品脆皮"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+mov [esi+000000D0],00//ebx
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+A91C3:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"LawnProject.exe"+A91C3:
+db 89 9E D0 00 00 00
+//mov [esi+000000D0],ebx
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>11</ID>
+                      <Description>"僵尸二类饰品无敌"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+A8DD4:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"LawnProject.exe"+A8DD4:
+db 89 9E DC 00 00 00
+//mov [esi+000000DC],ebx
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>12</ID>
+                      <Description>"僵尸二类饰品脆皮"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+mov [esi+000000DC],00//ebx
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+A8DD4:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"LawnProject.exe"+A8DD4:
+db 89 9E DC 00 00 00
+//mov [esi+000000DC],ebx
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>22</ID>
+                  <Description>"跳关与混乱"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>31</ID>
+                      <Description>"冒险模式"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+457698</Address>
+                      <Offsets>
+                        <Offset>20</Offset>
+                        <Offset>7AC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>32</ID>
+                      <Description>"模式混乱(易崩溃)"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+457698</Address>
+                      <Offsets>
+                        <Offset>778</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>21</ID>
+                      <Description>"生存模式轮数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+457698</Address>
+                      <Offsets>
+                        <Offset>6C</Offset>
+                        <Offset>158</Offset>
+                        <Offset>6F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>24</ID>
+                      <Description>"当前关卡波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+457698</Address>
+                      <Offsets>
+                        <Offset>5598</Offset>
+                        <Offset>6F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>26</ID>
+                  <Description>"禅境花园"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>28</ID>
+                      <Description>"肥料"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+457698</Address>
+                      <Offsets>
+                        <Offset>1004</Offset>
+                        <Offset>7AC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>29</ID>
+                      <Description>"杀虫剂"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+457698</Address>
+                      <Offsets>
+                        <Offset>1008</Offset>
+                        <Offset>7AC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>30</ID>
+                      <Description>"巧克力"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+457698</Address>
+                      <Offsets>
+                        <Offset>1034</Offset>
+                        <Offset>7AC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>25</ID>
+                      <Description>"智慧树高度"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+457698</Address>
+                      <Offsets>
+                        <Offset>174</Offset>
+                        <Offset>7AC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>27</ID>
+                      <Description>"智慧树肥料"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+457698</Address>
+                      <Offsets>
+                        <Offset>103C</Offset>
+                        <Offset>7AC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>16</ID>
+                  <Description>"杂项修改"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>14</ID>
+                      <Description>"光标选中的种子包"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+457698</Address>
+                      <Offsets>
+                        <Offset>28</Offset>
+                        <Offset>12C</Offset>
+                        <Offset>6F0</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
               <ID>443</ID>
               <Description>"Alpha v2.8.1"</Description>
               <Options moHideChildren="1"/>
@@ -6026,14 +6508,14 @@ OD:——其它——
                   <Address>LawnProject.exe+442F48</Address>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>21</ID>
+                  <ID>680</ID>
                   <Description>"常用功能"</Description>
                   <Options moHideChildren="1"/>
                   <GroupHeader>1</GroupHeader>
                   <Address/>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>24</ID>
+                      <ID>681</ID>
                       <Description>"阳光"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -6044,7 +6526,7 @@ OD:——其它——
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>22</ID>
+                      <ID>682</ID>
                       <Description>"金币"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -6055,7 +6537,7 @@ OD:——其它——
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>26</ID>
+                      <ID>683</ID>
                       <Description>"无需冷却"</Description>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -7405,14 +7887,14 @@ OC:——其它——
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>33</ID>
+                  <ID>684</ID>
                   <Description>"禅境花园"</Description>
                   <Options moHideChildren="1"/>
                   <GroupHeader>1</GroupHeader>
                   <Address/>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>32</ID>
+                      <ID>685</ID>
                       <Description>"肥料"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -7469,14 +7951,14 @@ OC:——其它——
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>28</ID>
+                  <ID>686</ID>
                   <Description>"跳关与混乱"</Description>
                   <Options moHideChildren="1"/>
                   <GroupHeader>1</GroupHeader>
                   <Address/>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>29</ID>
+                      <ID>687</ID>
                       <Description>"冒险模式"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
@@ -7487,7 +7969,7 @@ OC:——其它——
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>27</ID>
+                      <ID>688</ID>
                       <Description>"模式混乱(易崩溃)"</Description>
                       <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:冒险模式
 OA:——迷你游戏——
@@ -7747,7 +8229,7 @@ NU:——其它——
                       </Offsets>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>1</ID>
+                      <ID>689</ID>
                       <Description>"游戏内BGM"</Description>
                       <DropDownList DisplayValueAsItem="1">1:無何有の郷　～ Deep Mountain
 2:ブクレシュティの人形師
@@ -19508,7 +19990,7 @@ unregistersymbol(curselect)
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
-      <ID>14</ID>
+      <ID>690</ID>
       <Description>"Github：https://github.com/Adnini983/PvZHB-CheatTables/"</Description>
       <GroupHeader>1</GroupHeader>
       <Address/>
@@ -19522,6 +20004,105 @@ unregistersymbol(curselect)
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
+    <CodeEntry>
+      <Description>的变更 mov [esi+24],eax</Description>
+      <AddressString>LawnProject.exe+21065</AddressString>
+      <Before>
+        <Byte>20</Byte>
+        <Byte>8B</Byte>
+        <Byte>46</Byte>
+        <Byte>24</Byte>
+        <Byte>40</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>46</Byte>
+        <Byte>24</Byte>
+      </Actual>
+      <After>
+        <Byte>3B</Byte>
+        <Byte>46</Byte>
+        <Byte>28</Byte>
+        <Byte>7E</Byte>
+        <Byte>14</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>的变更 mov [edi+24],00000000</Description>
+      <AddressString>LawnProject.exe+13B237</AddressString>
+      <Before>
+        <Byte>C7</Byte>
+        <Byte>47</Byte>
+        <Byte>48</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>C7</Byte>
+        <Byte>47</Byte>
+        <Byte>24</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>C7</Byte>
+        <Byte>47</Byte>
+        <Byte>28</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>的变更 mov eax,[esi+24]</Description>
+      <AddressString>LawnProject.exe+21061</AddressString>
+      <Before>
+        <Byte>7E</Byte>
+        <Byte>49</Byte>
+        <Byte>00</Byte>
+        <Byte>74</Byte>
+        <Byte>20</Byte>
+      </Before>
+      <Actual>
+        <Byte>8B</Byte>
+        <Byte>46</Byte>
+        <Byte>24</Byte>
+      </Actual>
+      <After>
+        <Byte>40</Byte>
+        <Byte>89</Byte>
+        <Byte>46</Byte>
+        <Byte>24</Byte>
+        <Byte>3B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>的变更 mov [edi+000000C8],ebx</Description>
+      <AddressString>LawnProject.exe+A9503</AddressString>
+      <Before>
+        <Byte>45</Byte>
+        <Byte>FC</Byte>
+        <Byte>89</Byte>
+        <Byte>5D</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>9F</Byte>
+        <Byte>C8</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>E8</Byte>
+        <Byte>32</Byte>
+        <Byte>BC</Byte>
+        <Byte>FF</Byte>
+        <Byte>FF</Byte>
+      </After>
+    </CodeEntry>
     <CodeEntry>
       <Description>替换了 mov [edx+24],ecx</Description>
       <AddressString>PlantsVsZombies.exe+1F00F1</AddressString>
