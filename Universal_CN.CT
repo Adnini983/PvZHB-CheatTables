@@ -4626,6 +4626,149 @@ db 89 9E DC 00 00 00
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
+                  <ID>695</ID>
+                  <Description>"卡槽修改"</Description>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+
+ 
+ 
+aobscanmodule(PFBSlot,LawnProject.exe,C7 41 5C FF FF FF FF) // should be unique
+alloc(newmem,$1000)
+alloc(slot,24)
+registersymbol(slot)
+label(code)
+label(return)
+
+newmem:
+  mov [ecx+5C],FFFFFFFF
+  mov [slot],ecx
+  jmp return
+code:
+  mov [ecx+5C],FFFFFFFF
+  jmp return
+
+PFBSlot:
+  jmp newmem
+  nop 2
+return:
+registersymbol(PFBSlot)
+
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+PFBSlot:
+  db C7 41 5C FF FF FF FF
+
+unregistersymbol(PFBSlot)
+dealloc(newmem)
+dealloc(slot)
+unregistersymbol(slot)
+</AssemblerScript>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>696</ID>
+                      <Description>"卡槽1"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>5C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>697</ID>
+                      <Description>"卡槽2"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>AC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>705</ID>
+                      <Description>"卡槽3"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>FC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>706</ID>
+                      <Description>"卡槽4"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>14C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>707</ID>
+                      <Description>"卡槽5"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>19C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>708</ID>
+                      <Description>"卡槽6"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>1EC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>709</ID>
+                      <Description>"卡槽7"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>23C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>710</ID>
+                      <Description>"卡槽8"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>28C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>711</ID>
+                      <Description>"卡槽9"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>2DC</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>712</ID>
+                      <Description>"卡槽10"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot</Address>
+                      <Offsets>
+                        <Offset>32C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
                   <ID>22</ID>
                   <Description>"跳关与混乱"</Description>
                   <Options moHideChildren="1"/>
@@ -19993,14 +20136,11 @@ unregistersymbol(curselect)
       <ID>690</ID>
       <Description>"Github：https://github.com/Adnini983/PvZHB-CheatTables/"</Description>
       <GroupHeader>1</GroupHeader>
-      <Address/>
     </CheatEntry>
     <CheatEntry>
-      <ID>15</ID>
+      <ID>691</ID>
       <Description>"QQ群：709951181"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
       <GroupHeader>1</GroupHeader>
-      <Address/>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
