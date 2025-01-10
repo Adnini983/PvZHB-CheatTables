@@ -4757,6 +4757,74 @@ OC:——其它——
                     <CheatEntry>
                       <ID>741</ID>
                       <Description>"植物图鉴"</Description>
+                      <DropDownList DisplayValueAsItem="1">0:豌豆射手
+1:向日葵
+2:樱桃炸弹
+3:坚果墙
+4:寒冰射手
+5:竹子
+6:大嘴花
+7:双发射手
+8:小喷菇
+9:阳光菇
+10:大喷菇
+11:墓碑吞噬者
+12:磁力菇
+13:胆小菇
+14:魅惑菇
+15:寒冰生菜
+16:睡莲
+17:大蒜
+18:三线射手
+19:仙人掌
+20:地刺
+21:地刺王
+22:火炬树桩
+23:高坚果
+24:海蘑菇
+25:路灯花
+26:三叶草
+27:缠绕水草
+28:裂荚射手
+29:杨桃
+30:香蒲
+31:南瓜头
+32:卷心菜投手
+33:花盆
+34:玉米投手
+35:双子向日葵
+36:窝瓜
+37:叶子保护伞
+38:西瓜投手
+39:“冰”瓜
+40:火爆辣椒
+41:咖啡豆
+42:土豆雷
+43:神圣南瓜头
+44:机枪射手
+45:灯笼椒投手
+46:吸金磁
+47:金盏花
+48:忧郁蘑菇
+49:毁灭菇
+50:寒冰菇
+51:棱镜草
+52:火焰菇
+53:光华花灵
+54:石榴炸弹
+55:火焰射手
+56:月光菇
+57:花生射手
+58:爆炸坚果
+59:玉米加农炮
+60:模仿者
+61:爆炸坚果(保龄球)
+62:巨大坚果(保龄球)
+63:幼苗
+64:双发射手(反向)
+65:竹子(半截)
+66:石榴炸弹(种子)
+</DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
                       <Address>LawnProject.exe+457698</Address>
@@ -4769,6 +4837,45 @@ OC:——其它——
                     <CheatEntry>
                       <ID>742</ID>
                       <Description>"僵尸图鉴"</Description>
+                      <DropDownList DisplayValueAsItem="1">0:普通僵尸
+1:摇旗僵尸
+2:路障僵尸
+3:撑杆跳僵尸
+4:铁桶僵尸
+5:读报僵尸
+6:铁栅门僵尸
+7:橄榄球僵尸
+8:舞者僵尸
+9:伴舞僵尸
+10:鸭子救生圈僵尸
+11:潜水僵尸
+12:雪橇车僵尸
+13:雪橇僵尸小队
+14:海豚骑士僵尸
+15:玩偶匣僵尸
+16:气球僵尸
+17:矿工僵尸
+18:跳跳僵尸
+19:雪人僵尸
+20:蹦极僵尸
+21:扶梯僵尸
+22:投石车僵尸
+23:巨人僵尸
+24:小鬼僵尸
+25:僵王博士
+26:暴走巨人僵尸
+27:豌豆射手僵尸
+28:坚果墙僵尸
+29:火爆辣椒僵尸
+30:机枪射手僵尸
+31:窝瓜僵尸
+32:高坚果僵尸
+33:棱镜草僵尸
+34:火焰射手僵尸
+35:竹子僵尸
+36:火焰菇僵尸
+37:漂浮的幼苗
+</DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
                       <Address>LawnProject.exe+457698</Address>
@@ -4781,6 +4888,25 @@ OC:——其它——
                     <CheatEntry>
                       <ID>743</ID>
                       <Description>"游戏内BGM"</Description>
+                      <DropDownList DisplayValueAsItem="1">1:無何有の郷　～ Deep Mountain
+2:ブクレシュティの人形師
+3:神々が恋した幻想郷
+4:厄神様の通り道　～ Dark Road
+5:春の湊に
+6:虹の架かる幻想郷
+7:不思議なお祓い棒
+8:青空の影
+9:幻視の夜　～ Ghostly Eyes
+10:佐渡のニッ岩
+11:古きユアンシェン
+12:エクステンドアッシュ　～ 蓬莱人
+13:Demonstration Minigame
+14:深緑に隠された断崖
+15:PvZ2 Ultimate Battle in PvZ1 style
+16:ヴワル魔法図書館 / あきやまうに
+17:秘匿されたフォーシーズンズ
+18:いざ、倒れ逝くその時まで(Remix Ver. 2)
+</DropDownList>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
                       <Address>LawnProject.exe+457698</Address>
