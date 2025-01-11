@@ -18827,6 +18827,66 @@ os.execute("start https://qm.qq.com/q/tZ2hopPzA4")
 
 </AssemblerScript>
     </CheatEntry>
+    <CheatEntry>
+      <ID>752</ID>
+      <Description>"卡槽修改"</Description>
+      <Options moHideChildren="1"/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+
+ 
+ 
+aobscanmodule(DLCSlot,PlantsVsZombies.exe,C7 40 34 FF FF FF FF 8B 45 FC) // should be unique
+alloc(newmem,$1000)
+alloc(slot,24)
+registersymbol(slot)
+label(code)
+label(return)
+
+newmem:
+  mov [eax+34],FFFFFFFF
+  mov [slot],eax
+  jmp return
+code:
+  mov [eax+34],FFFFFFFF
+  jmp return
+
+DLCSlot:
+  jmp newmem
+  nop 2
+return:
+registersymbol(DLCSlot)
+
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+DLCSlot:
+  db C7 40 34 FF FF FF FF
+
+unregistersymbol(DLCSlot)
+dealloc(newmem)
+dealloc(slot)
+unregistersymbol(slot)
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>751</ID>
+          <Description>"无描述"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>slot</Address>
+          <Offsets>
+            <Offset>34</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>753</ID>
+      <Description>"无描述"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1C3D82A4</Address>
+    </CheatEntry>
   </CheatEntries>
   <CheatCodes>
     <CodeEntry>
@@ -19532,6 +19592,31 @@ os.execute("start https://qm.qq.com/q/tZ2hopPzA4")
         <Byte>28</Byte>
         <Byte>7E</Byte>
         <Byte>23</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>的变更 movdqa [edi+60],xmm0</Description>
+      <AddressString>PlantsVsZombies.exe+5A33CD</AddressString>
+      <Before>
+        <Byte>66</Byte>
+        <Byte>0F</Byte>
+        <Byte>7F</Byte>
+        <Byte>47</Byte>
+        <Byte>50</Byte>
+      </Before>
+      <Actual>
+        <Byte>66</Byte>
+        <Byte>0F</Byte>
+        <Byte>7F</Byte>
+        <Byte>47</Byte>
+        <Byte>60</Byte>
+      </Actual>
+      <After>
+        <Byte>66</Byte>
+        <Byte>0F</Byte>
+        <Byte>7F</Byte>
+        <Byte>47</Byte>
+        <Byte>70</Byte>
       </After>
     </CodeEntry>
   </CheatCodes>
