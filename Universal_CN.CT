@@ -93,6 +93,264 @@ db 8B 50 24 3B 51 28
 //cmp edx,[ecx+28]
 </AssemblerScript>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>753</ID>
+                      <Description>"重叠种植"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+jmp PlantsVsZombies.exe+4F168
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+4E7E9:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"PlantsVsZombies.exe"+4E7E9:
+db 0F 84 79 09 00 00
+//je PlantsVsZombies.exe+4F168
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>756</ID>
+                      <Description>"后台运行"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+nop
+pop edi
+pop esi
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+1A3354:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"PlantsVsZombies.exe"+1A3354:
+db 8B 40 08 5F 5E
+//mov eax,[eax+08]
+//pop edi
+//pop esi
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>767</ID>
+                      <Description>"花瓶透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+mov [eax+4C],32
+originalcode:
+cmp dword ptr [eax+4C],00
+jng PlantsVsZombies.exe+12CAA6
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+12C635:
+jmp newmem
+nop 5
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"PlantsVsZombies.exe"+12C635:
+db 83 78 4C 00 0F 8E 67 04 00 00
+//cmp dword ptr [eax+4C],00
+//jng PlantsVsZombies.exe+12CAA6
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>766</ID>
+                      <Description>"浓雾透视"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//从此处到“[禁用]”的代码将用于启用 CE
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //这是分配的内存，你有读，写,执行访问
+//将您的代码放在这里
+
+originalcode:
+mov [ecx+edx*4],00//eax
+jmp PlantsVsZombies.exe+5C1FD
+
+exit:
+jmp returnhere
+
+"PlantsVsZombies.exe"+5C27C:
+jmp newmem
+nop 3
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//从这里到代码末尾的代码将用于禁用 CE
+dealloc(newmem)
+"PlantsVsZombies.exe"+5C27C:
+db 89 04 91 E9 79 FF FF FF
+//mov [ecx+edx*4],eax
+//jmp PlantsVsZombies.exe+5C1FD
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>752</ID>
+                  <Description>"跳关与混乱"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>751</ID>
+                      <Description>"冒险模式"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+76ADFC</Address>
+                      <Offsets>
+                        <Offset>24</Offset>
+                        <Offset>82C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>769</ID>
+                      <Description>"模式混乱(易崩溃)"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+76ADFC</Address>
+                      <Offsets>
+                        <Offset>7F8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>771</ID>
+                      <Description>"当前关卡的波数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+76ADFC</Address>
+                      <Offsets>
+                        <Offset>55A4</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>775</ID>
+                      <Description>"生存模式当前轮数"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+76ADFC</Address>
+                      <Offsets>
+                        <Offset>6C</Offset>
+                        <Offset>168</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>758</ID>
+                  <Description>"杂项修改"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>757</ID>
+                      <Description>"光标选择的种子包"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+76ADFC</Address>
+                      <Offsets>
+                        <Offset>28</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>768</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>761</ID>
+                      <Description>"植物图鉴"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+76ADFC</Address>
+                      <Offsets>
+                        <Offset>1A0</Offset>
+                        <Offset>8C</Offset>
+                        <Offset>320</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>762</ID>
+                      <Description>"僵尸图鉴"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+76ADFC</Address>
+                      <Offsets>
+                        <Offset>1A4</Offset>
+                        <Offset>8C</Offset>
+                        <Offset>320</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>764</ID>
+                      <Description>"游戏内BGM"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>PlantsVsZombies.exe+76ADFC</Address>
+                      <Offsets>
+                        <Offset>08</Offset>
+                        <Offset>83C</Offset>
+                      </Offsets>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
               </CheatEntries>
@@ -18826,6 +19084,24 @@ os.execute("start https://qm.qq.com/q/tZ2hopPzA4")
 //code from here till the end of the code will be used to disable the cheat
 
 </AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>772</ID>
+      <Description>"无描述"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>098E1D90</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>773</ID>
+      <Description>"无描述"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>0DA4668C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>774</ID>
+      <Description>"无描述"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>10680070</Address>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
