@@ -9012,6 +9012,50 @@ db 8B 46 24 40 89 46 24
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
+                  <ID>833</ID>
+                  <Description>"植物调教"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>832</ID>
+                      <Description>"自动汇编脚本"</Description>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+
+originalcode:
+nop
+
+exit:
+jmp returnhere
+
+"LawnProject.exe"+1C824:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"LawnProject.exe"+1C824:
+db 0F 85 E7 00 00 00
+//jne LawnProject.Board::MouseDownWithPlant+1291
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
                   <ID>821</ID>
                   <Description>"卡槽修改(相对位置)"</Description>
                   <Options moHideChildren="1"/>
