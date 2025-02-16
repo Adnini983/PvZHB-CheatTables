@@ -9012,6 +9012,151 @@ db 8B 46 24 40 89 46 24
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
+                  <ID>821</ID>
+                  <Description>"卡槽修改(相对位置)"</Description>
+                  <Options moHideChildren="1"/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+ 
+ 
+aobscanmodule(BD2.0Slot2,LawnProject.exe,8B 47 34 8B C8) // should be unique
+alloc(newmem,$1000)
+alloc(slot2,24)
+registersymbol(slot2)
+label(code)
+label(return)
+
+newmem:
+  mov eax,[edi+34]
+  mov [slot2],edi
+  mov ecx,eax
+  jmp return
+code:
+  mov eax,[edi+34]
+  mov ecx,eax
+  jmp return
+
+BD2.0Slot2:
+  jmp newmem
+return:
+registersymbol(BD2.0Slot2)
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+BD2.0Slot2:
+  db 8B 47 34 8B C8
+
+unregistersymbol(BD2.0Slot2)
+dealloc(newmem)
+dealloc(slot2)
+unregistersymbol(slot2)
+</AssemblerScript>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>823</ID>
+                      <Description>"卡槽1"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>34-50-50-50-50-50-50-50-50-50</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>831</ID>
+                      <Description>"卡槽2"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>34-50-50-50-50-50-50-50-50</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>830</ID>
+                      <Description>"卡槽3"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>34-50-50-50-50-50-50-50</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>829</ID>
+                      <Description>"卡槽4"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>34-50-50-50-50-50-50</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>828</ID>
+                      <Description>"卡槽5"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>34-50-50-50-50-50</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>827</ID>
+                      <Description>"卡槽6"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>34-50-50-50-50</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>826</ID>
+                      <Description>"卡槽7"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>34-50-50-50</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>825</ID>
+                      <Description>"卡槽8"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>34-50-50</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>824</ID>
+                      <Description>"卡槽9"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>34-50</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>822</ID>
+                      <Description>"卡槽10"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>slot2</Address>
+                      <Offsets>
+                        <Offset>34</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
                   <ID>810</ID>
                   <Description>"禅境花园"</Description>
                   <Options moHideChildren="1"/>
@@ -9120,6 +9265,28 @@ db 8B 46 24 40 89 46 24
                       <Address>LawnProject.exe+446818</Address>
                       <Offsets>
                         <Offset>6C</Offset>
+                        <Offset>158</Offset>
+                        <Offset>6E8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>816</ID>
+                  <Description>"杂项修改"</Description>
+                  <Options moHideChildren="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>815</ID>
+                      <Description>"光标选择的种子包"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>LawnProject.exe+446818</Address>
+                      <Offsets>
+                        <Offset>28</Offset>
+                        <Offset>12C</Offset>
+                        <Offset>04</Offset>
                         <Offset>158</Offset>
                         <Offset>6E8</Offset>
                       </Offsets>
@@ -20373,10 +20540,5 @@ os.execute("start https://qm.qq.com/q/tZ2hopPzA4")
       </After>
     </CodeEntry>
   </CheatCodes>
-  <UserdefinedSymbols>
-    <SymbolEntry>
-      <Name>speedhack_wantedspeed</Name>
-      <Address>01840000</Address>
-    </SymbolEntry>
-  </UserdefinedSymbols>
+  <UserdefinedSymbols/>
 </CheatTable>
